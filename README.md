@@ -1,3 +1,4 @@
-# Ciutshi
+# ciuTshi
 
-Baseline system for operations, governance, and management of data
+Baseline system for rolling operations, governance, and management of data
+
