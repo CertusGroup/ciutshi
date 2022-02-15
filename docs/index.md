@@ -6,7 +6,14 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: "Contents:"
+:caption: "Content Management"
+
+summary
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: "Data Operations"
 
 summary
 requirements
@@ -15,4 +22,17 @@ version_control
 quality_assurance
 security
 ethics
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: "Data Management"
+
+summary
+storage
+modeling
+analytics
+integration
+metadata
+cataloging
 ```
