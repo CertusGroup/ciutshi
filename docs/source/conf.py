@@ -19,7 +19,7 @@
 
 project = 'ciuTshi'
 copyright = '2022, Certus Core'
-author = 'Certus Core <https://certusgroup.org/>'
+# author = 'Certus Core <https://certusgroup.org/>'
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
@@ -42,13 +42,20 @@ templates_path = ['templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['build', 'Thumbs.db', '.DS_Store', '.env']
 
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
 html_theme = 'sphinx_book_theme'
+html_theme_options = {
+    "repository_url": "https://github.com/CertusGroup/ciutshi",
+    "use_repository_button": True,
+    "extra_navbar": "<img src='_static/images/certus_logo.png' alt='a Certus project'>",
+    "logo_only": True,
+}
+html_title = "data knowledge made easy"
+#html_logo = "static/images/ciuTshi_logo.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
