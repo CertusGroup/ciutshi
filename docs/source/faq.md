@@ -12,3 +12,4 @@ Everyone!
 
 ## Why does this exist?
 
+Data management and data governance should not be costly or require complex tools: you just need consistent and rigorous practices that help you accumulate useful system information over time.
