@@ -8,13 +8,13 @@ There should not be a distinction between content and other types of data[4](#re
 
 A holistic approach to content management as a data asset bolsters several modern project and data operations practices. CMS can build content metadata, modeling, and delivery practices in a manner that adapts to multi-stakeholder paradigms through enabling knowledge discovery (KD)[1](#references). This is done through practices of term management via ontology catalogs which link terms, definitions, and taxonomies to the managed data assets and project best practices. In this way, documents in a CMS act as records of policy for best practices that can be retrieved, implemented, and improved by stakeholders. When a CMS is paired with reliable information technology management (ITM), it makes search and discovery increasingly achievable for simplified implementation in project workflows. These workflows and their associated CMF practices lend to flexible and fast lifecycle management of data projects and their data assets for stakeholders and their institutions.
 
-## Challenge
+### Challenge
 
 Data professionals face multiple content management challenges. There are often several parallel projects which share both personnel and resources. Sharing of resources across projects necessitates planning and coordination derived from best practices in both project and data management. Personnel with particular skill sets often have limited time in their work week to address tasks and deliverables prior to customer delivery. This short time to delivery combined with limited access to skilled personnel means project and data personnel are constrained in their ability to leverage each other and system architectures consistently. This inconsistency is often exacerbated through lack of documentation and content management, resulting in new personnel being slowly on-boarded up to an operational standards and more experienced personnel re-inventing previously implemented processes.
 
 ciuTshi's content management framework is a tech-agnostic approach to consolidating project, data, and system documentation. This framework leverages simple template and rubric sets which encourage consistent documentation practices which could be implemented in any tool or content management system. Use of templates and rubrics permits rapid information exchange for inter-project migration of knowledge and personnel. This drastically increases on-ramp speeds, allowing for more time on-task prior to product or service delivery. Each template and rubric will be living documents that consolidate forms, definitions, and metrics; making process analysis and knowledge discovery possible.
 
-## Goals
+### Goals
 
 * Perform repeatable and rigorous documentation practices across all data project dimensions
 * Ensure consistent storage, retrieval, and usage of documentation within and between project and data practices
