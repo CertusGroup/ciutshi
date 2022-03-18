@@ -20,5 +20,70 @@ There are several reasons why you would want to focus on gathering the best requ
 
 ## Defining Requirements
 
+The following practices are intended to be adaptable, iterative cycles for requirement refinement. This ensures the data products are clearly defined and as a result, delivered in a timely manner to a high-standard of quality and security.
 
+### Roles
 
+In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.
+
+* __Science & Methods__ 
+* __Analytics__ 
+* __Program Management (PM)__ 
+* __Data Management (DM)__ 
+* __Data Engineering (DE)__
+
+![Data Operations Roles](static/images/certus_logo.png)
+
+### Conceptualization
+
+* Roles
+  * Customer
+  * Program Management
+  * Science & Methods
+  * Analytics
+
+The first step in this process is to iteratively generate a sufficient, valid set of requirements. The customer and PM will work to facilitate the context and intent of the problem to be addressed. This involves coordination with the science & methods and analytics teams to solidify the context and intent into a well defined list of concepts and outcomes. All parties involved in a project will then coordinate the details of the requirements through a workshop. The science & methods teams will begin the drafting of the _**request for engineering (RFE)**_ short form. The workshops and short form drafts will establish a tentative course of action towards a finished draft of the requirements.
+
+![Conceptualization](static/images/certus_logo.png)
+
+### Request for Engineering
+
+* Roles
+  * Science & Methods
+  * Data Engineering
+
+Once requirements are conceptualized, science & methods will bring their short form to the data engineering team to clarify understanding of the requirements. Once all requirements are clear, DE will outline tasks and timelines for data delivery for the requirements. Science & Methods and DE will triage each task and timeline to optimize priority and to solidify the delivery schedule. Science & methods will pass any issues or concerns pertaining to requirements back to the conceptualization phase based on technology, personnel, or other restrictions within DE. Finally, science & methods and DE will agree to the final short form draft, leading to review and task assignment by DM.
+
+### Review and Tasks
+
+* Roles
+  * Data Engineering
+  * Data Management
+
+With a completed and verified short form, DE and DM can perform a final review. DE will clarify the overall scope and justification of the requirements to DM for data services. DE will also elaborate on any questions or concerns DM has regarding the deliverables and deadlines, possibly prompting further discussion with science & methods. DE and DM will review the resources and materials required as well as the personnel best suited to action DE tasks within deadline. Once all facets of the requirements are agreed upon, DM will then use the reviewed short form to fill out the requirements long form for the official RFE. The _**task management system (TMS)**_ will then be updated with tasks and DE personnel assignments to expected deadlines.
+
+### Approval and Execution
+
+* Roles
+  * Data Management
+  * Science & Methods
+  * Program Management
+
+Following publication of the long form RFE and TMS assignments, DM will monitor progress. DM will coordinate updates as needed due to issues that may arise with deadlines or task complications. DM will monitor and plan for life cycle of data services as well as cataloging and archiving of data products, data models, and data mastering practices associate with the RFE.
+
+### RFE Addendums
+
+For major RFE changes [4](#references), an addendum will be attached to the long form, ensuring shifts in the original RFE timelines and resources are recorded. These changes should come from science & methods via PM based on initial delivery from DM and DE or changes from the customer issued to PM. DM may also ask DS to review shifts in the RFE with science & methods to ensure the research model is valid.
+
+### RFE Cancellation
+
+Projects may encounter changes or terminations in the course of the requirements or RFE process. In that case, DM will coordinate on the context and timeline of the cancellation. This assessment will lead to updates for the long form RFE (using and addendum) and TMS.
+
+## References
+
+Number|Reference
+--|--
+1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+2|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
+3|Berkun, S. (2008). *Making things happen: Mastering project management.* Sebastopol, CA: O'Reilly Media Inc.
+4|Major and minor changes have yet to be defined: data management will be the authority for defining these terms based on inputs from knowledgeable data engineering personnel.
