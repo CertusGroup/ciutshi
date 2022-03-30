@@ -24,7 +24,99 @@ The task management component of data operations should adhere to best practices
 
 ## Task Management Practices
 
+ciuTshi takes a Scrum approach to task management for data management. Scrum is a "lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems."[6](task_management/references) This system helps guide business requirements through the often complex process of deconstructing requirements into tasks for the backlog. The Scrum team then prioritize and organize tasks into sprints. These sprints can be iteratively adjusted and reviewed by stakeholders to ensure the product is delivered on time at a level of quality defined in the requirements.
 
+Scrum was selected as it is a simple and well-structured approach to task management. Sprints are an excellent approach for projects that are slated for shorter timeframes and may persist beyond the initial business requirements pending stakeholder review. As a result, a scrum team should "__*Keep it simple*__" when implementing these practices for a project. Simplicity allows stakeholders to maintain transparency and adaptability through cycles of inspection and adjustment to requirements and/or task assignment.
+
+Scrum is constructed around a very simple sprint cycle: __*Plan*__, __*Build*__, __*Test*__, __*Review*__. A sprint cycle takes from one to three weeks and is generally dictated in the planning phase. This simple sprint practice allows for incremental development over variable timeframes.
+
+What follows is an abbreviated description of the Scrum process with variations from other Agile methodologies. These practices are adaptable, iterative cycles for task management of data operations. That being said, the core Scrum tenets and steps should be followed initially by all parties as described below. This ensures the data product or service is efficiently developed and delivered on deadline to high standard of quality and security.
+
+### Roles
+
+In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.
+
+* __Product Owner__ - Submits finalized requirements into the Backlog. The product goal should be clear prior to submitting valid requirements. Clear goals assist in prioritization of backlog task for sprints.
+* __Scrum Master__ - Coordinates and manages sprints. The scrum master manages the team in a positive and productive manner to ensure tasks are completed within the sprint timeline. This includes training and coaching of team members. Scrum master also manages communication and conflicts between the product owner, sprint team, and the organizations as requirements and product expectations shift.
+* __Team__ - Executes on sprints through iterative task planning. These members assist in defining *Done* with the Scrum Master by guiding accountability and quality standards through daily checks and adjustments.
+
+### Key Definitions
+
+* __User Story__ - A user story is a statement in the format __*"As a --- I need --- so that ---."*__ that assists the scrum master and team to turn requirements into achievable tasks.
+* __SMART Goal__ - An acronym (e.g., Specific, Measurable, Achievable, Realistic, Timely) that assists in goal setting.
+* __Backlog__ - A list of all tasks, derived from valid business requirements, associated with a data product and/or service. These tasks are refined, ordered, and prioritized for inclusion in sprints by the Team.
+* __Sprint Backlog__ - A list of tasks selected from the Backlog and prioritized for a sprint. These are selected by the Team and confirmed by the Scrum Master. The Scrum Master will track their progress to ensure Daily Scrums and Sprint Planning adhere to original projections.
+* __In Progress__ - A list of tasks currently being actioned by Team members populated from the Sprint Backlog.
+* __Sprint__ - An event that is assigned a fixed time to complete a selected set of tasks.
+* __Burndown Chart__ - A chart used to visualize what work is left to do (y axis) and how much time is left to complete said work (x axis).
+* __Velocity Chart__ - A chart used to visualize how many tasks (y axis) were delivered per sprint (x axis).
+* __Definition of Done__ - The described final state for a product that meets the quality standard expected for delivery to the customer(s).
+
+### Events & Workflow
+
+The following events and their order present a simplified workflow for sprint managements throughout the course of a project.
+
+#### Backlog
+
+* Roles
+  * Product Owner
+  * Scrum Master
+
+Once a set of requirements are approved, the scrum master for a project will begin work with the team to populate the backlog. User story format should be used to transfer requirements into a collection of feasible sprint tasks. The use of SMART goal structures may assist in adding a level of scope to the user stories that would make them achievable within a __*1 to 3 week sprint*__ window. The use of a task management system should be considered to better structure these efforts collaboratively using the standard base template for the Data Team Board Setup.
+
+The backlog should initially cover all major components for a project based on the requirements process output. Once sprints begin for a project, the backlog should also reflect major and minor improvements derived from updated product owner's requirements. The scrum master and team have control over the granularity of the backlog tasks, determining when to break a task into subtasks. These subtasks are generated to fit a particular sprint window or to add detail to an existing task/subtask.
+
+All tasks in the backlog must align with the product goal. This goal is the end product as outlined and detailed during the requirements process. The scrum master and team use the product goal to prioritize and scope sprints for optimal productivity. To this end, the task management system used must utilize burndown and velocity charts to track progress towards the final product goal and adjust resources as needed during sprint planning and daily scrum meetings.
+
+> Refer to the __*Requirements*__ section for details on the requirements practices and template schemas.
+
+#### Sprint
+
+* Roles
+  * Scrum Master
+  * Team
+
+Sprints are one to three week events in which prioritized tasks are ordered and scoped for completion. The regularity and structure provided by a sprint minimizes the need for meetings outside of standard Scrum events. Leveraging sprints results in increased transparency and optimization of team efforts and system resources. Shorter sprints can be leveraged for exploratory engagements for product conceptualization while longer sprints can be leveraged for complex feature implementations that adapt around personnel and infrastruture limitations. The sprints are designed to give the scrum team flexibility to adapt to the conditions for successful product goal fulfillment.
+
+A sprint must observe a few general guidelines.
+
+* First, the product backlog is refined as needed (e.g., tasks, subtasks, task omissions).
+* Second, the quality of the product or service must be as good or better than when the sprint began (e.g., product or service is increasingly acheiving the definition of done as outlined in the product goal).
+* Third, no changes should be made to the sprint and its goal post-planning, but scope can be renegotiated if the product owner introduces compelling justification (e.g., the end customer has cancelled the project or their has been demand for changes that would constitute a completely new business requirements engagement).
+
+What follows are Scrum event that generally constitute a sprint workflow.
+
+* __Sprint Planning__ - The Scrum Team discussed and finalizes a plan for what tasks are to be completed for a given sprint. The plan should address why the sprint is valuable towards the product goal, what tasks are to be done, and how each task will be completed. Tasks from the Product Backlog may be reviewed, refined, broken into subtasks, and placed into the Sprint Backlog for a Sprint. Each task should be checked to ensure they have a *Definition of Done* and projected duration prior to sprint inclusion. Finally, the Scrum Master will present the Sprint concept to the Product Owner to ensure its inline with the Product Goal and current requirements.
+* __Sprint Backlog__ - The sprint backlog is the prioritized list of tasks from the product backlog to be completed during the sprint. This list is populated following the Sprint Planning event. The sprint backlog and the rationale behind completing its tasks towards the Product Goal should be captured in the Sprint Goal (placed in the Sprint Goal card for each sprint using the information from the Sprint Planning event).
+* __Scrum Checks__ - This is traditionally called the __*Daily Scrum*__ in which the Scrum Team check in at the same time, everyday, for 15 minutes for updates and adjustment to the Sprint. Within the scope of the ciuTshi framework and simplified communications technologies, Scrum Masters may dictate an alternative method and interval to substitute for the daily, en-vivo meeting. Such methods may include a regular deadline for task label updates, a regular summary message via the task card comment section, and 1-on-1 meetings with team members for identified sprint challenges and task delegation shifts. In addition to the Scrum Team check-in, there may also be a similar, higher-level check-in for Scrum Masters across different projects. This Scrum Masters Check would improve communications on parallel efforts, identify shared challenges, and encourage rapid adjustments across projects for increased efficiencies and reduced conflicts as multiple sprints occur simultaneously.
+* __Sprint Review__ - The sprint review is another planning meeting held at the conclusion of a sprint. This meeting guages the effects of the sprints on the product goal, discussing any shifts in the tasks, the effects on task completion due to shifts, and refinement of the Product Backlog prior to the next Sprint. This should take no longer than three hours to complete. The Scrum Master will take the outcomes from this meeting to the Product Owner: this engagement will aid in setting the scope and direction for the next sprint. Burndown and velocity charts should be updated at this time. The Scrum Master should maintain these reviews for documentation during the final product retrospective.
+* __Sprint Retrospective__ - Similar to the sprint review, the sprint retrospective is a meeting held at the end of a sprint to review process improvements and adjustments to quality standards for the sprint team. Stated another way, the sprint retrospective is team-focused where the sprint review is product focused. This should cover topics such as individual challenges, social conflicts, and challenges with processes or tools. This should take no longer than three hours to complete. The Scrum Master can use the best practices and challenges from the Team to shift resources and personnel to improve following sprints and the product's Definition of Done. The Scrum Master should maintain these retrospectives for documentation during the final product retrospective.
+
+#### Potential MVP
+
+* Roles
+  * Product Owner
+  * Scrum Master
+
+In the course of completing a sprint, this may coincide with the Product Owner's Minimal Viable Product (MVP) for the data product or service. The definition of the MVP should be in the final requirements and reflected in the Product Goal. The MVP is generally acheived when all tasks have been completed to a state of Done, fulfills the minimum necessary outcomes as defined by the Product Owner, and meets the sufficient quality standards as defined by the Scrum Team. The MVP status should be indicated for a given sprint in the Sprint Goals during the Planning phase. This status should also be tracked for any outstanding features that may delay verification and delivery of the MVP to the Product Owner. Scrum Masters should increase Scrum Checks and communication with the Product Owner to make sure timelines and MVP standards are known and agreed upon. This increased communication endeavors to avoid unneccessary stoppages or emmergent challenges for the Team. It may be advisable for the Scrum Master to tentatively plan a proceeding number of Sprints to account for any anticipated requirement addendums derived form initial customer and Product Owner interactions.
+
+#### Retrospective
+
+* Roles
+  * Product Owner
+  * Scrum Master
+  * Team
+
+Upon completion of a data product or service project, all stakeholders should hold a final retrospective to capture best practices, key performance indicators (KPI), and customer feedback. Stakeholders will also review internal process notes, remaining backlogs, and metrics (e.g., burndown and velocity charts). These reviews will account for any shifts required in the data operation practices or the Task Management document more specifically. Additionally, these artifacts may indicate other customers or derivative projects, providing new opportunities for research and outreach efforts.
+
+### Artifacts and Measures
+
+Over the course of the project, there are several artifacts and measures that must be structured and archived for the retrospective and reviews for a product.
+
+* __Backlog__ Over the course of a project, the user stories and their adjustment due to requirements or sprints will be captured over the course of the project. Boards within the task management system should be version controlled weekly or whenever significant changes occur to the product goal or sprint scope.
+* __Sprint Backlog__ The legacy of the sprint backlog and its associated changes is critical in the growth of improved sprint practices for existing and future projects. Sprint backlog should be captured by the version control process for the task management system.
+* __Burndown Chart__ These charts will aid during the retrospective in addressing efficiencies and optimizations for the task management practices and the data operations system more broadly.
+* __Velocity Chart__ These charts will aid in refining sprint processes which will be reflected in the task management practices and its associated documents.
 
 (task_management/references)=
 
