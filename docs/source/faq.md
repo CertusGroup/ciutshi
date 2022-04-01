@@ -8,7 +8,7 @@ ciuTshi (pronounced su-shi) is a FOSS data framework with modular data operation
 
 ## Who is ciuTshi for?
 
-Everyone!
+
 
 ## Why does this exist?
 
