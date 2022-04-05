@@ -1,6 +1,6 @@
 # Appendix
 
-## Data Strategy
+## Appendix A. Data Strategy
 
 ### Templates
 
@@ -12,7 +12,7 @@
 
 
 
-## Content Management
+## Appendix B. Content Management
 
 ### Templates
 
@@ -20,7 +20,7 @@
 
 
 
-## Requirements
+## Appendix C. Requirements
 
 ### Templates
 
@@ -28,7 +28,7 @@
 
 
 
-## Task Management
+## Appendix D. Task Management
 
 ### Templates
 
@@ -36,7 +36,7 @@
 
 
 
-## Version Control
+## Appendix E. Version Control
 
 ### Templates
 
@@ -44,7 +44,7 @@
 
 
 
-## Quality Assurance
+## Appendix F. Quality Assurance
 
 ### Templates
 
@@ -52,7 +52,7 @@
 
 
 
-## Security
+## Appendix G. Security
 
 ### Templates
 
@@ -60,7 +60,7 @@
 
 
 
-## Ethics
+## Appendix H. Ethics
 
 ### Templates
 
@@ -68,7 +68,7 @@
 
 
 
-## Storage
+## Appendix I. Storage
 
 ### Templates
 
@@ -76,7 +76,7 @@
 
 
 
-## Modeling
+## Appendix J. Modeling
 
 ### Templates
 
@@ -84,7 +84,7 @@
 
 
 
-## Analytics
+## Appendix K. Analytics
 
 ### Templates
 
@@ -92,7 +92,7 @@
 
 
 
-## Integration
+## Appendix L. Integration
 
 ### Templates
 
@@ -100,7 +100,7 @@
 
 
 
-## Metadata
+## Appendix M. Metadata
 
 ### Templates
 
@@ -108,7 +108,7 @@
 
 
 
-## Cataloging
+## Appendix N. Cataloging
 
 ### Templates
 
