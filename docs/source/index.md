@@ -44,3 +44,11 @@ integration
 metadata
 cataloging
 ```
+
+```{toctree}
+:hidden:
+:maxdepth: 2
+:caption: "Appendices"
+
+appendix
+```
