@@ -25,7 +25,7 @@ The US government advanced several recent efforts in the national and defense se
 
 The federal data strategy maintains it ethical framework as part of its data infrastructure. The national defense strategy holds data ethics at the core of all its data operations planning. The federal and defense frameworks both indirectly adhere to DAMA standards, opting to minimize negative effects of negligent or malicious data handling practices.
 
-### Rationale
+## Challenge
 
 Innovation must be pursued within a clearly understood categorical imperative. Data operations should critically situate definition of this moral structure to enable stakeholders and their missions. As a result, an organization must persistently observe their obligations to evolve this imperative as environments and agents shift their processes.
 
@@ -33,7 +33,7 @@ _**Do No Harm**_ should be at the core of an institution's mission and goals. Th
 
 Specifically to data operations, it must manage data ethically within its communities and between its stakeholders. This data management principle mandates compliance with guidelines on data asset and data architecture utilization in a manner that adds additional credibility to an institution's systems and results. Ethics supplements analytic and scientific product credibility through transparent adherance to practices that bolsters an institution's reputation.
 
-### Objectives
+## Goals
 
 * Observe and enforce responsible ownership and stewardship of data assets in alignment with institutional and stakeholder policy, guidance, and agreement
 * Enable transparency in defining and executing ethical requirements for constructive customer outcomes

@@ -8,7 +8,7 @@ It is important to understand that data governance processes, like data operatio
 
 Ultimately, quality assurance is a constant shift in how institutions manage their data assets: focusing on doing the right things consistently and rigorously with data rather than simply doing data things right. This dichotomy is the key difference between quality assurance (e.g., doing the right things) and quality control (e.g., doing things right)[3](quality_assurance/references). It is not simply enough to repeat a process: the customer must be able to repeat and validate what you do down to the smallest detail.
 
-### Data Dimensions
+## Data Dimensions
 
 In data assurance, dimensions are the features or characteristics of the data sets. These features are what data professionals use to define what the data represents in the real world and how this is reflected through institutional data systems. As a result, dimensions are critical in data management practices as they guide schema development and contextualize metadata generation. This impact situates data quality assuarance as a critical element in data governance through guiding the initial dimensional definitions, through requirements, for use in data management systems.
 
@@ -25,21 +25,21 @@ There are seven foundational dimensions that ciuTshi adopts from DAMA[1](quality
 
 These dimensions guide the core of how metadata is constructed for use across multiple data architectures.
 
-### ISO 8000
+## ISO 8000
 
 In addition to fundamental data dimensionality, quality assurance is also guided by ISO 8000 guidelines[1,4](quality_assurance/references). This standard not only covers general considerations for data quality, but suggests useful guidance on how to best implement data quality practices into industrial data systems and architectures.
 
-### Data Management
+## Data Management
 
 ciuTshi is structured to fully-integrate data management practices with data operations through quality assurance, guiding and fully documenting a data assets path from requirements to end-of-life for data asset delivery and monitoring. There are several aspects to a data management practices that should be considered for implementation through data assurance. ciuTshi observes three initial considerations for lifecycle management: rules, issues, and profiling for enhancement.
 
-#### Rules
+### Rules
 
 Rules are the most fundamental element of data lifecycle management. Though these may integrate in specific ways based on the data architecture, what they control and how they impact data management are commonly applied across institutional systems. The rule-based compliance to data dimension considerations within quality assurance drive business value of the architecures and the guiding frameworks. As a result, rules establish policy within and between institutional data architectures: distinguishing baseline data management across all systems while tracking unique practices within each without affecting reproducibility of results in the others. This goal of establishing and maintaining parity across data system is how data lifecycle management sustains and evolves its practices with minimal strategic risks.
 
 These rules, covering several factors including roles and responsiblities per framework module, will be detailed within the content management framework and metadata practices.
 
-#### Issues
+### Issues
 
 Where rules establish parity of policy across systems, it should be understood that each rule is created to account for particular risks in the frameworks and data systems. These risks may be internally- or externally-driven based on the institution, the users, and the overarching data security policies. This version of the ciuTshi data operations framework covers four initial areas of consideration: leadership; data entry practices; functionality; and system design.
 
@@ -49,15 +49,15 @@ The next set of challenges revolve around data users and data flows in and out o
 
 The final pair of challenges are closely linked: funtionality and systems design. As mentioned with data entry, the metadata model is critical in maintaining consistent data dimensions across data collections, data architectures, and other IT systems. This attention to the effects on parity and consistently requires close attention to how data dimensions affect functionality of the data systems as new data come in and older data sets change. These shifts in data dimension may require changes in system design to accomodate the requirements and delivery structures that are deterministic of the customer and leadership direction and data architecture implementation. Once again, content management and metamodeling through data catalogs will allow for persistent analysis of data asset holdings, providers indicators for shift in data system functionality and design.
 
-#### Data Profiling and Enhancement
+### Data Profiling and Enhancement
 
 In order to maintain data dimensions, care and attention must be paid to how issues and rules affect data operations. This vigilance is maintained through metrics and KPIs. Through the template and rubric system, many of the metamodel fields will have analytic measures and models associated with their range of values. Beyond the metadata and data catalog fundamentals, access and tools will allow for descriptive statistics of raw and mastered data (as recorded in the metadata) which will provide for automated A/B testing of the data asset holdings. Additionally, the use of tags and labeling within content management and data catalogs will help further link metadata lineage between systems while driving inter- and intra-system compliance and enhancement.
 
-### Rationale
+## Challenge
 
 Projects can process numerous single-use data sets across several projects and networks each year. This data management complexity makes data processing and data system reuse challenging. Quality assurance will ensure consistent implementation and documentation of data practices within data operations using options such as: a multi-network data catalog system, content management templates, reusable metadata models, and other adaptable practices. This framework demonstrates responsibility to data project customers and stakeholders through delivery of data assets in manners that are reproducible and maintainable to a high-level of quality. The dedication to reproduciblity drives simplified transfer of knowledge between ciuTshi-compliant systems and customer systems, resulting in much quicker developement cycles with enriched metrics, rapid feedback, and cummulative insight generation. In a constantly changing data landscape, projects needs to have a quality assurance system that encourages persistent vigilance on data operations resources and how to best mobilize them for optimized data management practices.
 
-### Objectives
+## Goals
 
 * Develop a quality assurance model to meet simple and maintainable standards for customers' data asset requirements
 * Clarify foundational practices that ensure a consistent and rigorous data asset lifecycle management

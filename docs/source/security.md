@@ -10,11 +10,11 @@ This discussion on data security requires us to define a few key concepts: vulne
 
 Data security processes, via carefully implemented data strategy, must be integrated across data operations through governance and management practices. Data operations depend heavily on the move to integrated metrics and automation[2](security/references). As a result, humans-in-the-loop must understand that a lack of testing and security around these factors increase vulnerability and risk. Practices such as data governance board reviews on security policy[3](security/references) alleviate this in several ways. First, it makes data security a leadership and culture goal. Second, it enables adaptable roles and responsibilities for data practices to shift governance policy for rapid data management impact. Third, data security positively impacts business outcomes for institutional stakeholders, building trust in data products and systems.
 
-### Rationale
+## Challenge
 
 ciuTshi suggests optimal security practices at the forefront of all data asset management. This encompassing approach is the result of efficient data operations guided by security-centric data governance practices. This approach to data security requires proper policies and coordination with information technology management (ITM) and data architecture teams to ensure access and compliance. This compliance model is implemented through guidelines that are adaptive and effectively monitored, covering authorization, access and audit practices to and between all systems. Security outcomes and metrics must also integrate with content management frameworks (CMF) and other on-site and online security practices. This network of connected security communications guides data asset management within secure data architecture implementations for stakeholder risk mitigation and customer safety across numerous secure systems.
 
-### Objectives
+## Goals
 
 * Enable appropriate accesses to data assets for stakeholders and customers
 * Prevent asset and system compromises through adherances to regulations and policies on privacy, protection, and confidentiality practices

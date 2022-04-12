@@ -4,11 +4,11 @@ The practices and resultant works associate with data management and data operat
 
 ciuTshi requires version control (also known as revision or source control[2](version_control/references)) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices framework exists, but code generation for data products and services still requires a version control framework. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes. 
 
-### Rationale
+## Challenge
 
 Data engineering and data analysis practices are increasingly hybrid, using a mix of analytic tools and programmed source code solutions to acquire, process, and deliver data products and services. This activity occurs across multiple system and data architectures, all of which must comply with security and policy stipulations while maintaining parity. This requires a well-managed and vigilant approach to version control to support an equally complex data operations environment. The result of such a version control framework would allow more rapid response to business requirements through utilization and mobilization of existing source code assets while creating space to develop new solutions with optimally effective resource and cost impact.
 
-### Objectives
+## Goals
 
 * Produce adaptable and flexible version control practices that can be applied broadly within data operations practices across multiple systems and data architectures
 * Utilize best industry practices in development, security, and operations (DevSecOps) for management of technical data assets resulting in reduced timelines to delivery and increased attention to the quality and security of technical solution deployments
