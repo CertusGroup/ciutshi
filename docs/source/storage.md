@@ -4,7 +4,7 @@ Storage of data assets remains a critical challenge area. Data assets are mainta
 
 ciuTshi suggests a simplified storage system to ensure secure and consistent inter-system compliance. Such a system will create a stable foundation for data management practices such as lifecycle management. Tasks such as delineating raw and processed data within rigorous storage guidelines enables essential research practices such as sampling and exploratory data analysis (EDA). This simple, consistent, and rigorous system of storage promotes utilization of data asset documentation and artifacts for stakeholder insight and customer metrics. This produces a lifecycle management paradigm grounded in contextualized data asset classes for an enriched approach to data operations.
 
-This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi's data management draw from DAMA's system on storage and operations[1](storage/references). For additional context on this document's sections, refer to the references section.
+This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi's data management practices draw from DAMA's system on storage operations[1](storage/references) and other resources. For additional context on this document's sections, refer to the references section.
 
 ## Challenge
 
