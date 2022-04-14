@@ -6,6 +6,17 @@
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+ds_ |strategy|definition|essential|['weight':1]
+
 ### Form
 
 ### Report
@@ -18,6 +29,17 @@
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+cm_ |content_management|definition|essential|['weight':1]
+
 
 
 ## Appendix C. Requirements
@@ -25,6 +47,17 @@
 ### Templates
 
 ### Rubrics
+
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+req_ |requirements|definition|essential|['weight':1]
 
 
 
@@ -34,6 +67,17 @@
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+tms_ |task_management|definition|essential|['weight':1]
+
 
 
 ## Appendix E. Version Control
@@ -41,6 +85,17 @@
 ### Templates
 
 ### Rubrics
+
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+vcs_ |version_control|definition|essential|['weight':1]
 
 
 
@@ -50,6 +105,17 @@
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+qa_ |quality_assurance|definition|essential|['weight':1]
+
 
 
 ## Appendix G. Security
@@ -58,6 +124,17 @@
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+sec_ |security|definition|essential|['weight':1]
+
 
 
 ## Appendix H. Ethics
@@ -65,6 +142,17 @@
 ### Templates
 
 ### Rubrics
+
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+eth_ |ethics|definition|essential|['weight':1]
 
 
 
@@ -116,6 +204,17 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+mod_ |modeling|definition|essential|['weight':1]
+
 
 
 ## Appendix K. Analytics
@@ -123,6 +222,17 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 ### Templates
 
 ### Rubrics
+
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+ana_ |analytics|definition|essential|['weight':1]
 
 
 
@@ -132,6 +242,17 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+int_ |integration|definition|essential|['weight':1]
+
 
 
 ## Appendix M. Metadata
@@ -140,6 +261,13 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 
 ### Rubrics
 
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
 
 
 ## Appendix N. Cataloging
@@ -147,6 +275,15 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 ### Templates
 
 ### Rubrics
+
+* Benchmark
+  * essential
+  * optional
+  * recommended > reason
+* Metrics
+  * Weight by default is set to `1`
+
+
 
 
 
