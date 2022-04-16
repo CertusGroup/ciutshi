@@ -249,8 +249,6 @@ mod_challenge|modeling|challenges that existed with the final model|essential|['
 
 
 
-
-
 ## Appendix K. Analytics
 
 ### Templates
@@ -266,7 +264,29 @@ mod_challenge|modeling|challenges that existed with the final model|essential|['
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-ana_ |analytics|definition|essential|['weight':1]
+ana_data_manager|analytics|manager that directs data analytics practices and personnel|essential|['weight':1]
+ana_deputy_data_manager|analytics|data manager that assists the primary data manager with analytics(if exists)|optional|['weight':1]
+ana_data_management_team|analytics|team that supports the data manager and/or deputy data manager with analytics|essential|['weight':1]
+ana_data_engineer|analytics|engineer(s) that support the data management team with analytics|essential|['weight':1]
+ana_data_owner|analytics|data personnel that retains the modeled data asset(s) for analytics|essential|['weight':1]
+ana_data_steward|analytics|steward that moves the modeled data asset to and from data management team analytics|essential|['weight':1]
+ana_task_management|analytics|task management reference for data management team's data analytics tasks|essential|['weight':1]
+ana_version_control|analytics|version control reference for data engineer(s) data analytics methods and code|essential|['weight':1]
+ana_accuracy|analytics|accuracy metrics of the modeled data asset(s)|essential|['weight':1]
+ana_completeness|analytics|completeness metrics of the modeled data asset(s)|essential|['weight':1]
+ana_consistency|analytics|consistency metrics of the modeled data asset(s)|essential|['weight':1]
+ana_integrity|analytics|integrity metrics of the modeled data asset(s)|essential|['weight':1]
+ana_reasonability|analytics|reasonability metrics of the modeled data asset(s)|essential|['weight':1]
+ana_timeliness|analytics|timeliness metrics of the modeled data asset(s)|essential|['weight':1]
+ana_uniqueness|analytics|uniqueness metrics of the modeled data asset(s)|essential|['weight':1]
+ana_validity|analytics|validity metrics of the modeled data asset(s)|essential|['weight':1]
+ana_data_size_model|analytics|size of the modeled data asset(s) when stored|essential|['weight':1]
+ana_data_size_raw|analytics|size of the raw data asset(s) when stored|essential|['weight':1]
+ana_data_shape_model|analytics|shape of the modeled data asset(s)|essential|['weight':1]
+ana_data_shape_raw|analytics|shape of the modeled data asset(s)|essential|['weight':1]
+ana_descriptive_statistics_model|analytics|statistical profile of the modeled data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
+ana_descriptive_statistics_raw|analytics|statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
+ana_format|analytics|the format of the modeled data going through analytics processes|essential|['weight':1]
 
 
 
@@ -285,6 +305,8 @@ ana_ |analytics|definition|essential|['weight':1]
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
+
+
 int_ |integration|definition|essential|['weight':1]
 
 
