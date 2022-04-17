@@ -41,6 +41,7 @@ __*Rubrics*__ act as the guides through which templates are defined and implemen
 * _Field definition_ is a brief description of what the field should contain. Each field should have a concise, singular definition that captures a single thing.
 * _Benchmarks_ are the standards for how the content of a field should be structured or stated. This includes data types and any grammar to which a field should comply.
 * _Metrics_ are measureable features within a field, generally defining quantitative or qualitative standards, such as acceptability thresholds, for the field and its content.
+  * _Weight_ is the relevance factor for an element within the larger data model. These may vary between rubrics, but their implementation methodology must be documented each time.
 
 ### Structure
 
