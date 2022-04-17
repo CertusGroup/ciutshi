@@ -2,7 +2,7 @@
 
 There is a need in data management for effective and sufficiently comprehensive analytics. As part of data processing, analytics produces consistent profiles for data that acts as a series of benchmark tests for the data model prior to integration. Analytics provides consumers of integration endpoints essential information on the model features and structures. This analytic output, stored in the data catalog, allows an institution's internal customers to make rapid assessments for additional data management requirements while making code and tool reuse simpler to assess and implement throughout the data management system.
 
-This document will set a baseline for data analytics practices, directing data engineers to content management practices essential for simple and impactful data analytics implementations. ciuTshi's data management practices adapts from DAMA[1](analytics/references) and other resources. For additional context on this document's sections, refer to the references section.
+This document will set a baseline for data analytics practices, directing data engineers to content management practices essential for simple and impactful data analytics implementations. ciuTshi's data management practices draws from DAMA[1](analytics/references) and other resources. For additional context on this document's sections, refer to the references section.
 
 ## Challenge
 

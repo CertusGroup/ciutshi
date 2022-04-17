@@ -2,7 +2,7 @@
 
 Consistent and rigorous modeling of data is a critical element in data management practices. With considerations of hybrid data architectures across multiple information systems, institutuions need to ensure the data management team can reduce time to delivery through optimizations in model production, enhancement, and abstraction for reuse across data products and services. This includes improved documentation, version control, and quality assurance practices to accelerate model planning and setup. Data schemas, methods, and models are to be documented and stored for future use while enabling improvements in metadata outputs for enhanced data provenance and lineage assessments.
 
-This document will set a baseline for data modeling practices, directing data engineers to content management practices essential for detailed data models implementations. ciuTshi's data management practices adapts from DAMA[1](modeling/references) and other resources. For additional context on this document's sections, refer to the references section.
+This document will set a baseline for data modeling practices, directing data engineers to content management practices essential for detailed data models implementations. ciuTshi's data management practices draws from DAMA[1](modeling/references) and other resources. For additional context on this document's sections, refer to the references section.
 
 ## Challenge
 
