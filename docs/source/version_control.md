@@ -87,7 +87,7 @@ GitFlow[3](version_control/references) enhances this process through orchestrati
 
 * *Main* branches help safeguard production deploy through implementation of layered deployment testing of the source code
   * *Main* or *Master* branch is where the stable production version of the source code resides
-* *Develop* branch is where the next release is staged and reviewed for *continuous integration (CI)*
+* *Develop* or *Dev* branch is where the next release is staged and reviewed for *continuous integration (CI)*
 * *Supporting* branches enable rapid and adaptable implementation of new features and fixes to the source code
   * *Feature* branches are where new features are added for the next major or minor version
     * Features are pushed to the Develop branch
