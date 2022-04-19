@@ -342,6 +342,15 @@ int_monitoring|integration|description of monitoring details, metrics, and actio
 * Metrics
   * Weight by default is set to `1`
 
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+met_metamodel|metadata|scheme description for the data asset's categorical metadata areas|essential|['weight':1]
+met_tags|metadata|tags associated with the data asset metadata considerations including type, associated projects, security labels, and associated policy restrictions|essential|['weight':1]
+met_editors|metadata|list of personnel contributing to the metadata for a data asset|essential|['weight':1]
+met_strategy|metadata|strategy for use of a data asset via metadata element (e.g., knowledge discovery) including migrations|essential|['weight':1]
+met_vcs|metadata|link to version control for metadata assets|essential|['weight':1]
+met_schedule|metadata|schedule and practice details associated with metadata maintenance including review and enrichment|essential|['weight':1]
+
 
 
 ## Appendix N. Cataloging
@@ -357,7 +366,9 @@ int_monitoring|integration|description of monitoring details, metrics, and actio
 * Metrics
   * Weight by default is set to `1`
 
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+cat_|cataloging||essential|['weight':1]
 
-
-
+cat_|cataloging||essential|['weight':1]
 
