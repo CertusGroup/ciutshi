@@ -2,6 +2,20 @@
 
 ## The Adaptable Data Operations Framework
 
+ciuTshi is a simplified collection of data practice modules for establishing and building up your data best practices. Understanding that each data challenge is unique, the framework's application can be tailored to develop repeatable data processes for valid models and critical data-driven decisions. The use of ciuTshi will result in a higher quality of data and, as a result, improve the value of data-driven decisions derived from solid metrics and advanced data science models.
+
+The rationale for ciuTshi is simple: many organizations pursuing advanced analytic models need high-quality data. We found that organizations often overlooked the essential data processes required to build solid research environments in a rush to implement data science practices. Failure to establish data fundamentals was detrimental in terms of vague metrics, poorly placed data professionals, and inability to assess data asset impact on project value.
+
+The ciuTshi framework is a critical element in building data value. By layering data management, data governance, and content management, ciuTshi's data operation practices build a tightly woven mesh of metadata assets for many invaluable data models. From fundamental RDBMS to advanced knowledge graph applications, the framework guides organizations with simple heuristics and templated flows to ensure the provenance of data assets throughout data-driven processes.
+
+### Sharing and Contribution
+
+This project is by data professionals for data professionals at all levels. As a result, we definitely want to keep improving the framework's content for the broadest community use possible. Please share and refer to the contributor's guide in the Wiki for how to submit updates to ciuTshi.
+
+### License
+
+
+
 ```{toctree}
 :hidden:
 :maxdepth: 2
