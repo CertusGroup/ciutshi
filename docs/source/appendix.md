@@ -368,7 +368,13 @@ met_schedule|metadata|schedule and practice details associated with metadata mai
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-cat_|cataloging||essential|['weight':1]
-
-cat_|cataloging||essential|['weight':1]
-
+cat_data_manager|cataloging|manager that directs data cataloging practices and personnel|essential|['weight':1]
+cat_deputy_data_manager|cataloging|data manager that assists the primary data manager (if exists)|optional|['weight':1]
+cat_legal_counsel|cataloging|counsel that advises on the legal limits for use of a cataloged metadata or master data samples|optional|['weight':1]
+cat_data_management_team|cataloging|team that supports the data manager and/or deputy data manager|essential|['weight':1]
+cat_data_engineer|cataloging|engineer that supports the data management team|essential|['weight':1]
+cat_data_owner|cataloging|owner that produced the master data sample|essential|['weight':1]
+cat_data_steward|cataloging|steward that moves the master data sample to the data manager|essential|['weight':1]
+cat_annotations|cataloging|annotations on a cataloged data record annotation special access or handling instructions for specific sections of the metadata within and outside of the catalog|essential|['weight':1]
+cat_feedback|cataloging|feedback method(s) associated with a data sample for catalog users|essential|['weight':1]
+cat_monitoring|cataloging|monitoring plan for the data catalog|essential|['weight':1]
