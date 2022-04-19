@@ -182,13 +182,13 @@ eth_ |ethics|definition|essential|['weight':1]
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-sto_data_manager|storage|manager that directs data practices and personnel|essential|['weight':1]
+sto_data_manager|storage|manager that directs data storage practices and personnel|essential|['weight':1]
 sto_deputy_data_manager|storage|data manager that assists the primary data manager (if exists)|optional|['weight':1]
 sto_project_manager|storage|manager that runs a project for which a raw data asset is required|essential|['weight':1]
 sto_legal_counsel|storage|counsel that advises on the legal limits for use of a raw data asset|optional|['weight':1]
 sto_project_lead|storage|project manager that assists the primary project manager|optional|['weight':1]
 sto_data_management_team|storage|team that supports the data manager and/or deputy data manager|essential|['weight':1]
-sto_project_team|storage|team that supports the project manager and/or project lead||['weight':1]
+sto_project_team|storage|team that supports the project manager and/or project lead|optional|['weight':1]
 sto_data_engineer|storage|engineer that supports the data management team|essential|['weight':1]
 sto_data_owner|storage|owner that produced the raw data asset|essential|['weight':1]
 sto_data_steward|storage|steward that moves the raw data asset to the data manager|essential|['weight':1]
@@ -305,9 +305,27 @@ ana_format|analytics|the format of the modeled data going through analytics proc
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-
-
-int_ |integration|definition|essential|['weight':1]
+int_data_manager|integration|manager that directs data integration practices and personnel|essential|['weight':1]
+int_deputy_data_manager|integration|data manager that assists the primary data integration manager (if exists)|optional|['weight':1]
+int_project_manager|integration|same as sto_project_manager|essential|['weight':1]
+int_legal_counsel|integration|counsel that advises on the legal limits for integration of a modeled data asset|optional|['weight':1]
+int_project_lead|integration|same as sto_project_lead|optional|['weight':1]
+int_data_management_team|integration|team that supports the data integration manager and/or deputy data manager|essential|['weight':1]
+int_project_team|integration|same as sto_project_team|optional|['weight':1]
+int_data_engineer|integration|engineer that supports the data integration management team|essential|['weight':1]
+int_data_owner|integration|owner that produced or controls the modeled data asset|essential|['weight':1]
+int_data_steward|integration|steward that moves the modeled data integration to the data manager|essential|['weight':1]
+int_tta|integration|security agent that is in charge of tracking loading of and access to modeled data assets and integrations|essential|['weight':1]
+int_plan|integration|plan description for the integration endpoint deployment and delivery|essential|['weight':1]
+int_assessment|integration|assessment of proposed final integration behaviors and outputs including format, quality, documentation, metadata lineage updates, data asset provenance, analytic metrics, and policy compliance|essential|['weight':1]
+int_design|integration|description of resources and personnel tasked to implement the integration endpoint design|essential|['weight':1]
+int_database|integration|database details for the integration endpoint solution|recommended if database used, else optional|['weight':1]
+int_api|integration|api details for the integration endpoint solution|recommended if api used, else optional|['weight':1]
+int_development|integration|developement details for the integration endpoint solution including testing and logging information|essential|['weight':1]
+int_endpoint_implemented|integration|date and time the intgration endpoint was first accessed by the customer (this may be several datatimes, each needing an explanation)|essential|['weight':1]
+int_endpoint_deprecated|integration|date and time the intgration endpoint ceased to be available to the customer (this may be several datatimes, each needing an explanation)|essential|['weight':1]
+int_provenance|integration|description of how the data asset is used by the customer from the endpoint|essential|['weight':1]
+int_monitoring|integration|description of monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle|essential|['weight':1]
 
 
 
