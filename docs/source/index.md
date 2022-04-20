@@ -64,5 +64,6 @@ cataloging
 :maxdepth: 2
 :caption: "Appendices"
 
-appendix
+appendix_a
+appendix_b
 ```

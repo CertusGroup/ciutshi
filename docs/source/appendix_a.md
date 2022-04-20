@@ -1,29 +1,6 @@
-# Appendix
+# Appendix - Templates and Rubrics
 
-## Appendix A. Data Strategy
-
-### Templates
-
-### Rubrics
-
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
-
-field_name|category|definition|benchmark|metrics
---|--|--|--|--
-ds_ |strategy|definition|essential|['weight':1]
-
-### Form
-
-### Report
-
-
-
-## Appendix B. Content Management
+## Appendix A. Content Management
 
 ### Templates
 
@@ -42,7 +19,7 @@ cm_ |content_management|definition|essential|['weight':1]
 
 
 
-## Appendix C. Requirements
+## Appendix B. Requirements
 
 ### Templates
 
@@ -70,11 +47,65 @@ req_conceptual_model > high-level, real world customer data model concept(s)
 req_logical_model > detailed connections between data fields and conceptual model(s)
 req_canonical_model > same as mod_schema
 
+#### Request for Engineering
+
+Name|Type|Description
+--|--|--
+timestamp|Timestamp|Datetime for request. Each adjustment (row) to the short form for a data product and/or service within a specified project will have a unique timestamp.
+requester|String|Name(s) of those initiating the short form requirements.
+requester_info|String|Contact information for the requester.
+customer|String|Name(s) of those receiving the deliverables of a data product and/or service.
+customer_info|String|Contact information for the customer.
+project|String|Name of the project from which the requirements originated.
+deliverable|String|A list of products and services requested by the customer.
+data_source|String|A list of raw data resources associated with requirements.
+data_poc|String|Name(s) of those originating and/or curating the data sources.
+data_poc_info|String|Contact information for the data point of contact.
+schema|String|The schema and data dictionary for the raw data.
+data_format|String|The format(s) in which the raw data is stored and/or delivered.
+data_type|String|The raw data types and their requested transformations.
+metadata|String|A list of key-value pairs for all raw data metadata.
+endpoint|String|The requested product and/or service delivery specifications.
+ux_ui|String|Optional field for user experience or user interface specifications.
+security|String|Optional field for data security practices.
 
 
-## Appendix D. Task Management
+
+## Appendix C. Task Management
 
 ### Templates
+
+#### Data Team Board Setup
+
+The name of the board should be `Project Name - Data Team` where `Project Name` is the name of the project from which the business requirements originated. The list names and descriptions are as follows:
+
+Name|Description
+--|--
+Backlog|The list of task and subtasks derived from the project's business requirements.
+Sprint Backlog|The selected and prioritized list of tasks and subtasks scope for completion during a sprint.
+In Progress|Assigned sprint tasks in the process of being completed for a sprint.
+Sprint dd.mm.yy - x Weeks|Completed sprint tasks for a given sprint.
+
+There are special cards included by default with this template:
+
+Card|List|Description
+--|--|--
+Product Owner: Name|Backlog|The contact information and additional information for the product owner.
+Scrum Master: Name|Backlog|The contact information and additional information for the project scrum master.
+Product Goal|Backlog|The product goal statement used to scope the tasks in the backlog. Included a __*Definition of Done*__ for the product.
+Sprint Goal|Sprint dd.mm.yy - x Weeks|The sprint goal statement used to scope the tasks in the sprint backlog.
+
+To assist the product owner and scrum master, colored label should also be used to signal status in a sprint.
+
+Label Color|Description
+--|--
+Green|On Track
+Yellow|Testing
+Orange|Quality Control
+Red|Blocker
+Black|Done
+
+
 
 ### Rubrics
 
@@ -91,9 +122,75 @@ tms_ |task_management|definition|essential|['weight':1]
 
 
 
-## Appendix E. Version Control
+## Appendix D. Version Control
 
 ### Templates
+
+#### GitFlow
+
+#### Process
+
+Repository naming convention?
+  project digraph + tool name
+Readme template
+  title
+  description
+  installation
+  use limitations  
+docs
+  sphinx
+wiki
+issues
+license
+contributing
+  GitFlow
+  peer/mob coding
+
+#### Repository Template
+
+Goal is maximum reuse of well-documented code and methods.
+
+from the top of the repository
+
+* .gitignore
+* README.md
+  * Links/locations to CMS on information system(s)
+* LICENSE.md
+* CONTRIBUTING.md
+* SECURITY.md
+* data_ops
+  * README.md
+  * CONTRIBUTING.md
+  * docs
+    * requirements
+      * README.md
+    * task_management
+      * README.md
+    * methods_research
+      * README.md
+    * quality_assurance
+      * README.md
+    * images
+      * README.md
+  * data_management
+    * storage
+      README.md
+      * pipelines
+    * modeling
+      README.md
+    * analysis
+      README.md
+    * integration
+      README.md
+
+For each DMS section associated with code or tool methods, source folder content should maintain this baseline:
+
+* models
+  * model_a
+    * README.md
+    * source
+    * tests
+
 
 ### Rubrics
 
@@ -110,7 +207,7 @@ vcs_ |version_control|definition|essential|['weight':1]
 
 
 
-## Appendix F. Quality Assurance
+## Appendix E. Quality Assurance
 
 ### Templates
 
@@ -129,7 +226,7 @@ qa_ |quality_assurance|definition|essential|['weight':1]
 
 
 
-## Appendix G. Security
+## Appendix F. Security
 
 ### Templates
 
@@ -148,7 +245,7 @@ sec_ |security|definition|essential|['weight':1]
 
 
 
-## Appendix H. Ethics
+## Appendix G. Ethics
 
 ### Templates
 
@@ -167,7 +264,7 @@ eth_ |ethics|definition|essential|['weight':1]
 
 
 
-## Appendix I. Storage
+## Appendix H. Storage
 
 ### Templates
 
@@ -209,7 +306,7 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 
 
 
-## Appendix J. Modeling
+## Appendix I. Modeling
 
 ### Templates
 
@@ -249,7 +346,7 @@ mod_challenge|modeling|challenges that existed with the final model|essential|['
 
 
 
-## Appendix K. Analytics
+## Appendix J. Analytics
 
 ### Templates
 
@@ -290,7 +387,7 @@ ana_format|analytics|the format of the modeled data going through analytics proc
 
 
 
-## Appendix L. Integration
+## Appendix K. Integration
 
 ### Templates
 
@@ -329,7 +426,7 @@ int_monitoring|integration|description of monitoring details, metrics, and actio
 
 
 
-## Appendix M. Metadata
+## Appendix L. Metadata
 
 ### Templates
 
@@ -353,7 +450,7 @@ met_schedule|metadata|schedule and practice details associated with metadata mai
 
 
 
-## Appendix N. Cataloging
+## Appendix M. Cataloging
 
 ### Templates
 
