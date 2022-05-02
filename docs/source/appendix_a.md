@@ -268,14 +268,45 @@ eth_ |ethics|definition|essential|['weight':1]
 
 ### Templates
 
+These are questions associated with storage of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data storage.
+
+* Who is the manager that directs data storage practices and personnel?
+* Who is the data manager that assists the primary data manager (if exists)?
+* Who is the manager that runs a project for which a raw data asset is required?
+* Who is the legal counsel that advises on the legal limits for use of a raw data asset?
+* Who is the project manager that assists the primary project manager
+* Who is on the team that supports the data manager and/or deputy data manager?
+* Who is on the team that supports the project manager and/or project lead?
+* Who is the engineer that supports the data management team?
+* Who is the owner that produced the raw data asset?
+* Who is the steward that moves the raw data asset to the data manager?
+* Who is the security agent that is in charge of tracking loading of and access to raw data assets?
+* What is the name of the stored raw data asset?
+* What type of raw data asset (e.g., reference, critical, project)?
+* Where is the requirements reference for a raw data asset?
+* Is there a form completed for the loading of a raw data asset?
+* Is there a form completed for accessing to a raw data asset?
+* How is the data team handling task management for raw data asset tasks?
+* How is the data team handling version control for data loading methods and code?
+* Was data mining used for sourcing the raw data? What methods were used for the mined data?
+* What pipeline models, tools and/or code for processing raw data into storage are used?
+* Where is the raw data stored?
+* Where is the master data derived from the raw data stored?
+* Are there any addendums or changes to the raw data requirements?If so, please describe in detail with references.
+* What is the monitoring plan for the raw data (including retention and deprecation plan)?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * non-essential
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -310,14 +341,43 @@ sto_monitoring|storage|reference for the retention and deprication to all data a
 
 ### Templates
 
+These are questions associated with modeling of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data modeling.
+
+* Who is the data manager that directs data modeling practices and personnel
+* Who is the data manager that assists the primary data manager with modeling(if exists)?
+* Who is on the team that supports the data manager and/or deputy data manager with modeling?
+* Who is the engineer(s) that support the data management team with modeling?
+* Who are the data personnel that produced the modeled data asset(s)?
+* Who is the data steward that moves the raw data asset to and from data management team modeling?
+* How is task management handled for the data modeling tasks?
+* How is version control handled for the data modeling methods and code?
+* What is the scheme(s) for the final data model?
+* What is the schema(s) for the final data model (including data types)?
+* What methods derived from methodologies were used in the modeling of the data asset?
+* What is the overall model approach?
+* Who are the reviewer(s) of the final model elements including scheme, schema, methods, and other essential features?
+* What are the tags for the model's associated categories?
+* What are the ontological entities that are linked to the modeled data features?
+* What is the dictionary reference for the modeled data schema features (e.g., data dictionary)?
+* How was the data tranformed for the final data model?
+* How was the data normalized for the final data model?
+* What is the sampling method suggested for the data asset?
+* Was synthetic data recommended for use of the data asset? If so, what is the method used?
+* Was entity resolution used for the data asset model? If so, what is the method used?
+* What challenges existed with the final model? Is there any additional context that should be noted about the modeled data?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -350,14 +410,44 @@ mod_challenge|modeling|challenges that existed with the final model|essential|['
 
 ### Templates
 
+These are questions associated with data analytics. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data asset analytics.
+
+* Who is the manager that directs data management analytics practices and personnel?
+* Who is the data manager that assists the primary data manager with analytics(if exists)?
+* Who is the team that supports the data manager and/or deputy data manager with analytics?
+* Who is the engineer(s) that support the data management team with analytics?
+* Who are the data personnel that retain the modeled data asset(s) for analytics?
+* Who is the steward that moves the modeled data asset to and from data management team analytics?
+* How is task management handled for data analytics tasks?
+* How is version control handled for data analytics methods and code?
+* What are the accuracy metrics of the modeled data asset(s)?
+* What are the completeness metrics of the modeled data asset(s)?
+* What are the consistency metrics of the modeled data asset(s)?
+* What are the integrity metrics of the modeled data asset(s)?
+* What are the reasonability metrics of the modeled data asset(s)?
+* What are the timeliness metrics of the modeled data asset(s)?
+* What are the uniqueness metrics of the modeled data asset(s)?
+* What are the validity metrics of the modeled data asset(s)?
+* What is the size of the modeled data asset(s) when stored?
+* What is the size of the raw data asset(s) when stored?
+* What is the shape of the modeled data asset(s)?
+* What is the shape of the raw data asset(s)?
+* What is the statistical profile of the modeled data asset(s) features including nulls, value ranges, data types, and frequency distributions?
+* What is the statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions?
+* What is the format of the modeled data going through analytics processes?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -380,7 +470,7 @@ ana_validity|analytics|validity metrics of the modeled data asset(s)|essential|[
 ana_data_size_model|analytics|size of the modeled data asset(s) when stored|essential|['weight':1]
 ana_data_size_raw|analytics|size of the raw data asset(s) when stored|essential|['weight':1]
 ana_data_shape_model|analytics|shape of the modeled data asset(s)|essential|['weight':1]
-ana_data_shape_raw|analytics|shape of the modeled data asset(s)|essential|['weight':1]
+ana_data_shape_raw|analytics|shape of the raw data asset(s)|essential|['weight':1]
 ana_descriptive_statistics_model|analytics|statistical profile of the modeled data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
 ana_descriptive_statistics_raw|analytics|statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
 ana_format|analytics|the format of the modeled data going through analytics processes|essential|['weight':1]
@@ -391,24 +481,52 @@ ana_format|analytics|the format of the modeled data going through analytics proc
 
 ### Templates
 
+These are questions associated with data integration. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data integration.
+
+* Who is the manager that directs data integration practices and personnel?
+* Who is the data manager that assists the primary data integration manager (if exists)?
+* Who is the project manager overseeing integration of the modeled data?
+* Who is the counsel that advises on the legal limits for integration of a modeled data asset?
+* Who is the project lead in receiving the data integration?
+* Who is the on the team that supports the data integration manager and/or deputy data manager?
+* Who is the project team in charge of receiving the data integration?
+* Who is the engineer that supports the data integration management team?
+* Who is the owner that produced or controls the modeled data asset?
+* Who is the steward that moves the modeled data integration to the data manager?
+* Who is the security agent that is in charge of tracking loading of and access to modeled data assets and integrations?
+* What is the overall plan for the integration endpoint deployment and delivery?
+* What is the assessment of proposed final integration behaviors and outputs including format, quality, documentation, metadata lineage updates, data asset provenance, analytic metrics, and policy compliance?
+* What are the resources and personnel tasked to implement the integration endpoint design?
+* What database(s) were used for the integration endpoint solution?
+* What are the API details for the integration endpoint solution?
+* What are the developement details for the integration endpoint solution including testing and logging information?
+* What are the date(s) and time(s) the intgration endpoint was first accessed by the customer?
+* What are the date(s) and time(s) the intgration endpoint ceased to be available to the customer?
+* Describe of how the data asset is used by the customer from the endpoint?
+* Decribe the monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
 int_data_manager|integration|manager that directs data integration practices and personnel|essential|['weight':1]
 int_deputy_data_manager|integration|data manager that assists the primary data integration manager (if exists)|optional|['weight':1]
-int_project_manager|integration|same as sto_project_manager|essential|['weight':1]
+int_project_manager|integration|the manager in charge of receiving the integration (possibly same as sto_project_manager)|essential|['weight':1]
 int_legal_counsel|integration|counsel that advises on the legal limits for integration of a modeled data asset|optional|['weight':1]
-int_project_lead|integration|same as sto_project_lead|optional|['weight':1]
+int_project_lead|integration|The lead in charge of guiding implementation of the integration (possibly same as sto_project_lead)|optional|['weight':1]
 int_data_management_team|integration|team that supports the data integration manager and/or deputy data manager|essential|['weight':1]
-int_project_team|integration|same as sto_project_team|optional|['weight':1]
+int_project_team|integration|the team in charge of implementing the integration (possibly same as sto_project_team)|optional|['weight':1]
 int_data_engineer|integration|engineer that supports the data integration management team|essential|['weight':1]
 int_data_owner|integration|owner that produced or controls the modeled data asset|essential|['weight':1]
 int_data_steward|integration|steward that moves the modeled data integration to the data manager|essential|['weight':1]
@@ -430,14 +548,27 @@ int_monitoring|integration|description of monitoring details, metrics, and actio
 
 ### Templates
 
+These are questions associated with metadata for a data asset. It is highly recommended that you collect all essential elements if possible in the course of data management practices for metadata. This section in particular can draw from all other sections as Appendix A is the metamodel for metadata.
+
+* What is the scheme for the data asset's categorical metadata areas?
+* What tags are associated with the data asset?
+* Which personnel contributed to the metadata for a data asset?
+* What was the metadata strategy for the data asset?
+* How is version control managed for the metadata assets?
+* How is the metadata to be maintained?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -454,14 +585,31 @@ met_schedule|metadata|schedule and practice details associated with metadata mai
 
 ### Templates
 
+These are questions associated with cataloging of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data cataloging.
+
+* Who manages data cataloging practices and personnel for the data asset?
+* Who assists the primary data catalog manager (if exists)?
+* Who is the counsel that advises on the legal limits for use of a cataloged metadata or master data samples?
+* Who is the team that supports the data manager and/or deputy data manager?
+* Who is the engineer that supports the data catalog management?
+* Who owns the master data sample?
+* Who is the steward that moves the master data sample to the data manager?
+* What annotations are associated with the cataloged data record?
+* What feedback method(s) are available for the data sample and associated metadata entry?
+* What is the monitoring plan for the data catalog?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
