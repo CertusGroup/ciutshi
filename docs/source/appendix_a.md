@@ -4,50 +4,87 @@
 
 ### Templates
 
+These are questions associated with content management for a data asset. It is highly recommended that you collect all essential elements if possible in the course of content management practices.
+
+* Who are the managers that direct content management?
+* Who are the personnel associated with the data project or content management artifact?
+* Who is the legal counsel that advises on the limits of the content management system?
+* Who is the security point of contact for the content management system?
+* What is the name of the data asset project?
+* What legal restrictions exist for the data project?
+* What security restrictions exist for the data project?
+* Which templates are associated with the project?
+* Which rubrics are associated with the project?
+* What tags are associated with this project?
+* What are the access policies and groups associated with this project?
+* How is version control used in management of this project's content?
+* How is task management used in the management of this project's operations and personnel?
+* What are the operational tasks associated with the project's content management?
+* What is the deprecation plan for the project's content?
+* Where are the locations of the content documentation?
+* Where are the locations of the content's associated assets?
+* What is the timeframe for project content review and revision?
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the content management document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-cm_ |content_management|definition|essential|['weight':1]
-
-
+cm_manager|content_management|manager that directs content management documentation and personnel|essential|['weight':1]
+cm_personnel|content_management|personnel associated with curation and maintenance of content management assets|essential|['weight':1]
+cm_legal|content_management|legal advisor for content management practices|essential|['weight':1]
+cm_security|content_management|security advisor for content managment practices|essential|['weight':1]
+cm_name|content_management|name of the data project|essential|['weight':1]
+cm_legal_res|content_management|list of legal restrictions for data content|essential|['weight':1]
+cm_security|content_management|list of security restrictions for data content|essential|['weight':1]
+cm_templates|content_management|list of associated templates|essential|['weight':1]
+cm_rubrics|content_management|list of associated rubrics|essential|['weight':1]
+cm_tags|content_management|list of tags associated with the data project|essential|['weight':1]
+cm_access|content_management|list of policies and groups associted with data project|essential|['weight':1]
+cm_vcs|content_management|description and list of version control measures|essential|['weight':1]
+cm_tms|content_management|description and list of task management measures|essential|['weight':1]
+cm_ops|content_management|description and list of operations tasks associated with data project|essential|['weight':1]
+cm_deprecation|content_management|description of deprecation measures|essential|['weight':1]
+cm_doc_locs|content_management|list of documentation locations for the data project|essential|['weight':1]
+cm_asset_locs |content_management|list of asset locations for the data project|essential|['weight':1]
+cm_review|content_management|description of timeline for content review and revision|essential|['weight':1]
 
 ## Appendix B. Requirements
 
 ### Templates
 
-### Rubrics
+These are questions associated with requirements gathering for a data asset. It is highly recommended that you collect all essential elements if possible in the course of requirements gathering practices.
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
-
-field_name|category|definition|benchmark|metrics
---|--|--|--|--
-req_ |requirements|definition|essential|['weight':1]
-
-req_systems
-req_data_owner
-req_data_origin
-req_data_production
-req_date_acquired
-req_date_deprecated
-req_workshop_conducted
-req_conceptual_model > high-level, real world customer data model concept(s)
-req_logical_model > detailed connections between data fields and conceptual model(s)
-req_canonical_model > same as mod_schema
+* What system are reuquired to accomplish the data project?
+* Who are the data owners for the data assets?
+* From where do the data assets originate?
+* Who and/or what produced the data asset?
+* When was the data asset acquired by the owner?
+* When will the data be obsolete or required to be deprecated?
+* When was the requirements workshop conducted (list all dates)?
+* When was the official request for information published?
+* What is the task management plan for the data assets?
+* What is the version control plan for the data assets?
+* What is the conceptual model for the data asset?
+* What is the logical model for the data asset?
+* What is the cononical model for the data asset including the final schema?
+* What is the revision plan for the data asset requirements?
+* What addendums were added to the official requirements (if any)?
+* What is the cancellation plan for the data asset requirements?
 
 #### Request for Engineering
+
+The request for engineering is a short form to capture essential elements of the requirements workshop. This can be expanded and apated to suite the needs of the particular workshop and its associated data assets. 
 
 Name|Type|Description
 --|--|--
@@ -69,15 +106,65 @@ endpoint|String|The requested product and/or service delivery specifications.
 ux_ui|String|Optional field for user experience or user interface specifications.
 security|String|Optional field for data security practices.
 
+### Rubrics
 
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
+
+field_name|category|definition|benchmark|metrics
+--|--|--|--|--
+req_systems|requirements|list of the systems and sub-system resources required for the data asset project|essential|['weight':1]
+req_owner|requirements|list of the names of the originating data owners and their associated organizational information|essential|['weight':1]
+req_origin|requirements|list of the origins of the data assets with any lineage or provenance details|essential|['weight':1]
+req_data_production|requirements|details pertaining to the means and methods used to produce the data assets|essential|['weight':1]
+req_acquisition|requirements|dates and methods by which the data asset was acquired by the owner|essential|['weight':1]
+req_deprecation|requirements|details on the end use date of the data asset with procedural information|essential|['weight':1]
+req_workshop_con|requirements|the dates of the requirements workshop|essential|['weight':1]
+req_rfe|requirements|the date the official requirements were published|essential|['weight':1]
+req_tms|requirements|decription of the task management plan and setup for the data project|essential|['weight':1]
+req_vcs|requirements|description of the version control plan and setup for the data project|essential|['weight':1]
+req_conceptual_model|requirements|a high-level, real world customer data model concept(s) including the scheme and schema|essential|['weight':1]
+req_logical_model|requirements|a detailed description of connections between data fields and conceptual model(s) including scheme and schema|essential|['weight':1]
+req_canonical_model|requirements|the final scheme and schema for the data assets: often the same as mod_schema|essential|['weight':1]
+req_rev|requirements|description of the revision and review plan for the requirements and addendums|essential|['weight':1]
+req_addendums|requirements|a list and description of the addendums for the official published requirements: using the RFE template field to demonstrate changes|essential|['weight':1]
+req_cancel|requirements|description of cancellation plan for redacted or terminated requirements|essential|['weight':1]
 
 ## Appendix C. Task Management
 
 ### Templates
 
+These are questions associated with task managment for a data asset. It is highly recommended that you collect all essential elements if possible in the course of task management practices.
+
+* Who is the manager for the task managment process?
+* Who is the product owner who will oversee and receive the data asset?
+* Who is the scrum master?
+* Who are the scrum team personnel?
+* Who are the other stakeholders involved in the data project tasks?
+* Who are the other vendors involved in the data project tasks?
+* What is the project name?
+* What is the structure of the TMS boards?
+* What are the structures of the boards' cards?
+* What are the labels used in the TMS process?
+* What is the timeline for the project?
+* How is VCS of TMS artifacts handled for the project?
+* What are the critical metrics for the project?
+* What is the review plans for the TMS process?
+* What are the elements of the completed MVP?
+* What are the outcomes of the sprint retrospectives?
+* Where are the TMS artifacts stored for the project?
+
 #### Data Team Board Setup
 
-The name of the board should be `Project Name - Data Team` where `Project Name` is the name of the project from which the business requirements originated. The list names and descriptions are as follows:
+The name of the board should be `Project Name - Data Team` where `Project Name` is the name of the project from which the requirements originated. The list names and descriptions are as follows:
 
 Name|Description
 --|--
@@ -105,26 +192,46 @@ Orange|Quality Control
 Red|Blocker
 Black|Done
 
-
-
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-tms_ |task_management|definition|essential|['weight':1]
-
-
+tms_manager|task_management|managers involved in the TMS processes|essential|['weight':1]
+tms_owner|task_management|asset owners involved in the TMS processes|essential|['weight':1]
+tms_scrum_master|task_management|scrum masters coordinating tasks and sprints|essential|['weight':1]
+tms_scrum_team|task_management|team executing setup, sprint, and MVP tasks|essential|['weight':1]
+tms_stakeholder|task_management|persons with responsibilities for TMS outcomes|essential|['weight':1]
+tms_vendor|task_management|vendors facilitationg tasks within TMS processes|essential|['weight':1]
+tms_project_name|task_management|name of the TMS projects for data assets|essential|['weight':1]
+tms_board|task_management|description of the board setup with changes for a data project's TMS processes|essential|['weight':1]
+tms_card|task_management|description of the card setup with changes for a data project's TMS processes|essential|['weight':1]
+tms_label|task_management|description of the labels used for a data project's TMS processes|essential|['weight':1]
+tms_timeline|task_management|description of the timeline to deadline including key review dates|essential|['weight':1]
+tms_metrics|task_management|description of key metrics and models including burndown and velocity chart information|essential|['weight':1]
+tms_rev|task_management|description of review plan for TMS processes including extensions and timeline shifts|essential|['weight':1]
+tms_vcs|task_management|description of VCS plan for TMS assets and artifacts|essential|['weight':1]
+tms_mvp|task_management|description of complete MVP to defintion of done standards including any changes|essential|['weight':1]
+tms_retrospective|task_management|description of retrospective outcomes for each sprint|essential|['weight':1]
+tms_artifacts|task_management|description of artifact locations and details on associated metrics|essential|['weight':1]
 
 ## Appendix D. Version Control
 
 ### Templates
+
+These are questions associated with version control for a data asset. It is highly recommended that you collect all essential elements if possible in the course of version control practices.
+
+* 
 
 #### GitFlow
 
@@ -194,12 +301,16 @@ For each DMS section associated with code or tool methods, source folder content
 
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -211,14 +322,22 @@ vcs_ |version_control|definition|essential|['weight':1]
 
 ### Templates
 
+These are questions associated with quality assurance for a data asset. It is highly recommended that you collect all essential elements if possible in the course of quality assurance practices.
+
+* 
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -230,14 +349,22 @@ qa_ |quality_assurance|definition|essential|['weight':1]
 
 ### Templates
 
+These are questions associated with security for a data asset. It is highly recommended that you collect all essential elements if possible in the course of security practices.
+
+* 
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
@@ -249,14 +376,22 @@ sec_ |security|definition|essential|['weight':1]
 
 ### Templates
 
+These are questions associated with ethics for a data asset. It is highly recommended that you collect all essential elements if possible in the course of ethics practices.
+
+* 
+
 ### Rubrics
 
-* Benchmark
-  * essential
-  * optional
-  * recommended > reason
-* Metrics
-  * Weight by default is set to `1`
+The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
+
+* __*Benchmark*__ is the expected suitability measure or criteria for the metadata element.
+  * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
+  * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
+  * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+  * *weight* by default is set to `1` for each metadata element.
+
+For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
