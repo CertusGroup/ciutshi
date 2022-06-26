@@ -231,33 +231,46 @@ tms_artifacts|task_management|description of artifact locations and details on a
 
 These are questions associated with version control for a data asset. It is highly recommended that you collect all essential elements if possible in the course of version control practices.
 
-* 
+* Who owns the repositories associated with the data project?
+* Who has access to the repositories?
+* Who are the reviews of repository activities?
+* Who are the contributors to each repository?
+* What vendors are used to facilitate VCS tasks?
+* Where are VCS tasks being conducted?
+* What is the project name?
+* What are the repository names?
+* What workflow model and schemes were used?
+* What tags were applied to each repository?
+* How is review of each repository handled?
+* Where are artifacts associated with the repositories stored and managed?
+* Where are the documents associated with the repository and source code stored and managed?
+* What migration are associated with this repository?
 
-#### GitFlow
+#### GitFlow Process
 
-#### Process
+There are several things to consider when setting up a repository for source code and documentation. These are a few of those consideration to establish ahead of linking VCS to TMS and other data operations practices:
 
-Repository naming convention?
-  project digraph + tool name
-Readme template
-  title
-  description
-  installation
-  use limitations  
-docs
-  sphinx
-wiki
-issues
-license
-contributing
-  GitFlow
-  peer/mob coding
+* What is the repository naming convention?
+  * Is there a `project digraph + tool name` convention or something else?
+* Do you have a standard Readme template to capture essential elements of information?
+  * Title
+  * Description
+  * Installation instructions
+  * Usage instructions and limitations
+* Do you have a `docs` directory convention?
+  * Are you using Sphinx or another static site generator?
+* Is there a Wiki in or connected to the repository?
+* How are source code and documentation issues tracked?
+* What license model is being used for the source code?
+* Are there contribution guidelines for members of the project?
+  * Is there instructions for member on workflow practices?
+  * Is peer or mob coding practices used? If so, how?
 
 #### Repository Template
 
-Goal is maximum reuse of well-documented code and methods.
+The goal of using a standard repository template is maximum reuse of well-documented code and methods.
 
-from the top of the repository
+An example of this template is as follows (from the top of the repository):
 
 * .gitignore
 * README.md
@@ -298,7 +311,6 @@ For each DMS section associated with code or tool methods, source folder content
     * source
     * tests
 
-
 ### Rubrics
 
 The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. *Benchmarks* and *metrics* are flexible elements that can guide and enrich the metadata model for the institution's specific metadata needs.
@@ -314,9 +326,21 @@ For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-vcs_ |version_control|definition|essential|['weight':1]
-
-
+vcs_owner|version_control|list all persons with admin access to each repository|essential|['weight':1]
+vcs_member|version_control|list all persons with general access to each repository|essential|['weight':1]
+vcs_reviewer|version_control|list all persons responsible for source code review|essential|['weight':1]
+vcs_contributor|version_control|list all persons who modified or added to source code|essential|['weight':1]
+vcs_vendor|version_control|list all persons or groups who provide services to aid in VCS tasks (e.g., CI/CD)|essential|['weight':1]
+vcs_system|version_control|list all systems on which VCS tasks are conducted|essential|['weight':1]
+vcs_project|version_control|name of the associated data project|essential|['weight':1]
+vcs_license|version_control|name of license associated with source code and documentation|essential|['weight':1]
+vcs_repo|version_control|list of all repo names and branches for a data project|essential|['weight':1]
+vcs_workflow|version_control|description of VCS scheme and coding practice rules (e.g., GitFlow)|essential|['weight':1]
+vcs_tags|version_control|list of tags applied to the repositories associate with a data project and broader data operations schemas|essential|['weight':1]
+vcs_rev|version_control|description of the review practices for respositories|essential|['weight':1]
+vcs_artifacts|version_control|list of all data connections and other essential elements associated with each repository|essential|['weight':1]
+vcs_docs|version_control|list of locations for the repositories' documentation sources (e.g., readthedocs, wikis)|essential|['weight':1]
+vcs_migrate|version_control|list of migrations to other repositories from the data project's collection with descriptions of rationale for migration|essential|['weight':1]
 
 ## Appendix E. Quality Assurance
 
@@ -324,7 +348,25 @@ vcs_ |version_control|definition|essential|['weight':1]
 
 These are questions associated with quality assurance for a data asset. It is highly recommended that you collect all essential elements if possible in the course of quality assurance practices.
 
-* 
+* Who are the managers for quality assurance of the data assets?
+* Who are the quality assurance team members working on the data assets?
+* Who are the data governance board members governing the data assets?
+* What is the name of the data project?
+* What are the accuracy standards for the data assets?
+* What are the completeness standards for the data assets?
+* What are the integrity standards for the data assets?
+* What are the reasonability standards for the data assets?
+* What are the timeliness standards for the data assets?
+* What are the uniqueness standards for the data assets?
+* What are the validty standards for the data assets?
+* What are the quality assurance rules associated with the data assets?
+* How are issues handles for the data assets?
+* What are the profile models for the data assets?
+* What are the quality assurance assessment outcomes for the data assets?
+* What are the key metrics for the data assets?
+* What is the strategy for the data assets?
+* How is reporting handled for the data assets?
+* Where are the quality assurance documents stores for the data assets?
 
 ### Rubrics
 
@@ -341,9 +383,25 @@ For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-qa_ |quality_assurance|definition|essential|['weight':1]
-
-
+qa_manager|quality_assurance|list of managers associated with quality assurance for the data assets|essential|['weight':1]
+qa_team|quality_assurance|list of team members associated with quality assurance tasks for the data assets including roles|essential|['weight':1]
+qa_board|quality_assurance|list of data governance board members associated with guidance on data asset quality assurance tasks|essential|['weight':1]
+qa_name|quality_assurance|name of the data project|essential|['weight':1]
+qa_accuracy|quality_assurance|description of accuracy standards associated with the data assets|essential|['weight':1]
+qa_completeness|quality_assurance|description of completeness standards associated with the data assets|essential|['weight':1]
+qa_integrity|quality_assurance|description of integrity standards associated with the data assets|essential|['weight':1]
+qa_reasonability|quality_assurance|description of reasonability standards associated with the data assets|essential|['weight':1]
+qa_timeliness|quality_assurance|description of timeliness standards associated with the data assets|essential|['weight':1]
+qa_uniqueness|quality_assurance|description of uniqueness standards associated with the data assets|essential|['weight':1]
+qa_validity|quality_assurance|description of validity standards associated with the data assets|essential|['weight':1]
+qa_rules|quality_assurance|description of quality assurance rules associated with the data assets|essential|['weight':1]
+qa_issues|quality_assurance|description of the methodologies used to handle quality assurance issues|essential|['weight':1]
+qa_profile|quality_assurance|description of the enhancements, analysis models, and outcomes associates with the quality assurance profile for each data asset|essential|['weight':1]
+qa_assessment|quality_assurance|list of categories for each data asset with rationale|essential|['weight':1]
+qa_metrics|quality_assurance|list of metrics for each data asset with descriptions of impacts and actions taken on quality assurance metrics for data assets|essential|['weight':1]
+qa_strategy|quality_assurance|description of the data governance strategy for the data assets with location information for the strategy documentation|essential|['weight':1]
+qa_report|quality_assurance|list of locations for logs and other forms of reporting for the data assets|essential|['weight':1]
+qa_docs|quality_assurance|list of location for documentation associated with quality assurance for general guidance and data asset specific information|essential|['weight':1]
 
 ## Appendix F. Security
 
@@ -351,7 +409,22 @@ qa_ |quality_assurance|definition|essential|['weight':1]
 
 These are questions associated with security for a data asset. It is highly recommended that you collect all essential elements if possible in the course of security practices.
 
-* 
+* Who are the security managers associated with the data project?
+* Who are the owners of the data assets?
+* Who are the stewards for the data assets?
+* Who are the infomation security managers associated with the data project?
+* Who are the information assurance personnel associate with the data project?
+* Who are the data governance board members associated with the data project?
+* Who are the security team members associated with data project security tasks?
+* What is the name of the data project?
+* What are the tags associated with the data assets?
+* How is access handled for the data assets and the data project?
+* What are the security policies that apply to the data project and assets?
+* What privacy measures are required for the data project and data assets?
+* What are the authentication protocols in place for the data assets?
+* What additional guidelines exist for the data assets?
+* What are the key security metrics for the data assets?
+* How is training handled for secure access to data project assets?
 
 ### Rubrics
 
@@ -368,9 +441,22 @@ For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-sec_ |security|definition|essential|['weight':1]
-
-
+sec_manager|security|list of managers associated with data project security|essential|['weight':1]
+sec_owner|security|list of owners associated with the data assets|essential|['weight':1]
+sec_steward|security|list of stewards responsible for tracking data asset security within the data project|essential|['weight':1]
+sec_infosec_manager|security|list of institutional managers associated with data system security|essential|['weight':1]
+sec_info_assurance|security|list of institutional personnel associated with data policy and guideline application to data project assets|essential|['weight':1]
+sec_board|security|list of data governance board members associated with the data project security|essential|['weight':1]
+sec_team|security|list of security team members responsible for data project security tasks including roles|essential|['weight':1]
+sec_name|security|name of the data project|essential|['weight':1]
+sec_tags|security|list of tags associated with the data project and data assets including access levels, security groups, and required credentials|essential|['weight':1]
+sec_access|security|description of the group policy put in place for a data project and data assets|essential|['weight':1]
+sec_policy|security|description of security regulation in place for the data project|essential|['weight':1]
+sec_privacy|security|description of security features for data assets including masking, synthetic data, or other security models|essential|['weight':1]
+sec_authentication|security|description of authentication practice requireds for the data project and data assets including required logs, metrics, and audits|essential|['weight':1]
+sec_guidelines|security|description of specific guidance for each data assets with security action plan|essential|['weight':1]
+sec_metrics|security|list of key security metrics for the data project and the data assets|essential|['weight':1]
+sec_training|security|description of training requirement in place for the data project, data assets, and broader institutional certification requirements|essential|['weight':1]
 
 ## Appendix G. Ethics
 
@@ -378,7 +464,24 @@ sec_ |security|definition|essential|['weight':1]
 
 These are questions associated with ethics for a data asset. It is highly recommended that you collect all essential elements if possible in the course of ethics practices.
 
-* 
+* Who are the managers associated with data asset ethics?
+* Who are the data asset ownerx?
+* Who are the data asset stewards?
+* Who are the team members associated with ethical review for data asset utilization?
+* Who are the data asset stakeholders?
+* Who are the IRB team members associated with the data project?
+* Who are the agencies associated with ethical practices for the data project?
+* What is the code of coduct associated with ethical data practices?
+* What was the consent process for the data assets and data project?
+* Are there certification associated with data project ethics?
+* What ethics policies are associated with the data project?
+* What is the name of the data project?
+* How was ethical acquisition of the data assets handled for the data project?
+* How was ethical storage of the data assets handled for the data project?
+* How was ethical processing of the data assets handled for the data project?
+* How was ethical monitoring of the data assets handled for the data project?
+* What are the impacts or potential impacts associated with ethical challenges for the data project?
+* What metrics are leverage to aid in ethical standards for data assets and the data project?
 
 ### Rubrics
 
@@ -395,9 +498,24 @@ For more information, refer to the Metadata document.
 
 field_name|category|definition|benchmark|metrics
 --|--|--|--|--
-eth_ |ethics|definition|essential|['weight':1]
-
-
+eth_manager|ethics|list of managers associated with ethics for data project|essential|['weight':1]
+eth_owner|ethics|list of data owners associated with ethics for data project|essential|['weight':1]
+eth_steward|ethics|list of data stewards associated with ethics for data project|essential|['weight':1]
+eth_team|ethics|names and roles of persons associated with ethics for data project|essential|['weight':1]
+eth_stakeholder|ethics|list of stakeholders associated with ethics for data project|essential|['weight':1]
+eth_irb|ethics|institutional review boards associated with the data assets or data project|essential|['weight':1]
+eth_agency|ethics|list of agencies associated with ethics for data project|essential|['weight':1]
+eth_conduct|ethics|codes of conduct used to govern ethics for the data project|essential|['weight':1]
+eth_consent|ethics|consent practics associated with data assets and the data project|essential|['weight':1]
+eth_certification|ethics|list of certifications required for ethical data practices for data project|essential|['weight':1]
+eth_policy|ethics|policies guiding ethical practices for data project|essential|['weight':1]
+eth_name|ethics|names of the data assets|essential|['weight':1]
+eth_acquisition|ethics|description of methods of ethical data acquisition used for each data asset|essential|['weight':1]
+eth_storage|ethics|description of methods of ethical data storage used for each data asset access|essential|['weight':1]
+eth_process|ethics|description of methods of ethical data processing used for each data asset delivery|essential|['weight':1]
+eth_monitor|ethics|description of methods of ethical data monitoring used for each data asset and their deprecation|essential|['weight':1]
+eth_impact|ethics|description of impacts associated with ethical outcomes|essential|['weight':1]
+eth_metrics|ethics|list of key metrics for measuring ethical standards used for each data asset and the data projects|essential|['weight':1]
 
 ## Appendix H. Storage
 
@@ -470,8 +588,6 @@ sto_master_data_location|storage|location reference(s) of master data storage|es
 sto_addendum|storage|form reference for the change in storage to a raw data asset|recommended if addendums generated, else optional|['weight':1]
 sto_monitoring|storage|reference for the retention and deprication to all data assets|essential|['weight':1]
 
-
-
 ## Appendix I. Modeling
 
 ### Templates
@@ -538,8 +654,6 @@ mod_sampling|modeling|sampling method suggested for the data asset, used primari
 mod_synthetic|modeling|synthetic data reference used for a raw data asset|optional|['weight':1]
 mod_entity_res|modeling|entity resolution reference used for a data asset model|optional|['weight':1]
 mod_challenge|modeling|challenges that existed with the final model|essential|['weight':1]
-
-
 
 ## Appendix J. Analytics
 
@@ -610,8 +724,6 @@ ana_descriptive_statistics_model|analytics|statistical profile of the modeled da
 ana_descriptive_statistics_raw|analytics|statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
 ana_format|analytics|the format of the modeled data going through analytics processes|essential|['weight':1]
 
-
-
 ## Appendix K. Integration
 
 ### Templates
@@ -677,8 +789,6 @@ int_endpoint_deprecated|integration|date and time the intgration endpoint ceased
 int_provenance|integration|description of how the data asset is used by the customer from the endpoint|essential|['weight':1]
 int_monitoring|integration|description of monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle|essential|['weight':1]
 
-
-
 ## Appendix L. Metadata
 
 ### Templates
@@ -713,8 +823,6 @@ met_editors|metadata|list of personnel contributing to the metadata for a data a
 met_strategy|metadata|strategy for use of a data asset via metadata element (e.g., knowledge discovery) including migrations|essential|['weight':1]
 met_vcs|metadata|link to version control for metadata assets|essential|['weight':1]
 met_schedule|metadata|schedule and practice details associated with metadata maintenance including review and enrichment|essential|['weight':1]
-
-
 
 ## Appendix M. Cataloging
 
