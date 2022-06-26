@@ -8,7 +8,7 @@ ciuTshi (pronounced su-shi) is a FOSS data framework with modular data operation
 
 ## Who is ciuTshi for?
 
-
+Data professionals seeking solutions to data management, governance, and operations challenges.
 
 ## Why does this exist?
 
