@@ -45,7 +45,7 @@ __*Rubrics*__ act as the guides through which templates are defined and implemen
 
 ### Structure
 
-_**Need to rewrite how data operations fits organizationally > Atwal?**_
+Templates and rubrics can be developed in any number of ways to suit the needs of the institution's data operations. Though each template element should have a corresponding rubric metatdata element, these elements can be split between several sub-templates and sub-rubrics within a major modular practice area. This allows the content management of data operations information to adapt and shift with the organization's data practices.
 
 ### Access
 
@@ -53,7 +53,7 @@ Existing institutional policy regarding handling of varying levels of secure dat
 
 ### Tagging
 
-_**Need to re-write**_
+Institutions must consider what data elements to label and how those labels add annotated information and dimension to metadata. Tags code data asset elements to ensure that the context and utilitzation of a data asset from requirements to delivery is understood by current and future data management professionals. Each institution's tagging methodology will vary, but it is something that must be consistently and rigorously adhered to: noting shifts through robost metadata collection for provenance in order to analyze the longitudinal value of a data asset for an organization. This system of tags must be appropriately accessible to data customers on each system's content management system.
 
 ### Content Lifecycle Management
 
