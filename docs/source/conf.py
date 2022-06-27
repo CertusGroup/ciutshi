@@ -55,7 +55,7 @@ html_theme_options = {
     "logo_only": True,
 }
 html_title = "data knowledge made easy"
-#html_logo = "static/images/ciuTshi_logo.png"
+html_logo = "static/images/ciutshi_logo.jpg"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
