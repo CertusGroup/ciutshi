@@ -32,8 +32,6 @@ In the course of the requirements process, there are key roles that aid the faci
 * __Data Management (DM)__ 
 * __Data Engineering (DE)__
 
-![Data Operations Roles](static/images/certus_logo.png)
-
 ### Conceptualization
 
 * Roles
@@ -43,8 +41,6 @@ In the course of the requirements process, there are key roles that aid the faci
   * Analytics
 
 The first step in this process is to iteratively generate a sufficient, valid set of requirements. The customer and PM will work to facilitate the context and intent of the problem to be addressed. This involves coordination with the science & methods and analytics teams to solidify the context and intent into a well defined list of concepts and outcomes. All parties involved in a project will then coordinate the details of the requirements through a workshop. The science & methods teams will begin the drafting of the _**request for engineering (RFE)**_ template. The workshop and template drafts will establish a tentative course of action towards a finished draft of the requirements.
-
-![Conceptualization](static/images/certus_logo.png)
 
 ### Request for Engineering
 
