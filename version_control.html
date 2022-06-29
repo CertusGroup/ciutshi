@@ -1,0 +1,620 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Version Control &#8212; data knowledge made easy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Quality Assurance" href="quality_assurance.html" />
+    <link rel="prev" title="Task Management" href="task_management.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_management.html">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="storage.html">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="analytics.html">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="integration.html">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/version_control.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#concepts-and-roles">
+     Concepts and Roles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#versioning-scheme">
+     Versioning Scheme
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#repository-structure">
+     Repository Structure
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-to-github">
+     Code to GitHub
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gitflow">
+     GitFlow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#task-management-boards-to-github">
+     Task Management Boards to GitHub
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#model-migration">
+     Model Migration
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Version Control</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#concepts-and-roles">
+     Concepts and Roles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#versioning-scheme">
+     Versioning Scheme
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#repository-structure">
+     Repository Structure
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-to-github">
+     Code to GitHub
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gitflow">
+     GitFlow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#task-management-boards-to-github">
+     Task Management Boards to GitHub
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#model-migration">
+     Model Migration
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="version-control">
+<h1>Version Control<a class="headerlink" href="#version-control" title="Permalink to this headline">¶</a></h1>
+<p>The practices and resultant works associate with data management and data operations<a class="reference internal" href="#version-control-references"><span class="std std-ref">1</span></a> are highly technical and dimensionally complex, involving a combination of documentation and source code control. Curation of documents and source code allow the data management team to pursue consistent and rigorous practices for projects. This accumulation of best practices, code, and knowledge artifacts requires a framework to support their storage and reuse to a high level of quality and access. Version and documentation control allows data engineers and data managers to increase efficiency and innovate new techniques for mobilization of data assets.</p>
+<p>ciuTshi requires version control (also known as revision or source control<a class="reference internal" href="#version-control-references"><span class="std std-ref">2</span></a>) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices framework exists, but code generation for data products and services still requires a version control framework. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes.</p>
+<div class="section" id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<p>Data engineering and data analysis practices are increasingly hybrid, using a mix of analytic tools and programmed source code solutions to acquire, process, and deliver data products and services. This activity occurs across multiple system and data architectures, all of which must comply with security and policy stipulations while maintaining parity. This requires a well-managed and vigilant approach to version control to support an equally complex data operations environment. The result of such a version control framework would allow more rapid response to business requirements through utilization and mobilization of existing source code assets while creating space to develop new solutions with optimally effective resource and cost impact.</p>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Produce adaptable and flexible version control practices that can be applied broadly within data operations practices across multiple systems and data architectures</p></li>
+<li><p>Utilize best industry practices in development, security, and operations (DevSecOps) for management of technical data assets resulting in reduced timelines to delivery and increased attention to the quality and security of technical solution deployments</p></li>
+<li><p>Promote the use of consistent and rigorous code storage and documentation resulting in improved collaboration between data management team personnel for shared effort in effective technical solution delivery</p></li>
+</ul>
+</div>
+<div class="section" id="processes">
+<h2>Processes<a class="headerlink" href="#processes" title="Permalink to this headline">¶</a></h2>
+<p>The following practices are intended to be adapted, augmented, or omitted as needed. This ensures that artifacts associated with data products or services are efficiently cataloged and backed up for later reference and utilization.</p>
+<div class="section" id="concepts-and-roles">
+<h3>Concepts and Roles<a class="headerlink" href="#concepts-and-roles" title="Permalink to this headline">¶</a></h3>
+<p>Version control is composed of many elements. Each of these elements is essential in the execution and maintenance of documentation and code that can be reused and shared as part of the collaboration and transition processes for a data product or service. Defining clear concepts and roles simplifies these processes, resulting in an efficient shared experience that ultimate reduces project and organizational costs.</p>
+<p>Here are a collection of essential version control concepts:</p>
+<ul class="simple">
+<li><p><em>version control system (VCS)</em> is a particular assemblage of version control software (e.g., Git) and human practices that sustain either centralized or distributed source control</p></li>
+<li><p>a <em>repository</em> is a collection of changes associated with the source code</p></li>
+<li><p>a <em>working copy</em> is your copy of the changes where you work on your parts of the source code</p></li>
+<li><p>a <em>branch</em> is a variant copy of the source code changes in a repository. Most repositories start with a <em>main</em> or <em>master</em> branch, but may have other variant branch categories as dictated by the human practices maintaining the source code</p></li>
+<li><p>a <em>workflow</em> is a series of actions taken to ensure changes in source code are saved to a branch that do not result in conflicts in changes across the repository. This involves agreement by people maintaining a repository to implement change practices that allow multiple reviews and resolution of conflicting changes. We will cover such a framework and its steps when we talk about <em>GitFlow</em> (see below)</p></li>
+</ul>
+<p>These concepts are monitored and applied by several key actors in the version control processes:</p>
+<ul class="simple">
+<li><p>an <em>owner</em> is the person or organization that controls admin accesses to a repository</p></li>
+<li><p>a <em>member</em> is a person with permissioned access to a repository (regulated by the owner)</p></li>
+<li><p>a <em>reviewer</em> is a person with expert knowledge of the source code and can approve repository changes within and across branches</p></li>
+<li><p>a <em>contributor</em> is a person who makes changes to the source code and submits those changes via a working copy to the repository</p></li>
+</ul>
+</div>
+<div class="section" id="versioning-scheme">
+<h3>Versioning Scheme<a class="headerlink" href="#versioning-scheme" title="Permalink to this headline">¶</a></h3>
+<p>Any software beyond initial exploratory data analysis (EDA) or prototype scripts needs to implement version scheme to ensure all roles are aware of timelines and states within the source code. This allows for simplified understanding across data projects and roles of the current state and larger productivity patterns in data operations. This makes review and contribution cycles more clear and efficient for a given workflow.</p>
+<p>Semantic versioning is a common method and is initially recommended for ciuTshi implementations. It is composed of three elements separated by periods:</p>
+<ul class="simple">
+<li><p><em>major</em> is the first element, denoting major versions like Beta, 1, and so on</p>
+<ul>
+<li><p>Changes here may break the API</p></li>
+<li><p>Change resets minor and patch numbers</p></li>
+<li><p>An example would be version 1.2.2 changing to version 2.0.0</p></li>
+</ul>
+</li>
+<li><p><em>minor</em> is the second element, denoting release of new functionality</p>
+<ul>
+<li><p>Changes here should not affect the API</p></li>
+<li><p>Change resets patch numbers</p></li>
+<li><p>An example would be version 1.2.2 changing to version 1.3.0</p></li>
+</ul>
+</li>
+<li><p><em>patch</em> is the third element, denoting bug fixes</p>
+<ul>
+<li><p>An example would be version 1.2.2 changing to version 1.2.3</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="repository-structure">
+<h3>Repository Structure<a class="headerlink" href="#repository-structure" title="Permalink to this headline">¶</a></h3>
+<p>In ciuTshi data operations practices, repositories should be built to capture two main categories of knowledge artifacts: documentation and source code. In order to encourage both process improvement and reuse of models, methods, and code, each repository should be structured consistently across all projects. This approach allows for enhanced and repeatable exploration of knowledge artifacts, allowing rapid prototyping that integrates into the lineage of data management practices.</p>
+<p>Refer to the version control appendix for template, rubric, and diagram information on the standard repository boilerplate. At a fundamental level, the directory structure for a repository should mirror the steps in the data management and data governance processes within ciuTshi data operations. As a result, data management personnel should know where to look within and between projects for technical solutions. This structuring also makes archival analysis and knowledge discovery of solutions moving forward as the data teams seeks leading edge innovations.</p>
+</div>
+<div class="section" id="code-to-github">
+<h3>Code to GitHub<a class="headerlink" href="#code-to-github" title="Permalink to this headline">¶</a></h3>
+<p><strong><em>VERY IMPORTANT: check for any sensitive material before committing your code!!!</em></strong></p>
+</div>
+<div class="section" id="gitflow">
+<h3>GitFlow<a class="headerlink" href="#gitflow" title="Permalink to this headline">¶</a></h3>
+<p>In order to maintain productivity through efficient communication on data projects, data professionals leverage consistent, continuous workflow methods. There are several of these methods developers and technical professionals use for software development and other technical tasks. Regardless of the method or model, their application should produce sufficiently rigorous documentation and structured source code that is easily consumable and understandable by team members. These documentation and code artifacts ultimately drive consistent deployment of usable software to a sustainable level of quality and security for the customer.</p>
+<p>GitFlow<a class="reference internal" href="#version-control-references"><span class="std std-ref">3</span></a> (demonstrated in the image below) is a Git-centric development operation workflow framework. Git<a class="reference internal" href="#version-control-references"><span class="std std-ref">4</span></a> is a distributed version control system built to manage and resolve numerous source code contributions. GitFlow is implemented around Git operations to ensure their sequential execution results in optimized development actions across the development team.</p>
+<p><img alt="GitFlow" src="_images/gitflow.png" /></p>
+<p>A standard Git<a class="reference internal" href="#version-control-references"><span class="std std-ref">4</span></a> workflow from contributor to review may look like this:</p>
+<ul class="simple">
+<li><p><em>Fork</em> the repository to obtain a local working copy of the source code and documentation</p></li>
+<li><p>Identify and <em>checkout</em> (or create) the appropriate branch for you to develop as outlined by task management instructions</p></li>
+<li><p><em>Commit</em> completed work to the appropriate branch with sufficient comments</p></li>
+<li><p>Create a <em>pull request</em> to have a reviewer examine your code for inclusion or further edits</p></li>
+<li><p><em>Deploy</em> the code following quality assurance and security checks have passed prior to merging with the production branch</p></li>
+<li><p><em>Merge</em> approved code to the appropriate repository production branch with (multiple) reviewer approval</p></li>
+</ul>
+<p>GitFlow<a class="reference internal" href="#version-control-references"><span class="std std-ref">3</span></a> enhances this process through orchestrating proper branch management to minimize conflicts in commits between contributors to the source code, bridging efficient task management, quality assurance, and security practices.</p>
+<blockquote>
+<div><p>Note: each branch type should be part of the branch naming conventions. For example, a new feature branch should following a <code class="docutils literal notranslate"><span class="pre">feature-my_new_feature</span></code> naming convention.</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><em>Main</em> branches help safeguard production deploy through implementation of layered deployment testing of the source code</p>
+<ul>
+<li><p><em>Main</em> or <em>Master</em> branch is where the stable production version of the source code resides</p></li>
+</ul>
+</li>
+<li><p><em>Develop</em> or <em>Dev</em> branch is where the next release is staged and reviewed for <em>continuous integration (CI)</em></p></li>
+<li><p><em>Supporting</em> branches enable rapid and adaptable implementation of new features and fixes to the source code</p>
+<ul>
+<li><p><em>Feature</em> branches are where new features are added for the next major or minor version</p>
+<ul>
+<li><p>Features are pushed to the develop branch</p></li>
+</ul>
+</li>
+<li><p><em>Hotfix</em> branches are for emergency security patches</p>
+<ul>
+<li><p>Hotfixes are pushed to the production branch (e.g., main) with great scrutiny</p></li>
+</ul>
+</li>
+<li><p><em>Release</em> branches are implemented to aid rapid staging of the next production version</p>
+<ul>
+<li><p>Release is staged from the develop branch</p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>For additional information, refer to the <a class="reference internal" href="#version-control-references"><span class="std std-ref">references</span></a> on Git and GitFlow.</p>
+</div>
+<div class="section" id="task-management-boards-to-github">
+<h3>Task Management Boards to GitHub<a class="headerlink" href="#task-management-boards-to-github" title="Permalink to this headline">¶</a></h3>
+<p>As part of the data management and data governance practices for ciuTshi data operations, it is important to use version control to store documentation and source code and to ensure the connections between data tasks, their execution, and their deliverable quality is maintained for future analysis. Many task management tools allow you to export task and board configuration associated with a particular data project. These exports should be stored in the repository’s task management folder.</p>
+</div>
+<div class="section" id="model-migration">
+<h3>Model Migration<a class="headerlink" href="#model-migration" title="Permalink to this headline">¶</a></h3>
+<p>This version control document is intended to provide general guidance on how to store documentation and source code associated with projects. These projects are often derived from customer requirements and coordinated through task management systems. As a result, the repositories will often be created and structured to facilitate project execution.</p>
+<p>However, data personnel should always develop and store solutions with the intent to make those solutions transferrable across multiple projects, documented and structured for future use by themselves and other team member.</p>
+<p>Data operations team member should persistently check to see if a particular solution should be moved to its own repository for more broad utilization. The manner in which this will be done is largely up to data management leadership and heavily depends on the type and persistence of the model solutions. Regardless, this migration task should be considered an essential data operations objective as an additional line of data product and service to organizations and their stakeholders.</p>
+</div>
+</div>
+<div class="section" id="references">
+<span id="version-control-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Number</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Atwal, H. (2020). <em>Practical dataops: Delivering agile data science at scale.</em> UK: Apress.</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Ruparelia, N.B. (2010). The history of version control. <em>ACM SIGSOFT Software Engineering Notes</em>. 35(1). 5–9.</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Driessen, V. (2020). A successful GIT branching model. Obtained from https://nvie.com/posts/a-successful-git-branching-model/.</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>GitHub Documentation (2021). Available at https://docs.github.com/.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="task_management.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Task Management</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="quality_assurance.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Quality Assurance</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

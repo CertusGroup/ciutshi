@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analytics &#8212; data knowledge made easy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Integration" href="integration.html" />
+    <link rel="prev" title="Modeling" href="modeling.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_management.html">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="storage.html">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="integration.html">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/analytics.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Analytics
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#raw-data-for-modeling">
+       Raw Data for Modeling
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modeled-data-for-integration">
+       Modeled Data for Integration
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#advanced-data-analytics">
+     Advanced Data Analytics
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Analytics</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Analytics
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#raw-data-for-modeling">
+       Raw Data for Modeling
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#modeled-data-for-integration">
+       Modeled Data for Integration
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#advanced-data-analytics">
+     Advanced Data Analytics
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="analytics">
+<h1>Analytics<a class="headerlink" href="#analytics" title="Permalink to this headline">¶</a></h1>
+<p>There is a need in data management for effective and sufficiently comprehensive analytics. As part of data processing, analytics produces consistent profiles for data that acts as a series of benchmark tests for the data model prior to integration. Analytics provides consumers of integration endpoints essential information on the model features and structures. This analytic output, stored in the data catalog, allows an institution’s internal customers to make rapid assessments for additional data management requirements while making code and tool reuse simpler to assess and implement throughout the data management system.</p>
+<p>This document will set a baseline for data analytics practices, directing data engineers to content management practices essential for simple and impactful data analytics implementations. ciuTshi’s data management practices draws from DAMA<a class="reference internal" href="#analytics-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this document’s sections, refer to the references section.</p>
+<div class="section" id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<p>Institutions require data processes that can be optimized and enhanced for continued utilization of data assets. Metrics and information for process improvement allow data management, data owners, and external stakeholders to improved decision making on data asset lifecycle management. This data-driven direction for projects and their data assets requires improved data cataloging and metadata that promote statistical measures and metrics to inform decisions over time. Analytics, as part of the data management process, encourages mobilization of statistics, code, and documentation for value insight generation supported by valid metrics.</p>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Produce statistics and metrics on modeling output resulting in rapid iteration on modeling issues and enriched integration outputs</p></li>
+<li><p>Expand the utilization of analytics measures in data management to enable the growth of data-driven decision making for leadership, internal customers, and external stakeholders</p></li>
+<li><p>Define tools and techniques that optimize analytic methods and models for data asset processes resulting in improved data governance utilities for the data management team</p></li>
+</ul>
+</div>
+<div class="section" id="processes">
+<h2>Processes<a class="headerlink" href="#processes" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Data Overview - Analytics" src="_images/dm_overview_analytics.png" /></p>
+<div class="section" id="preliminary-tasks">
+<h3>Preliminary Tasks<a class="headerlink" href="#preliminary-tasks" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="security-and-system-compliance">
+<h4>Security and System Compliance<a class="headerlink" href="#security-and-system-compliance" title="Permalink to this headline">¶</a></h4>
+<p>Refer to the security and content management documents for guidance and templating of data analytics content. This should cover considerations on information system and guiding policies.</p>
+</div>
+<div class="section" id="role-and-responsibilities">
+<h4>Role and Responsibilities<a class="headerlink" href="#role-and-responsibilities" title="Permalink to this headline">¶</a></h4>
+<p>These are the roles currently associated with data analytics practices:</p>
+<ul class="simple">
+<li><p>Data Manager</p></li>
+<li><p>Deputy Data Manager</p></li>
+<li><p>Data Management Team</p></li>
+<li><p>Data Engineers</p></li>
+<li><p>Data Owners</p></li>
+<li><p>Data Stewards</p></li>
+</ul>
+<p>Refer to the content management documents for analytics roles on different information systems, specific data architectures, and their associated policies and restrictions.</p>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Analytics<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Due to the diversity of data assets handled by institutions across numerous projects and information systems, analytics will vary in form and approach. However, there are essential elements that need to be captured about the quality and effectiveness of the data management system as it exists within its particular data architecture. Analytics should pursue metrics on these dimensions:</p>
+<ul class="simple">
+<li><p><em>Accuracy</em> is difficult to measure, but should seek to quantify the degree to which the data model represents entities on the real world</p></li>
+<li><p><em>Completeness</em> observes what data is present, what data is missing, and what affect processing had on the raw data</p></li>
+<li><p><em>Consistency</em> observes the shifts or changes in data values and across data sets</p></li>
+<li><p><em>Integrity</em> observes the coherence between accuracy, completeness, and consistency between referential data and processed data or simpler factors, such as errors in the data</p></li>
+<li><p><em>Reasonability</em> checks if the modeled data outputs meet expected values</p></li>
+<li><p><em>Timeliness</em> observes the volatility of data changes, latency in production and use, or viability for use</p></li>
+<li><p><em>Uniqueness</em> observes factures such as de-duplication and entity resolution</p></li>
+<li><p><em>Validity</em> observes the conformity of values to data types and defined domains of value consistency</p></li>
+</ul>
+<p>Metrics derived from these dimensions should account for these characteristics:</p>
+<ul class="simple">
+<li><p><em>Measurable</em> Metric has to observe something that is countable</p></li>
+<li><p><em>Relevance</em> Metrics that are relevant to the data consumer and data management team</p></li>
+<li><p><em>Acceptance</em> Metric is tied to requirement for the data</p></li>
+<li><p><em>Stewardship</em> Metrics are understood and usable by customers and stakeholders</p></li>
+<li><p><em>Control</em> Metric should indicate the data needs to be improved</p></li>
+<li><p><em>Trends</em> Metric enables analysis of data shifts over time</p></li>
+</ul>
+<p>These analytics dimensions and others will ultimately be templated for metadata inclusion in the data catalog entry for each data asset. Additionally, the storage, modeling, and integration phases should capture basic data profiles to track shifts in the assets as they move from raw data to endpoint delivery. The profile may include:</p>
+<ul class="simple">
+<li><p><em>Data Type and Format</em></p></li>
+<li><p><em>Storage Size of Data</em></p></li>
+<li><p><em>Data Shape</em></p></li>
+<li><p><em>Counts of Nulls</em></p></li>
+<li><p><em>Max/Min Value</em></p></li>
+<li><p><em>Max/Min Length</em></p></li>
+<li><p><em>Frequency Distribution</em></p></li>
+</ul>
+<p><em>Cross-column analysis</em> and <em>cross-table analysis</em> should be used to address issues of overlap or redundancy. What follows are the sub-domain analytic considerations for modular phases in the data management system.</p>
+<div class="section" id="raw-data-for-modeling">
+<h4>Raw Data for Modeling<a class="headerlink" href="#raw-data-for-modeling" title="Permalink to this headline">¶</a></h4>
+<p>Raw data assets will likely come in a variety of formats. However, attempts should be made to capture a basic data profile. This should be provided by data owner and/or data steward if possible. In the case of mined data, tooling outputs should attempt to cover as many of these data profile characteristics as possible. This profile will create the baseline for comparative analysis of the modeled data.</p>
+</div>
+<div class="section" id="modeled-data-for-integration">
+<h4>Modeled Data for Integration<a class="headerlink" href="#modeled-data-for-integration" title="Permalink to this headline">¶</a></h4>
+<p>Modeled data may experience significant transformations once it conforms to a schema or new format. In addition to the base data profile, scheme and model specific analysis should be conducted to ensure all major dimensions have representative metrics that ensure a secure, quality endpoint deliverable. These schema and model metrics will largely be data architecture specific and their level of sufficient detail will be at the discretion of the data engineer unless otherwise outlined in the data management system documentation.</p>
+</div>
+</div>
+<div class="section" id="advanced-data-analytics">
+<h3>Advanced Data Analytics<a class="headerlink" href="#advanced-data-analytics" title="Permalink to this headline">¶</a></h3>
+<p>ciuTshi suggests a flexible and simple approach to analytics in data management practices. However, due to the variety of data assets in use and the complexity of challenges for a given project or metric, analytics techniques may be adapted and advanced to adjust to the requirements and complexity of the data model and its associated metrics. Ensure to update documentation, metadata, and data catalog with this information.</p>
+</div>
+</div>
+<div class="section" id="references">
+<span id="analytics-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Number</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). <em>DAMA-DMBOK: Data management body of knowledge (2nd Ed.).</em> Basking Ridge, NJ: Technics Publications.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="modeling.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Modeling</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="integration.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Integration</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

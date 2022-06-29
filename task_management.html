@@ -1,0 +1,649 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Management &#8212; data knowledge made easy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Version Control" href="version_control.html" />
+    <link rel="prev" title="Requirements" href="requirements.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="storage.html">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="analytics.html">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="integration.html">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/task_management.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#task-management-practices">
+   Task Management Practices
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#roles">
+     Roles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#key-definitions">
+     Key Definitions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#events-workflow">
+     Events &amp; Workflow
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#backlog">
+       Backlog
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#sprint">
+       Sprint
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#potential-mvp">
+       Potential MVP
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#retrospective">
+       Retrospective
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#artifacts-and-measures">
+     Artifacts and Measures
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Task Management</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#task-management-practices">
+   Task Management Practices
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#roles">
+     Roles
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#key-definitions">
+     Key Definitions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#events-workflow">
+     Events &amp; Workflow
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#backlog">
+       Backlog
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#sprint">
+       Sprint
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#potential-mvp">
+       Potential MVP
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#retrospective">
+       Retrospective
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#artifacts-and-measures">
+     Artifacts and Measures
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="task-management">
+<h1>Task Management<a class="headerlink" href="#task-management" title="Permalink to this headline">¶</a></h1>
+<p>Data-driven practices require consistent and rigorous task management (TM). Data-driven practices mobilize production of data services and enable people to enhance their efforts in support of an organization’s data vision. The challenge is to realize this data vision through consistently improving practices from a solid baseline of data governance and data management standards.<a class="reference internal" href="#task-management-references"><span class="std std-ref">1</span></a> These standards enable accurate representation of data processes and meaning while forwarding the evolution of specified personnel and technologies as business requirements shift. This shift necessitates a task management body of practices to ensure rapid reconfigurations from the baseline are possible while maintaining a quality of outputs consistent with the organization’s strategic data vision. Otherwise, the lack of a task management body of practices or poor use of task management systems undermines the intent and output of data systems and a misappropriation of data worker efforts.</p>
+<p>Recent literature <a class="reference internal" href="#task-management-references"><span class="std std-ref">1,2,3,4</span></a> suggest a balance of existing and new practices to support structuring task management for data operations. In 2001, Agile emerged as an effort to guide consistent development practices which are adaptable and open to a broad set of applications.<a class="reference internal" href="#task-management-references"><span class="std std-ref">5</span></a> As a result, methodologies like Scrum, and later systems like Kanban and Scrumban (among many others), shifted to more flexible implementations for developer task management.<a class="reference internal" href="#task-management-references"><span class="std std-ref">6</span></a> In the domain of data operations<a class="reference internal" href="#task-management-references"><span class="std std-ref">1</span></a>, Agile is an expected standard which is often mobilized within more specific Developer Security Operations (DevSecOps)<a class="reference internal" href="#task-management-references"><span class="std std-ref">7</span></a> practices. This approach leads to more responsive data governance systems <a class="reference internal" href="#task-management-references"><span class="std std-ref">3</span></a> and an improved value for the associated organization. This combination of improved communication and organizational relationship via flexible data operations and data management facilitate effective data products and services delivery to stakeholders and organization decision makers.<a class="reference internal" href="#task-management-references"><span class="std std-ref">2</span></a></p>
+<p>The task management component of data operations should adhere to best practices for an effective Agile-based systems. ciuTshi situates guidelines to encourage consistent and rigorous practices with maximum adaptability and rapid task shift. This framework also makes inclusion of more detailed DevSecOps and waterfall approaches possible for projects that fall within variable delivery deadlines. This modular approach to task management makes inclusion of newer methodologies simplified through pre-existing integrations with version control systems (VCS) and content management system (CMS) practices able to accommodate TM shifts. The TM practices described in following sections facilitate improved business requirements capture, baseline metrics for projects, and requirements shift over the course of a project.</p>
+<div class="section" id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Simplified Task Management</strong> - This ensures that multiple data projects adhere to consistent task management practices and that all data team members are familiar with practices.</p></li>
+<li><p><strong>Consistent Management Practices</strong> - Process efficacy and lineage are a key part of task management practices which ensures adaptations in this practices do not invalidate previous efforts.</p></li>
+<li><p><strong>Rigorous Requirements Processing</strong> - The simplified task management practices guide enforces rigorous and cyclical re-examination of business requirements from cradle to grave, documenting shifts in requirements and recording the process as a whole.</p></li>
+<li><p><strong>Timeline Projection</strong> - Delivery on schedule for a set of business requirements is a critical aspect of this system. Implementation of these practices makes prediction for initial and adjusted delivery dates possible, allowing data management, data operations, and project managers to adjust accordingly.</p></li>
+<li><p><strong>Develop Data Operations Metrics</strong> - The implementation of consistent and rigorous task management allows data operations and data managers to adjust practices and personnel in a timely and cost effective manner while streamlining justification for data architecture and IT system resources.</p></li>
+</ul>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Simplify consistent task management</p></li>
+<li><p>Produce and examine requirement-driven tasks</p></li>
+<li><p>Produce and analyze task and project metrics</p></li>
+<li><p>Reduce deliverable timelines</p></li>
+<li><p>Improve communication on data-centric requirements</p></li>
+</ul>
+</div>
+<div class="section" id="task-management-practices">
+<h2>Task Management Practices<a class="headerlink" href="#task-management-practices" title="Permalink to this headline">¶</a></h2>
+<p>ciuTshi takes a Scrum approach to task management for data management. Scrum is a “lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems.”<a class="reference internal" href="#task-management-references"><span class="std std-ref">6</span></a> This system helps guide business requirements through the often complex process of deconstructing requirements into tasks for the backlog. The Scrum team then prioritize and organize tasks into sprints. These sprints can be iteratively adjusted and reviewed by stakeholders to ensure the product is delivered on time at a level of quality defined in the requirements.</p>
+<p>Scrum was selected as it is a simple and well-structured approach to task management. Sprints are an excellent approach for projects that are slated for shorter timeframes and may persist beyond the initial business requirements pending stakeholder review. As a result, a scrum team should “<strong><em>Keep it simple</em></strong>” when implementing these practices for a project. Simplicity allows stakeholders to maintain transparency and adaptability through cycles of inspection and adjustment to requirements and/or task assignment.</p>
+<p>Scrum is constructed around a very simple sprint cycle: <strong><em>Plan</em></strong>, <strong><em>Build</em></strong>, <strong><em>Test</em></strong>, <strong><em>Review</em></strong>. A sprint cycle takes from one to three weeks and is generally dictated in the planning phase. This simple sprint practice allows for incremental development over variable timeframes.</p>
+<p>What follows is an abbreviated description of the Scrum process with variations from other Agile methodologies. These practices are adaptable, iterative cycles for task management of data operations. That being said, the core Scrum tenets and steps should be followed initially by all parties as described below. This ensures the data product or service is efficiently developed and delivered on deadline to high standard of quality and security.</p>
+<div class="section" id="roles">
+<h3>Roles<a class="headerlink" href="#roles" title="Permalink to this headline">¶</a></h3>
+<p>In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.</p>
+<ul class="simple">
+<li><p><strong>Product Owner</strong> - Submits finalized requirements into the Backlog. The product goal should be clear prior to submitting valid requirements. Clear goals assist in prioritization of backlog task for sprints.</p></li>
+<li><p><strong>Scrum Master</strong> - Coordinates and manages sprints. The scrum master manages the team in a positive and productive manner to ensure tasks are completed within the sprint timeline. This includes training and coaching of team members. Scrum master also manages communication and conflicts between the product owner, sprint team, and the organizations as requirements and product expectations shift.</p></li>
+<li><p><strong>Team</strong> - Executes on sprints through iterative task planning. These members assist in defining <em>Done</em> with the Scrum Master by guiding accountability and quality standards through daily checks and adjustments.</p></li>
+</ul>
+</div>
+<div class="section" id="key-definitions">
+<h3>Key Definitions<a class="headerlink" href="#key-definitions" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><strong>User Story</strong> - A user story is a statement in the format <strong><em>“As a — I need — so that —.”</em></strong> that assists the scrum master and team to turn requirements into achievable tasks.</p></li>
+<li><p><strong>SMART Goal</strong> - An acronym (e.g., Specific, Measurable, Achievable, Realistic, Timely) that assists in goal setting.</p></li>
+<li><p><strong>Backlog</strong> - A list of all tasks, derived from valid business requirements, associated with a data product and/or service. These tasks are refined, ordered, and prioritized for inclusion in sprints by the Team.</p></li>
+<li><p><strong>Sprint Backlog</strong> - A list of tasks selected from the Backlog and prioritized for a sprint. These are selected by the Team and confirmed by the Scrum Master. The Scrum Master will track their progress to ensure Daily Scrums and Sprint Planning adhere to original projections.</p></li>
+<li><p><strong>In Progress</strong> - A list of tasks currently being actioned by Team members populated from the Sprint Backlog.</p></li>
+<li><p><strong>Sprint</strong> - An event that is assigned a fixed time to complete a selected set of tasks.</p></li>
+<li><p><strong>Burndown Chart</strong> - A chart used to visualize what work is left to do (y axis) and how much time is left to complete said work (x axis).</p></li>
+<li><p><strong>Velocity Chart</strong> - A chart used to visualize how many tasks (y axis) were delivered per sprint (x axis).</p></li>
+<li><p><strong>Definition of Done</strong> - The described final state for a product that meets the quality standard expected for delivery to the customer(s).</p></li>
+</ul>
+</div>
+<div class="section" id="events-workflow">
+<h3>Events &amp; Workflow<a class="headerlink" href="#events-workflow" title="Permalink to this headline">¶</a></h3>
+<p>The following events and their order present a simplified workflow for sprint managements throughout the course of a project.</p>
+<div class="section" id="backlog">
+<h4>Backlog<a class="headerlink" href="#backlog" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Roles</p>
+<ul>
+<li><p>Product Owner</p></li>
+<li><p>Scrum Master</p></li>
+</ul>
+</li>
+</ul>
+<p>Once a set of requirements are approved, the scrum master for a project will begin work with the team to populate the backlog. User story format should be used to transfer requirements into a collection of feasible sprint tasks. The use of SMART goal structures may assist in adding a level of scope to the user stories that would make them achievable within a <strong><em>1 to 3 week sprint</em></strong> window. The use of a task management system should be considered to better structure these efforts collaboratively using the standard base template for the Data Team Board Setup.</p>
+<p>The backlog should initially cover all major components for a project based on the requirements process output. Once sprints begin for a project, the backlog should also reflect major and minor improvements derived from updated product owner’s requirements. The scrum master and team have control over the granularity of the backlog tasks, determining when to break a task into subtasks. These subtasks are generated to fit a particular sprint window or to add detail to an existing task/subtask.</p>
+<p>All tasks in the backlog must align with the product goal. This goal is the end product as outlined and detailed during the requirements process. The scrum master and team use the product goal to prioritize and scope sprints for optimal productivity. To this end, the task management system used must utilize burndown and velocity charts to track progress towards the final product goal and adjust resources as needed during sprint planning and daily scrum meetings.</p>
+<blockquote>
+<div><p>Refer to the <strong><em>Requirements</em></strong> section for details on the requirements practices and template schemas.</p>
+</div></blockquote>
+</div>
+<div class="section" id="sprint">
+<h4>Sprint<a class="headerlink" href="#sprint" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Roles</p>
+<ul>
+<li><p>Scrum Master</p></li>
+<li><p>Team</p></li>
+</ul>
+</li>
+</ul>
+<p>Sprints are one to three week events in which prioritized tasks are ordered and scoped for completion. The regularity and structure provided by a sprint minimizes the need for meetings outside of standard Scrum events. Leveraging sprints results in increased transparency and optimization of team efforts and system resources. Shorter sprints can be leveraged for exploratory engagements for product conceptualization while longer sprints can be leveraged for complex feature implementations that adapt around personnel and infrastruture limitations. The sprints are designed to give the scrum team flexibility to adapt to the conditions for successful product goal fulfillment.</p>
+<p>A sprint must observe a few general guidelines.</p>
+<ul class="simple">
+<li><p>First, the product backlog is refined as needed (e.g., tasks, subtasks, task omissions).</p></li>
+<li><p>Second, the quality of the product or service must be as good or better than when the sprint began (e.g., product or service is increasingly acheiving the definition of done as outlined in the product goal).</p></li>
+<li><p>Third, no changes should be made to the sprint and its goal post-planning, but scope can be renegotiated if the product owner introduces compelling justification (e.g., the end customer has cancelled the project or their has been demand for changes that would constitute a completely new business requirements engagement).</p></li>
+</ul>
+<p>What follows are Scrum events that generally constitute a sprint workflow.</p>
+<ul class="simple">
+<li><p><strong>Sprint Planning</strong> - The Scrum Team discussed and finalizes a plan for what tasks are to be completed for a given sprint. The plan should address why the sprint is valuable towards the product goal, what tasks are to be done, and how each task will be completed. Tasks from the Product Backlog may be reviewed, refined, broken into subtasks, and placed into the Sprint Backlog for a Sprint. Each task should be checked to ensure they have a <em>Definition of Done</em> and projected duration prior to sprint inclusion. Finally, the Scrum Master will present the Sprint concept to the Product Owner to ensure its inline with the Product Goal and current requirements.</p></li>
+<li><p><strong>Sprint Backlog</strong> - The sprint backlog is the prioritized list of tasks from the product backlog to be completed during the sprint. This list is populated following the Sprint Planning event. The sprint backlog and the rationale behind completing its tasks towards the Product Goal should be captured in the Sprint Goal (placed in the Sprint Goal card for each sprint using the information from the Sprint Planning event).</p></li>
+<li><p><strong>Scrum Checks</strong> - This is traditionally called the <strong><em>Daily Scrum</em></strong> in which the Scrum Team check in at the same time, everyday, for 15 minutes for updates and adjustment to the Sprint. Within the scope of the ciuTshi framework and simplified communications technologies, Scrum Masters may dictate an alternative method and interval to substitute for the daily, en-vivo meeting. Such methods may include a regular deadline for task label updates, a regular summary message via the task card comment section, and 1-on-1 meetings with team members for identified sprint challenges and task delegation shifts. In addition to the Scrum Team check-in, there may also be a similar, higher-level check-in for Scrum Masters across different projects. This Scrum Masters Check would improve communications on parallel efforts, identify shared challenges, and encourage rapid adjustments across projects for increased efficiencies and reduced conflicts as multiple sprints occur simultaneously.</p></li>
+<li><p><strong>Sprint Review</strong> - The sprint review is another planning meeting held at the conclusion of a sprint. This meeting guages the effects of the sprints on the product goal, discussing any shifts in the tasks, the effects on task completion due to shifts, and refinement of the Product Backlog prior to the next Sprint. This should take no longer than three hours to complete. The Scrum Master will take the outcomes from this meeting to the Product Owner: this engagement will aid in setting the scope and direction for the next sprint. Burndown and velocity charts should be updated at this time. The Scrum Master should maintain these reviews for documentation during the final product retrospective.</p></li>
+<li><p><strong>Sprint Retrospective</strong> - Similar to the sprint review, the sprint retrospective is a meeting held at the end of a sprint to review process improvements and adjustments to quality standards for the sprint team. Stated another way, the sprint retrospective is team-focused where the sprint review is product focused. This should cover topics such as individual challenges, social conflicts, and challenges with processes or tools. This should take no longer than three hours to complete. The Scrum Master can use the best practices and challenges from the Team to shift resources and personnel to improve following sprints and the product’s Definition of Done. The Scrum Master should maintain these retrospectives for documentation during the final product retrospective.</p></li>
+</ul>
+</div>
+<div class="section" id="potential-mvp">
+<h4>Potential MVP<a class="headerlink" href="#potential-mvp" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Roles</p>
+<ul>
+<li><p>Product Owner</p></li>
+<li><p>Scrum Master</p></li>
+</ul>
+</li>
+</ul>
+<p>In the course of completing a sprint, this may coincide with the Product Owner’s Minimal Viable Product (MVP) for the data product or service. The definition of the MVP should be in the final requirements and reflected in the Product Goal. The MVP is generally acheived when all tasks have been completed to a state of Done, fulfills the minimum necessary outcomes as defined by the Product Owner, and meets the sufficient quality standards as defined by the Scrum Team. The MVP status should be indicated for a given sprint in the Sprint Goals during the Planning phase. This status should also be tracked for any outstanding features that may delay verification and delivery of the MVP to the Product Owner. Scrum Masters should increase Scrum Checks and communication with the Product Owner to make sure timelines and MVP standards are known and agreed upon. This increased communication endeavors to avoid unneccessary stoppages or emmergent challenges for the Team. It may be advisable for the Scrum Master to tentatively plan a proceeding number of Sprints to account for any anticipated requirement addendums derived from initial customer and Product Owner interactions.</p>
+</div>
+<div class="section" id="retrospective">
+<h4>Retrospective<a class="headerlink" href="#retrospective" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Roles</p>
+<ul>
+<li><p>Product Owner</p></li>
+<li><p>Scrum Master</p></li>
+<li><p>Team</p></li>
+</ul>
+</li>
+</ul>
+<p>Upon completion of a data product or service project, all stakeholders should hold a final retrospective to capture best practices, key performance indicators (KPI), and customer feedback. Stakeholders will also review internal process notes, remaining backlogs, and metrics (e.g., burndown and velocity charts). These reviews will account for any shifts required in the data operation practices or the Task Management document more specifically. Additionally, these artifacts may indicate other customers or derivative projects, providing new opportunities for research and outreach efforts.</p>
+</div>
+</div>
+<div class="section" id="artifacts-and-measures">
+<h3>Artifacts and Measures<a class="headerlink" href="#artifacts-and-measures" title="Permalink to this headline">¶</a></h3>
+<p>Over the course of the project, there are several artifacts and measures that must be structured and archived for the retrospective and reviews for a product.</p>
+<ul class="simple">
+<li><p><strong>Backlog</strong> Over the course of a project, the user stories and their adjustment due to requirements or sprints will be captured over the course of the project. Boards within the task management system should be version controlled weekly or whenever significant changes occur to the product goal or sprint scope.</p></li>
+<li><p><strong>Sprint Backlog</strong> The legacy of the sprint backlog and its associated changes is critical in the growth of improved sprint practices for existing and future projects. Sprint backlog should be captured by the version control process for the task management system.</p></li>
+<li><p><strong>Burndown Chart</strong> These charts will aid during the retrospective in addressing efficiencies and optimizations for the task management practices and the data operations system more broadly.</p></li>
+<li><p><strong>Velocity Chart</strong> These charts will aid in refining sprint processes which will be reflected in the task management practices and its associated documents.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="references">
+<span id="task-management-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Number</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Atwal, H. (2020). <em>Practical dataops: Delivering agile data science at scale.</em> UK: Apress.</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>Berkun, S. (2008). <em>Making things happen: Mastering project management.</em> Sebastopol, CA: O’Reilly Media Inc.</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>Ladley, J. (2019). <em>Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)</em>. San Diego, CA: Academic Press.</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>Harvard Business Review. (2018). <em>HBR Guide to Data Analytics Basics for Managers (HBR Guide Series)</em>. Boston, MA: Harvard Business Review Press.</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>Agile (2001). <em>Manifesto for agile software development</em>. Available at https://agilemanifesto.org/</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>Scrum (2020). <em>Scrum Guides</em>. Available at https://scrumguides.org/</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>DevSecOps (2020). <em>DevSecOps</em>. Available at https://www.ibm.com/cloud/learn/devsecops</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="requirements.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Requirements</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="version_control.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Version Control</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,743 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Storage &#8212; data knowledge made easy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Modeling" href="modeling.html" />
+    <link rel="prev" title="Ethics" href="ethics.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_management.html">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="analytics.html">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="integration.html">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/storage.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lifecycle-management">
+     Lifecycle Management
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-acquisition">
+       Data Acquisition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-load-and-access-forms">
+       Data Load and Access Forms
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#loading-data">
+       Loading Data
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#data-mining">
+         Data Mining
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#pipelines">
+         Pipelines
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#trusted-transfer-agent-tta">
+         Trusted Transfer Agent (TTA)
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-storage">
+       Data Storage
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#raw-data">
+         Raw Data
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#mastered-data">
+         Mastered Data
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#naming-standards">
+         Naming Standards
+        </a>
+        <ul class="nav section-nav flex-column">
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#directory-structures">
+           Directory Structures
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#change-implementation">
+       Change Implementation
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#retention-expiration-and-disposition">
+       Retention, Expiration, and Disposition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#quality-assurance">
+       Quality Assurance
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Storage</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lifecycle-management">
+     Lifecycle Management
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-acquisition">
+       Data Acquisition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-load-and-access-forms">
+       Data Load and Access Forms
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#loading-data">
+       Loading Data
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#data-mining">
+         Data Mining
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#pipelines">
+         Pipelines
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#trusted-transfer-agent-tta">
+         Trusted Transfer Agent (TTA)
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#data-storage">
+       Data Storage
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#raw-data">
+         Raw Data
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#mastered-data">
+         Mastered Data
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#naming-standards">
+         Naming Standards
+        </a>
+        <ul class="nav section-nav flex-column">
+         <li class="toc-h6 nav-item toc-entry">
+          <a class="reference internal nav-link" href="#directory-structures">
+           Directory Structures
+          </a>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#change-implementation">
+       Change Implementation
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#retention-expiration-and-disposition">
+       Retention, Expiration, and Disposition
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#quality-assurance">
+       Quality Assurance
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="storage">
+<h1>Storage<a class="headerlink" href="#storage" title="Permalink to this headline">¶</a></h1>
+<p>Storage of data assets remains a critical challenge area. Data assets are maintained in varying formats across different architectures within multiple systems. These dimensions require consistent cataloging and documentation practices, ensuring metadata curation and searchability. These challenge areas require consideration of what to store, how to store it, and what archival practices are required to facilitate efficient starts and stops in the data lifecycle.</p>
+<p>ciuTshi suggests a simplified storage system to ensure secure and consistent inter-system compliance. Such a system will create a stable foundation for data management practices such as lifecycle management. Tasks such as delineating raw and processed data within rigorous storage guidelines enables essential research practices such as sampling and exploratory data analysis (EDA). This simple, consistent, and rigorous system of storage promotes utilization of data asset documentation and artifacts for stakeholder insight and customer metrics. This produces a lifecycle management paradigm grounded in contextualized data asset classes for an enriched approach to data operations.</p>
+<p>This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi’s data management practices draw from DAMA<a class="reference internal" href="#storage-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this document’s sections, refer to the references section.</p>
+<div class="section" id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<p>Institutions invest heavily into data assets with a number of technologies and industry partners. As a result, organizations require an array of data and technical support systems to maintain the utilization of those assets. These data assets must provide internal customers the opportunity to access and explore data holdings, encouraging reuse of those assets within a shared system of best practices from acquisition to archive. Instutitions also require an enhanced requirements system to drive data storage within consistent data lifecycle management. To these ends, the accuracy and consistency by which data is stored and structured is critical for enabling innovative products and services. Tasks such as production of consistent data type standards, formatting, metadata, and documentation enable rigorous planning, optimization of modeling, and delivery of data assets to internal customers and stakeholders.</p>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Enable consistent data lifecycle management through observance of storage best practices across multiple data systems</p></li>
+<li><p>Maintain data integrity of stored data through modularizing practices that are applied consistently, implemented rigorously, and documented for reuse and exploratory analysis</p></li>
+<li><p>Optimize data asset performance through a grounded storage system which integrates into larger data operations practices while minimizing interuptions within data management practices</p></li>
+</ul>
+</div>
+<div class="section" id="processes">
+<h2>Processes<a class="headerlink" href="#processes" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Data Overview - Storage" src="_images/dm_overview_storage.png" /></p>
+<div class="section" id="preliminary-tasks">
+<h3>Preliminary Tasks<a class="headerlink" href="#preliminary-tasks" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="security-and-system-compliance">
+<h4>Security and System Compliance<a class="headerlink" href="#security-and-system-compliance" title="Permalink to this headline">¶</a></h4>
+<p>Refer to the security and content management documents for guidance and templating of data asset storage content. This should cover considerations on data security and guiding policies.</p>
+</div>
+<div class="section" id="role-and-responsibilities">
+<h4>Role and Responsibilities<a class="headerlink" href="#role-and-responsibilities" title="Permalink to this headline">¶</a></h4>
+<p>These are the roles currently associated with data storage practices:</p>
+<ul class="simple">
+<li><p>Data Manager</p></li>
+<li><p>Deputy Data Manager</p></li>
+<li><p>Project Manager</p></li>
+<li><p>Legal Counsel</p></li>
+<li><p>Project Lead</p></li>
+<li><p>Data Management Team</p></li>
+<li><p>Project Team</p></li>
+<li><p>Data Engineers</p></li>
+<li><p>Data Owners</p></li>
+<li><p>Data Stewards</p></li>
+<li><p>Trusted Transfer Agent</p></li>
+</ul>
+<p>Refer to your institution’s policy (if present) as these roles and their definitions may change depending on organization structure, system access, and team compositions.</p>
+</div>
+</div>
+<div class="section" id="lifecycle-management">
+<h3>Lifecycle Management<a class="headerlink" href="#lifecycle-management" title="Permalink to this headline">¶</a></h3>
+<p>Lifecycle management for data storage focuses on maintaining the integrity of the raw data assets and their associate processes. This maintenance ensures optimizations can be pursued to enable improvements in the performance and quality of the data assets throughout its lifecycle. Consistent storage practices observe system-specific security requirements as dictated by institutional policy and data customer agreements. For additional details on essential data quality practices and requirements, please refer to the quality assurance document.</p>
+<div class="section" id="data-acquisition">
+<h4>Data Acquisition<a class="headerlink" href="#data-acquisition" title="Permalink to this headline">¶</a></h4>
+<p>Prior to acquiring new data, data management should check existing data assets to ensure that there is no duplication of effort. This is ideally performed using the data catalog which should hold all data assets known to an institution and their associated data artifacts. If the new data does not exist, clear requirements must be drafted to ensure the acquisition is aligned with the institution’s mission and goals. The new data requester will gather additional documents to ensure lifecycle planning is implemented in accordance to customer requirements. The requester will then submit this information to initiate the data management system for data product and service delivery.</p>
+</div>
+<div class="section" id="data-load-and-access-forms">
+<h4>Data Load and Access Forms<a class="headerlink" href="#data-load-and-access-forms" title="Permalink to this headline">¶</a></h4>
+<p>Once all documents and requirements are established from the acquisition phase, the requestor of the raw data asset will complete the data load and data access forms. These forms control and refine storage and security standards:</p>
+<ul class="simple">
+<li><p><em>Load Forms</em> direct the loading of new data to specified data systems.</p></li>
+<li><p><em>Access Forms</em> track requests to view and use raw data including assets held and maintained for previously approved projects.</p></li>
+</ul>
+<p>These standards, along with metadata and documentation, facilitate the data modeling and delivery practices that will proceed the data load and access form approvals. Data load and access forms are fundamental in the transfer of data between different systems, making them instrumental in securing data in accordance with institutional policy, data provider guidance, and customer agreements. Copies of the approved forms will be stored along with the raw data as artifacts for later analysis and exploration.</p>
+</div>
+<div class="section" id="loading-data">
+<h4>Loading Data<a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h4>
+<p>Once the data request is assessed, required documents are obtained, and data load or access form is completed and approved, the data management team will proceed with loading the data. The team will setup task management and version control resources as outlined in task management and version control documents. Once setup, the data engineers will identify the technical requirements for loading the data into storage, structuring these tasks in the task management tools for sprints. Once sprints begin, the data management team will build pipelines based on the delivery medium for the raw data assets.</p>
+<div class="section" id="data-mining">
+<h5>Data Mining<a class="headerlink" href="#data-mining" title="Permalink to this headline">¶</a></h5>
+<p>Commercially-available data is a predominant class of raw data asset. Obtaining external or raw data from a variety of data providers or endpoints may be required to bring data assets into an instition’s multiple data architectures. Data mining covers the methods and code required to interact with the organizations, people and technical infrastructure associated with extraction and loading of raw data from a data owner. Notes on these data artifacts will constitute portions of the metadata and version control contributions for a particular data asset.</p>
+</div>
+<div class="section" id="pipelines">
+<h5>Pipelines<a class="headerlink" href="#pipelines" title="Permalink to this headline">¶</a></h5>
+<p>Expanding on the concept of data mining, pipelines constitute the technical models, tools, and code used to get data assets from the delivery medium to raw data storage location on an identified data architecture (per the data load or data access form requirements). The model documentation and/or code must be version controlled.</p>
+</div>
+<div class="section" id="trusted-transfer-agent-tta">
+<h5>Trusted Transfer Agent (TTA)<a class="headerlink" href="#trusted-transfer-agent-tta" title="Permalink to this headline">¶</a></h5>
+<p>The TTA authorized personnel ensure that data assets are appropriately staged and reviewed prior to loading onto the identified data architecture. Their responsibilities include completion, review, and approval of a TTA security forms (e.g., load and access forms) prior to loading the data from its staging area onto the required data architecture.</p>
+<blockquote>
+<div><p>Notes: TTA forms will be maintained in accordance with institutional policy.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="data-storage">
+<h4>Data Storage<a class="headerlink" href="#data-storage" title="Permalink to this headline">¶</a></h4>
+<p>Data assets have an expiration date whether through the need for refresh of reference data or obsolescence of more specific project data. Data management personnel should persistently observe and maintain adherence to policy and guidance on the lifecycle for data assets, ensuring stored data is required and that deprecation and archival actions are executed when necessary.</p>
+<p>Data storage is data architecture specific. Institutions may have multiple systems, each with unique requirements for data storage, access, and utilization. As a result, the data management team must ensure tracking of assets across these systems, maintaining parity across data catalogs and raw data storage holdings. In all cases, forms and essential documentation should be co-located with raw data assets to enable simplified review and lifecycle actions.</p>
+<div class="section" id="raw-data">
+<h5>Raw Data<a class="headerlink" href="#raw-data" title="Permalink to this headline">¶</a></h5>
+<p>ciuTshi suggests a modular, data-processing approach to data management. This means that only raw data assets are held in state for any prolonged period of time: all data endpoints have a deprecation date. Raw data must be reviewed, refreshed, deprecated, or archived based on established requirements and guidance from the data governance board.</p>
+</div>
+<div class="section" id="mastered-data">
+<h5>Mastered Data<a class="headerlink" href="#mastered-data" title="Permalink to this headline">¶</a></h5>
+<p>Mastered data will be preserved in two forms: data endpoints and data samples. The raw data will be used to produce a data endpoint per customer requirements for the specified lifecycle of the endpoint. This may be a database, API implementation, or any number of data architecture-specific tools. Mastered data must also be sampled for inclusion in the data catalogs per data management specifications and policy.</p>
+</div>
+<div class="section" id="naming-standards">
+<h5>Naming Standards<a class="headerlink" href="#naming-standards" title="Permalink to this headline">¶</a></h5>
+<p>In order to maintain parity across system and data architectures, there must be baseline naming and tagging standards. These standards encourage consistent metadata and documentation for data assets, maximizing the data management teams ability to ensure ROI for a particular data assets and its associated utilities.</p>
+<div class="section" id="directory-structures">
+<h6>Directory Structures<a class="headerlink" href="#directory-structures" title="Permalink to this headline">¶</a></h6>
+<p>At the top-level of the storage structure, certain nomenclature practices must be observed:</p>
+<ul class="simple">
+<li><p>Nomenclature</p>
+<ul>
+<li><p>d - datasets, e.g. “d-wipo”</p></li>
+<li><p>a - applications, e.g. “a-looker”</p></li>
+<li><p>u - users, e.g. “u-last_first”</p></li>
+<li><p>p - projects, e.g. “p-emissive”</p></li>
+</ul>
+</li>
+</ul>
+<p>Within these top-level folders, there are several sub-folders with specific functions:</p>
+<ul class="simple">
+<li><p><em>data_load_access</em> - Contains copies of the data load and data access forms.</p></li>
+<li><p><em>data_documents</em> - Contains any documents provided by customers or data providers that act as source information for data cataloging and metadata elements</p></li>
+</ul>
+<blockquote>
+<div><p>Note: These may vary based on the data asset: adapt the Naming Standards section as needed.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+<div class="section" id="change-implementation">
+<h4>Change Implementation<a class="headerlink" href="#change-implementation" title="Permalink to this headline">¶</a></h4>
+<p>Following the initial extraction and loading of raw data into a data architecture for modeling and integration, the customer may shift requirements for the data assets currently being stored. The customer must present an addendum to the their original requirements detailing what changes are needed with timelines and shifts in integration. Once requirements are approved and documented, task management will then plan for implementation of the changes. These changes must be noted in the raw data storage areas, data catalog metadata and sample holdings, and version control system for any model, code, or tool shifts.</p>
+</div>
+<div class="section" id="retention-expiration-and-disposition">
+<h4>Retention, Expiration, and Disposition<a class="headerlink" href="#retention-expiration-and-disposition" title="Permalink to this headline">¶</a></h4>
+<p>Once the data management team has fulfilled all requirements for endpoints, they will shift to monitoring the data assets for retention, expiration, and disposition. Retention of data requires additional guidance and documentations to shift the raw data holdings into reference data status for persisted storage and maintenance. Expired data is to be deleted from the storage area. However, the documentation, forms, and other data artifacts surrounding the raw data are to be maintained unless otherwise specified. Lastly, some raw data may be stored and maintained for longitudinal study. These data sets are to be archived through specified disposition instructions, shift them from more readily accessible data storage locations into compressed archival data stores. These archives must comply with security policies in place for the institution and their associate data architectures.</p>
+</div>
+<div class="section" id="quality-assurance">
+<h4>Quality Assurance<a class="headerlink" href="#quality-assurance" title="Permalink to this headline">¶</a></h4>
+<p>Refer to above sections and the quality assurance document for additional details and policy on quality standards and considerations.</p>
+</div>
+</div>
+</div>
+<div class="section" id="references">
+<span id="storage-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Number</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). <em>DAMA-DMBOK: Data management body of knowledge (2nd Ed.).</em> Basking Ridge, NJ: Technics Publications.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="ethics.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Ethics</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="modeling.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Modeling</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

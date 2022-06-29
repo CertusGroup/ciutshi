@@ -1,0 +1,642 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Integration &#8212; data knowledge made easy</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Metadata" href="metadata.html" />
+    <link rel="prev" title="Analytics" href="analytics.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_management.html">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="storage.html">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="analytics.html">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/integration.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lifecycle-management">
+     Lifecycle Management
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#plan-and-assess">
+       Plan and Assess
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#design">
+       Design
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#databases">
+         Databases
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#application-programming-interface-api">
+         Application Programming Interface (API)
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#develop">
+       Develop
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#delivery-and-assessment">
+       Delivery and Assessment
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#implement">
+         Implement
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#data-provenance">
+         Data Provenance
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#monitor">
+         Monitor
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Integration</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#challenge">
+   Challenge
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#goals">
+   Goals
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#processes">
+   Processes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preliminary-tasks">
+     Preliminary Tasks
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#security-and-system-compliance">
+       Security and System Compliance
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#role-and-responsibilities">
+       Role and Responsibilities
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#lifecycle-management">
+     Lifecycle Management
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#plan-and-assess">
+       Plan and Assess
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#design">
+       Design
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#databases">
+         Databases
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#application-programming-interface-api">
+         Application Programming Interface (API)
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#develop">
+       Develop
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#delivery-and-assessment">
+       Delivery and Assessment
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#implement">
+         Implement
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#data-provenance">
+         Data Provenance
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#monitor">
+         Monitor
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#references">
+   References
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="integration">
+<h1>Integration<a class="headerlink" href="#integration" title="Permalink to this headline">¶</a></h1>
+<p>Institutions and their projects will likely encounter a number of integration challenges: from delivery of requirement-specified data products to preservation of the data asset provenance including monitored changes over time. As a result, ciuTshi suggests a modular approach to data asset integration through a tool-agnostic guide to data delivery that facilitates both legacy and planned data endpoints. This approach intends to reduce the costs associated with maintaining data in lakes and other endpoints through tighter data governance practices and metrics. The governance practices do not compromise the speed and flexibility required for projects, ensuring resource utilization is optimized per requirements to maximize data asset value and reduce time on data task.</p>
+<p>This document will outline the baseline for data integration practices, directing data engineers to content management systems and catalogs for details on specific data architecture implementations. ciuTshi’s data management system draws from DAMA<a class="reference internal" href="#integration-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this documents sections, refer to the references section.</p>
+<div class="section" id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<p>Institutions need consistent endpoint delivery for secure and high-quality data asset utilization. Customers deal with an increasing number of data assets per project and as a result demand persistent access and consistent quality. Similarly, stakeholders and data partners may require enrichment and process knowledge regarding data asset utilization. These points allude to the impact of sharing deep knowledge on data utilization and implementation. However, these methods can be abstracted and modularized for more broad internal application and external stakeholder transition. Institutions need to perform this task across multiple information systems and data architectures, making adaptive best practices a necessity for data management teams tracking system variations. An integration baseline would bring together all aspects of this challenge, from storage and modeling to analytics, metadata and cataloging: their quality having direct impact on the quality of integration practices.</p>
+</div>
+<div class="section" id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Deliver data securely across systems and organizations using documented and tested endpoint transition practices</p></li>
+<li><p>Develop shared interfaces for modeled data resulting in increased value and reduced complexity for timely delivery of data products</p></li>
+<li><p>Enable event detection and alerts for shifts in integration activity resulting in proactive detection of systemic issues</p></li>
+<li><p>Support customer requirements through adaptive endpoint implementations grounded in data management best practices for improved stakeholder outcomes</p></li>
+</ul>
+</div>
+<div class="section" id="processes">
+<h2>Processes<a class="headerlink" href="#processes" title="Permalink to this headline">¶</a></h2>
+<p><img alt="Data Overview - Integration" src="_images/dm_overview_integration.png" /></p>
+<div class="section" id="preliminary-tasks">
+<h3>Preliminary Tasks<a class="headerlink" href="#preliminary-tasks" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="security-and-system-compliance">
+<h4>Security and System Compliance<a class="headerlink" href="#security-and-system-compliance" title="Permalink to this headline">¶</a></h4>
+<p>Refer to the security and content management documents for guidance and templating of data asset integration content. This should cover considerations on system restrictions and guiding policies.</p>
+</div>
+<div class="section" id="role-and-responsibilities">
+<h4>Role and Responsibilities<a class="headerlink" href="#role-and-responsibilities" title="Permalink to this headline">¶</a></h4>
+<p>These are the roles currently associated with data integration practices:</p>
+<ul class="simple">
+<li><p>Data Manager</p></li>
+<li><p>Deputy Data Manager</p></li>
+<li><p>Project Manager</p></li>
+<li><p>Legal Counsel</p></li>
+<li><p>Project Lead</p></li>
+<li><p>Data Management Team</p></li>
+<li><p>Project Team</p></li>
+<li><p>Data Engineers</p></li>
+<li><p>Data Owners</p></li>
+<li><p>Data Stewards</p></li>
+<li><p>Trusted Transfer Agent</p></li>
+</ul>
+<p>Refer to the content management system documents for integration practices on specific information systems, specific data architectures, and their associated roles.</p>
+</div>
+</div>
+<div class="section" id="lifecycle-management">
+<h3>Lifecycle Management<a class="headerlink" href="#lifecycle-management" title="Permalink to this headline">¶</a></h3>
+<p>Integration is focused on the design, development, and deployment of data endpoints to specified data architectures. This requires careful planning and analysis for not only the technical endpoint solution itself, but for the security and policy contingencies that limit the solutions functionalities and access. Though each information system architecture varies, baseline capabilities exist that allow data teams to plan and structure their best practices for incremental deployments while concurrently addressing critical engineering challenges.</p>
+<div class="section" id="plan-and-assess">
+<h4>Plan and Assess<a class="headerlink" href="#plan-and-assess" title="Permalink to this headline">¶</a></h4>
+<p>Prior to engaging with planning and analysis, the verified and validated data model must be accessible with a sufficient data profile. These pre-requisites situate and frame the integration solution for a quicker customer assessment and delivery. Requirements will largely drive the type of endpoint and its deployment location. This allows the data management team to better delegate data engineering tasks within a scoped endpoint lifecycle. Additional data discovery may be required depending on requirement addendums or disparities found during data modeling. Data asset outputs should be checked for expected format and quality. Documentation and metadata should be updated in appropriate CMS and data catalogs to ensure data lineage, data provenance, and analytics profiles match the expected outputs from the endpoint. Though policy should be verified during the data load and access phases of storage, a final check should be conducted to ensure the data asset being delivered is in line with data provider, data steward, customer, and stakeholder stipulations.</p>
+</div>
+<div class="section" id="design">
+<h4>Design<a class="headerlink" href="#design" title="Permalink to this headline">¶</a></h4>
+<p>Once integration for a data asset is planned and verified, the data management team will design the final endpoint. This design will outline the data architecture resources, data engineering personnel, and their associated metrics for the development and deployment phases. Key tools and components should be identified from the institution’s common data operations baselines across all relevant systems, ultimately building the endpoint upwards based requirements-driven complexity. The context of architecture and requirements should help identify early blockers so solutions can be rapidly mobilized. Diagrams should be drafted for documentation on source to target flows, detailing the technologies and their function in support of the endpoint. These flows should make clear the data orchestration for the data asset. Keeping the asset at the center of design allows for optimized integration processes in support of the requirements. These processes will outline the ability to track dependencies, logs, alerts, and other issues both during development testing and post-deployment.</p>
+<div class="section" id="databases">
+<h5>Databases<a class="headerlink" href="#databases" title="Permalink to this headline">¶</a></h5>
+<p>Databases are a common endpoint for data assets. Requirements may dictate a specific database or may have left this at the engineer’s discretion. Regardless, documentation and metadata should be referenced to verify the scheme selected for the data asset. This verification should narrow the selection of a database for the endpoint. Specific management and deployment practices should be referenced in the target systems data architecture CMS documentation.</p>
+</div>
+<div class="section" id="application-programming-interface-api">
+<h5>Application Programming Interface (API)<a class="headerlink" href="#application-programming-interface-api" title="Permalink to this headline">¶</a></h5>
+<p>APIs are common endpoint solutions. With requirements, such as advanced data visualization and integration of numerous technologies, tools, and frameworks, data endpoints must support more API features each year. This support requires an expanded array of solutions to be available to the data management team which must then be implemented for delivery of the data product to the customer. However, security and policy issues must be addressed as many of these API endpoints can open the institution and the customer(s) to unknown risks associated with access compromises and data leakages. Data owners and stewards should be notified in case third-party API endpoints are not working as outlined in the requirements or if the requested endpoint presents a known risk within the selected data systems or architectures.</p>
+</div>
+</div>
+<div class="section" id="develop">
+<h4>Develop<a class="headerlink" href="#develop" title="Permalink to this headline">¶</a></h4>
+<p>Upon completing and verifying the integration solution with the customer, development and testing may proceed. Resources will be deployed in line with the design, observing when metrics will be collected and observed for each element. Previous storage, modeling, and analysis efforts will be mobilized to facilitate the flow of data to the endpoint. Testing should be implemented as designed to ensure verification of the process, access to metrics, and verification of alerts in case failures occur. Essential functions such as migration and publication from the endpoint should be tested to ensure access and transition are possible. Lastly, documentation and metadata should be update with pertinent information on testing benchmarks, additional metrics, and design details not originally planned.</p>
+</div>
+<div class="section" id="delivery-and-assessment">
+<h4>Delivery and Assessment<a class="headerlink" href="#delivery-and-assessment" title="Permalink to this headline">¶</a></h4>
+<p>The final stage for integration is delivery and monitoring. Prior to implementation, ensure tests have passed and stakeholders are notified of the endpoint’s deployment status. Final checks should be followed with documentation updates and monitoring the endpoint for the remainder of its defined lifecycle.</p>
+<div class="section" id="implement">
+<h5>Implement<a class="headerlink" href="#implement" title="Permalink to this headline">¶</a></h5>
+<p>Per the requirements, deploy the integration solution. Any blockers or additional challenges should be communicated to the data steward and customer quickly to ensure delivery timeline adjustments, and their associated costs, are minimal.</p>
+</div>
+<div class="section" id="data-provenance">
+<h5>Data Provenance<a class="headerlink" href="#data-provenance" title="Permalink to this headline">¶</a></h5>
+<p>The data catalog is a persistent utility through which metadata captures lineage and provenance information for the data assets. Metadata on lineage beyond the endpoint should be recorded once verified by the customer and monitoring alerts. These metadata contributions will likely be data architecture contingent, but the lineage of where the data asset goes upon endpoint deployment should be recorded.</p>
+</div>
+<div class="section" id="monitor">
+<h5>Monitor<a class="headerlink" href="#monitor" title="Permalink to this headline">¶</a></h5>
+<p>Within the data architecture for a deployed endpoint, the data management team must coordinate tasks and lifecycle benchmarks for monitoring alerts, logs, and other essential endpoint data artifacts. When issues in the integration solution arise, additional requirements must be defined, approved, and completed by the data management team. Once requirements are received, the team will be able to rapidly action the issue.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="references">
+<span id="integration-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Number</p></th>
+<th class="head"><p>Reference</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). <em>DAMA-DMBOK: Data management body of knowledge (2nd Ed.).</em> Basking Ridge, NJ: Technics Publications.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="analytics.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Analytics</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="metadata.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Metadata</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
