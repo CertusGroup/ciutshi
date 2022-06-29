@@ -12,4 +12,4 @@ Data professionals seeking solutions to data management, governance, and operati
 
 ## Why does this exist?
 
-Data management and data governance should not be costly or require complex tools: you just need consistent and rigorous practices that help you accumulate useful system information over time.
+Data management and data governance should not be costly or require complex tools: you just need consistent and rigorous metadata practices that help you accumulate useful data collection and data system information over time.
