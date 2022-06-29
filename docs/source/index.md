@@ -1,5 +1,7 @@
 # ciuTshi
 
+Release v0.1.0
+
 ## The Adaptable Data Operations Framework
 
 ciuTshi is a simplified collection of data practice modules for establishing and building up your data best practices. Understanding that each data challenge is unique, the framework's application can be tailored to develop repeatable data processes for valid models and critical data-driven decisions. The use of ciuTshi will result in a higher quality of data and, as a result, improve the value of data-driven decisions derived from solid metrics and advanced data science models.
