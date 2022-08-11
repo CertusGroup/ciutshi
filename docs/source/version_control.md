@@ -16,6 +16,8 @@ Data engineering and data analysis practices are increasingly hybrid, using a mi
 
 ## Processes
 
+![VCS Overview](static/images/do_overview_vcs.png)
+
 The following practices are intended to be adapted, augmented, or omitted as needed. This ensures that artifacts associated with data products or services are efficiently cataloged and backed up for later reference and utilization.
 
 ### Concepts and Roles
