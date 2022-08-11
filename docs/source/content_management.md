@@ -22,6 +22,8 @@ ciuTshi's suggests a tech-agnostic approach to consolidating project, data, and 
 
 ## Content Management Plan
 
+![CMF Overview](static/images/cm_overview.png)
+
 ciuTshi uses a template and rubric approach to content generation and documentation.
 
 ### Templates
