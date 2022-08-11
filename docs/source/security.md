@@ -23,16 +23,18 @@ ciuTshi suggests optimal security practices at the forefront of all data asset m
 
 Due to institutional regulations associated with security practice implementations, much of the implementation details should be stored on content management systems at the appropriate security access levels. Security personnel should also make security and classification training available which should be refreshed yearly or with policy changes.
 
-### Roles and Responsibilities
+### Roles
 
-* __*Stakeholder*__ - is a person or group that is primarily impacted by data operations outcomes. Stakeholders often have significant impact on requirements and product delivery.
-* __*Data Owner*__ - is the person or group that owns the rights to the data asset and shares, sells, or licenses said data asset to others for specified utilization.
-* __*Data Steward*__ - is in charge of moving a data asset into data operations and maintaining vigilance of data asset utilization within data management. This vigilance does not indicate they are involved in data management, only that they maintain their accountability of the asset within the terms of agreement they have with the data owner.
-* __*Data Manager*__ - is in charge of data management practices applied to the data assets within specified data architectures. This responsibility includes security and ethics practices central to institutional policy and data owner agreements.
-* __*Information Security Manager*__ - is in charge of content and knowledge management pertaining to security practices for a specified data asset. This management includes observation of transfers of the data asset within classification and policy boundaries.
-* __*Information Assurance*__ - is the cummulative accountancy of quality assurance practices including security and ethics encompassing requirements and legal agreements pertaining to a data asset. Information assurance is a level of a quality control that ensures data and information security are within compliance and that reflections of this compliance are capture in the metadata for a data asset.
+* __*Stakeholder*__
+* __*Data Owner*__
+* __*Data Steward*__
+* __*Data Manager*__
+* __*Information Security Manager*__
+* __*Information Assurance*__
 
 ### Security Guidelines
+
+![SEC Overview](static/images/do_overview_sec.png)
 
 There are several data security standards to consider in a complete data asset workflow. Coordination must be made to establish and regulate access to the data assets and its associated data systems. Security managers, information assurance, and data stewards must have purview into these practices, auditing the practices for compliance. There must be a way to authenticate data asset handling for the data owner to demonstrate rigor to stakeholders and data owners: often via a series of audit logs and metrics found in content management and data managements systems. These logs and metrics indicate authorization and entitlements compliance as established in the requirements and is enforced through roles within data operations.
 
