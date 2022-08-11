@@ -154,7 +154,7 @@ Data models must be interpretable within and across data sets. This interpretabi
 
 Why go to all the trouble of adopting and applying ciuTshi? The reason is simple: the purpose of building data context is to build and leverage information that drives institutional knowledge and leadership decision models. The more this data practice is observed and the more it improves over time, the less work and time is needed to repeat the same tasks. This liberates data professionals to experiment, update, and improve data systems without compromising or neglecting standard data practices. Additionally, the consistent and rigorous application of metadata practices within MDM and data warehouses permits an organization to leverage knowledge as an ontological unit of analysis for the organization itself. Agents, actants, processes, and entities specific to organizations are present as digital twins within knowledge-base systems: an accurate reflection of themselves in billions of contextualized records across thousands of data collections. Not only does this bolster the critical use of existing data-driven systems, it allows leaders at all levels of data and institutional operation to consider the vision, mision, and goals for their institution's tomorrow.
 
-> example ontology diagram
+![Graph Example](static/images/ontology.png)
 
 (summary/references)=
  
