@@ -66,6 +66,8 @@ Projects can process numerous single-use data sets across several projects and n
 
 ## Implementation
 
+![QA Overview](static/images/do_overview_qa.png)
+
 ciuTshi is a flexible framework of modular practices that guides quality assurance at each stage of data operations for the data management team. These practices will be persistently maintained across all systems by the data management team with feedback from the data governance board to enable systems implementations. These implementations will produce documentation of streamlined practices with attention to updated metadata within the data catalogs. These practices will fall within the overarching data strategy for a project or organization while accounting for necessary changes in data and project operations. These changes will be assessed for omission or inclusion in the overall data operations framework. These assessments will rely heavily on adequate and accurate reporting from personnel and the data systems through which the assests are stored, processed, and delivered.
 
 ### Data Quality Strategy
