@@ -20,6 +20,8 @@ Failure to gather requirements can be detrimental to data project success. As a 
 
 ## Defining Requirements
 
+![Requirements Overview](static/images/do_overview_req.png)
+
 The following practices are intended to be adaptable, iterative cycles for requirement refinement. This ensures the data products are clearly defined and as a result, delivered in a timely manner to a high-standard of quality and security.
 
 ### Roles
