@@ -22,7 +22,7 @@ copyright = '2022, Certus Core'
 author = "<a href='https://certusgroup.org' target='_blank'>Certus Core</a>"
 
 # The full version, including alpha/beta/rc tags
-release = '0.1.0'
+release = '0.2.0'
 
 
 # -- General configuration ---------------------------------------------------
