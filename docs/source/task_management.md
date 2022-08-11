@@ -24,6 +24,8 @@ The task management component of data operations should adhere to best practices
 
 ## Task Management Practices
 
+![TMS Overview](static/images/do_overview_tms.png)
+
 ciuTshi takes a Scrum approach to task management for data management. Scrum is a "lightweight framework that helps people, teams and organizations generate value through adaptive solutions for complex problems."[6](task_management/references) This system helps guide business requirements through the often complex process of deconstructing requirements into tasks for the backlog. The Scrum team then prioritize and organize tasks into sprints. These sprints can be iteratively adjusted and reviewed by stakeholders to ensure the product is delivered on time at a level of quality defined in the requirements.
 
 Scrum was selected as it is a simple and well-structured approach to task management. Sprints are an excellent approach for projects that are slated for shorter timeframes and may persist beyond the initial business requirements pending stakeholder review. As a result, a scrum team should "__*Keep it simple*__" when implementing these practices for a project. Simplicity allows stakeholders to maintain transparency and adaptability through cycles of inspection and adjustment to requirements and/or task assignment.
@@ -34,11 +36,11 @@ What follows is an abbreviated description of the Scrum process with variations 
 
 ### Roles
 
-In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.
+In the course of the task management process, there are key roles that aid the facilitation of data resources from data operations to project management.
 
-* __Product Owner__ - Submits finalized requirements into the Backlog. The product goal should be clear prior to submitting valid requirements. Clear goals assist in prioritization of backlog task for sprints.
-* __Scrum Master__ - Coordinates and manages sprints. The scrum master manages the team in a positive and productive manner to ensure tasks are completed within the sprint timeline. This includes training and coaching of team members. Scrum master also manages communication and conflicts between the product owner, sprint team, and the organizations as requirements and product expectations shift.
-* __Team__ - Executes on sprints through iterative task planning. These members assist in defining *Done* with the Scrum Master by guiding accountability and quality standards through daily checks and adjustments.
+* __Product Owner__
+* __Scrum Master__
+* __Scrum Team__
 
 ### Key Definitions
 
