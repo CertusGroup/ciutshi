@@ -40,6 +40,8 @@ Specific to data operations, it must manage data ethically within its communitie
 
 ## Implementation
 
+![ETH Overview](static/images/do_overview_eth.png)
+
 ciutshi suggests leveraging existing ethics guidelines with industry and data asset provider standards for the ethical handling and storage of data products and services. Content management systems (CMS) must be referenced for appropriate protective practices per those systems' data processing policies.
 
 Much of the following sections will be similar to topics covered in the security documentation as these topics are deeply connected. Ensure that care is taken in reviewing all associated documentation prior to aquiring data assets that may violate security and ethics guidelines for your project and its stakeholders.
