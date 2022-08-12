@@ -53,9 +53,9 @@ Templates and rubrics can be developed in any number of ways to suit the needs o
 
 Existing institutional policy regarding handling of varying levels of secure data should be observed when implementing content management practices. When in doubt, ask leadership and legal professionals to avoid unnecessary spillages or compromises of sensitive content.
 
-### Tagging
+### Tags, Labels, & Annotations
 
-Institutions must consider what data elements to label and how those labels add annotated information and dimension to metadata. Tags code data asset elements to ensure that the context and utilitzation of a data asset from requirements to delivery is understood by current and future data management professionals. Each institution's tagging methodology will vary, but it is something that must be consistently and rigorously adhered to: noting shifts through robost metadata collection for provenance in order to analyze the longitudinal value of a data asset for an organization. This system of tags must be appropriately accessible to data customers on each system's content management system.
+Institutions must consider what data elements to label and how those labels add annotated information and dimension to metadata. Tags, labels, and annotations code data asset elements to ensure that the context and utilitzation of a data asset from requirements to delivery is understood by current and future data management professionals. Each institution's tagging methodology will vary, but it is something that must be consistently and rigorously adhered to: noting shifts through robust metadata collection for provenance in order to analyze the longitudinal value of a data asset for an organization. This system of tags must be appropriately accessible to data customers on each system's content management system.
 
 ### Content Lifecycle Management
 
