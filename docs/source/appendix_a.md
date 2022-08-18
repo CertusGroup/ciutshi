@@ -1,6 +1,55 @@
 # Appendix - Templates and Rubrics
 
-## Appendix A. Content Management
+## Appendix A. Methodology
+
+ciuTshi makes adaptable data operations simple. Despite the size and complexity of this appendix (and the overall framework), building metadata and process value are incremental and cummulative efforts. The challenge of generating rich metadata for modeling and analysis is a team effort, shared by several persons in the organization for which the data provides value. The aim of ciuTshi is to make the connection between the data and its value to the organization clear and valid for its users. What follows is a brief overview of an adaptable methodology for using this framework to gather and generate data asset value metrics.
+
+### Verification
+
+ciuTshi starts its data operations journey through clear requirements for a data asset. If your institution does not have a clear need for a data set or collection, nor a good value proposition for using people and resources to process the data into useable endpoint, it is not needed. Begin by reviewing and verifying the requirements with project leads, leadership, and other stakeholders who may provide clarity on the intent and purpose for a data asset request. If there is a clear justification for tasking a data engineering team with acquisition and curation of the data asset, start using dimensions, features, and user stories for the data to conceive of metrics which can validate process value for the institution (e.g., How does the use of this data impact the project and organization? How do I show this impact to leadership, stakeholders, and non-technical personnel?).
+
+> Note: This step is where knowledge gaps are also identified. Even if the data is not accessible or is non-existent, an effort should be made to note the gap and what value the data, if present, would provide the organization. This will leave an ontological marker for later data enrichment via proxy data assets and/or metrics.
+
+### Selection
+
+Every modular practice in ciuTshi has a template and rubric to facilitate eventual population of metadata for a data asset: creating data provenance for the organization's metadata lineage. This process is a team effort with several data professionals tasked to action one or more modules for a given data asset. To begin, review the module's documentation: summary, template, rubric, and any worksheets that assist in populating metadata for the data asset. Each module has roles, each with their own responsibilities and tasks that may depend on or overlap with other modules, tasks, and roles. A number of data professionals and organizational team members facilitate these task and modules by performing one or more roles within and between modules. This approach to task management within data operations allow organizations with variable available personnel to layer and delgate tasks within reasonable deadlines for both delivery of the data asset and population of the metadata.
+
+> Note: This represents a situation common for many organizations and is why ciuTshi's metatdata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quanitfying process value in data practices.
+
+### Collection
+
+Once requirements are validated and tasks are appropriately assigned, data professionals should collect and populate thier portion of the metadata in the process of facilitating their data engineering, management, and governance tasks. All fields in the rubric schema should be filled out as completely as possible. It is understood that you may not use all the fields at first, but it is recommended that you maintain the entire schema as future data requirements may expand the scope of metadata needs. This also ensures that as ciuTshi grows, augmenting your existing metadata collections is simplified.
+
+Additionally, metadata collection should observe existing scientific research practices in population of the metadata rubrics. It is important to not make up data: null elements or empty fields are acceptable inputs if sufficient data is unavailable. It is important that every member of the data operations team agree to the consistent manner in which data is collected and entered into the rubric: noting the agreed method in the content management documents for the data project. It is recommended that this consistent data collection across all modules be rigorously adhered to within and between data projects: the more consistent and rigorous the metadata collection is, and the better shifts in these practices are tracked, the more valid the metric model outputs may be for decision-makers, stakeholders, and customers. This ability to validate metrics with collection practices aids in cross-validated review of those metrics with others throughout the organization.
+
+> Note: Not every organization will use the same parts of ciuTshi in the same ways. The key focus should be to perform metatdata collection in a consistent, rigorous, and verfiable manner. This level of metadata quality assurance is critical for long-term review and verification of metrics for data operations.
+
+### Modeling
+
+In the requirements phase, we began asking critical questions to connect the data asset to its value impact for the project and as a result, the institution. After generating a rich and deep metadata collection for a data asset, we can now start adjusting and adding metrics to our fields for module- and asset-level modeling. Metrics are often organization specific, but may fall in several categories: descriptive, prescriptive, perceptive, interaction, outcome to name a few. Over time, each organization will develop and model their own sets of quanititative and qualitative metrics for their data assets. These metrics should be developed and documented as the organization's mission, vision, and goals shift: this helps leadership and stakeholders understand how value and impact change based on key indicators found in the metadata. Value should be at these metrics' loci, but it is by no means to only concern data professionals should have for a data asset. There may be quality, security, ethics, or other ensemble metrics derived from the organization's members, leadership, stakeholder networks, communities of practice, and other data partners.
+
+There are also universals that exist across all data assets which add richness to the metadata for longitudinal analysis:
+
+* __*weight*__ is a default metric that exists across all data elements. Weight can imply several things for a data asset and will be defined by each organization based on thier core metric requirements for data lifecycle management (documented in detail via content management), but the intial intent for the metric is to determine how important a metadata field is for the organization (on a scale from 0 to 1). This variable heuristic weight allows each data asset to be shaped by data professionals to reflect their organization's unique application of data operations for value generation and stakeholder impact.
+
+> Note: Outside of data operations, other institutional teams and sections may have metrics that do not adhere to ciuTshi standards for comprehensive metadata collection and modeling. Efforts should be made to account for any connections within these external metrics that have direct implications for data asset impact on overall process value. Despite the technical and complex nature of some metrics, a non-technical team member must be able to understand the output of the model, its value, and its implications for institutional impact.
+
+### Proof
+
+Esblishment of models requires a persistent level of vigilance to ensure their validity. This validity requires several enagements with the model and its modelers to ensure the metrics prove what they claim to prove. This validation starts with a sanity check: does the model, metadata, metrics, and outputs make sense based on what we know about the data asset, its collection, and its utilization? Validation should then be socialized, opening communication with colleagues to ensure the model makes sense when walked-through the modeling process (observing appropriate security and other ethical research practices). Once internal colleagues review the model and validate its metrics, it may then call for peer-review with stakeholders and other reliable partners (preferrably a mix of specialized professionals with domain knowledge and astute non-technical persons with keen interrogation skills and curiosity). 
+
+If data, system, and other necessary accesses are possible for a reviewer, there are a baseline of questions that would aid in maintaining proof of a metric's validity:
+
+* Are the results reproducible?
+* Is the model transferable?
+* Are the results cross validated?
+* Is proof understandable?
+
+These steps in the process of validation ensure that a model mobilizes metadata production and utilization, keeping data systems and those that leverage them in a persistent state of constructive flow. This flow makes the cummulative and iterative cycle of metadata generation a systematic part of the data operations culture for the organization and its many talented professionals.
+
+![Metadata Methodology](static/images/methodology.png)
+
+## Appendix B. Content Management
 
 ### Templates
 
@@ -59,7 +108,7 @@ cm_doc_locs|content_management|list of documentation locations for the data proj
 cm_asset_locs |content_management|list of asset locations for the data project|essential|['weight':1]
 cm_review|content_management|description of timeline for content review and revision|essential|['weight':1]
 
-## Appendix B. Requirements
+## Appendix C. Requirements
 
 ### Templates
 
@@ -138,7 +187,7 @@ req_rev|requirements|description of the revision and review plan for the require
 req_addendums|requirements|a list and description of the addendums for the official published requirements: using the RFE template field to demonstrate changes|essential|['weight':1]
 req_cancel|requirements|description of cancellation plan for redacted or terminated requirements|essential|['weight':1]
 
-## Appendix C. Task Management
+## Appendix D. Task Management
 
 ### Templates
 
@@ -225,7 +274,7 @@ tms_mvp|task_management|description of complete MVP to defintion of done standar
 tms_retrospective|task_management|description of retrospective outcomes for each sprint|essential|['weight':1]
 tms_artifacts|task_management|description of artifact locations and details on associated metrics|essential|['weight':1]
 
-## Appendix D. Version Control
+## Appendix E. Version Control
 
 ### Templates
 
@@ -342,7 +391,7 @@ vcs_artifacts|version_control|list of all data connections and other essential e
 vcs_docs|version_control|list of locations for the repositories' documentation sources (e.g., readthedocs, wikis)|essential|['weight':1]
 vcs_migrate|version_control|list of migrations to other repositories from the data project's collection with descriptions of rationale for migration|essential|['weight':1]
 
-## Appendix E. Quality Assurance
+## Appendix F. Quality Assurance
 
 ### Templates
 
@@ -403,7 +452,7 @@ qa_strategy|quality_assurance|description of the data governance strategy for th
 qa_report|quality_assurance|list of locations for logs and other forms of reporting for the data assets|essential|['weight':1]
 qa_docs|quality_assurance|list of location for documentation associated with quality assurance for general guidance and data asset specific information|essential|['weight':1]
 
-## Appendix F. Security
+## Appendix G. Security
 
 ### Templates
 
@@ -458,7 +507,7 @@ sec_guidelines|security|description of specific guidance for each data assets wi
 sec_metrics|security|list of key security metrics for the data project and the data assets|essential|['weight':1]
 sec_training|security|description of training requirement in place for the data project, data assets, and broader institutional certification requirements|essential|['weight':1]
 
-## Appendix G. Ethics
+## Appendix H. Ethics
 
 ### Templates
 
@@ -517,7 +566,7 @@ eth_monitor|ethics|description of methods of ethical data monitoring used for ea
 eth_impact|ethics|description of impacts associated with ethical outcomes|essential|['weight':1]
 eth_metrics|ethics|list of key metrics for measuring ethical standards used for each data asset and the data projects|essential|['weight':1]
 
-## Appendix H. Storage
+## Appendix I. Storage
 
 ### Templates
 
@@ -588,7 +637,7 @@ sto_master_data_location|storage|location reference(s) of master data storage|es
 sto_addendum|storage|form reference for the change in storage to a raw data asset|recommended if addendums generated, else optional|['weight':1]
 sto_monitoring|storage|reference for the retention and deprication to all data assets|essential|['weight':1]
 
-## Appendix I. Modeling
+## Appendix J. Modeling
 
 ### Templates
 
@@ -655,7 +704,7 @@ mod_synthetic|modeling|synthetic data reference used for a raw data asset|option
 mod_entity_res|modeling|entity resolution reference used for a data asset model|optional|['weight':1]
 mod_challenge|modeling|challenges that existed with the final model|essential|['weight':1]
 
-## Appendix J. Analytics
+## Appendix K. Analytics
 
 ### Templates
 
@@ -724,7 +773,7 @@ ana_descriptive_statistics_model|analytics|statistical profile of the modeled da
 ana_descriptive_statistics_raw|analytics|statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions|essential|['weight':1]
 ana_format|analytics|the format of the modeled data going through analytics processes|essential|['weight':1]
 
-## Appendix K. Integration
+## Appendix L. Integration
 
 ### Templates
 
@@ -789,7 +838,7 @@ int_endpoint_deprecated|integration|date and time the intgration endpoint ceased
 int_provenance|integration|description of how the data asset is used by the customer from the endpoint|essential|['weight':1]
 int_monitoring|integration|description of monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle|essential|['weight':1]
 
-## Appendix L. Metadata
+## Appendix M. Metadata
 
 ### Templates
 
@@ -824,7 +873,7 @@ met_strategy|metadata|strategy for use of a data asset via metadata element (e.g
 met_vcs|metadata|link to version control for metadata assets|essential|['weight':1]
 met_schedule|metadata|schedule and practice details associated with metadata maintenance including review and enrichment|essential|['weight':1]
 
-## Appendix M. Cataloging
+## Appendix N. Cataloging
 
 ### Templates
 
