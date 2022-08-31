@@ -2,7 +2,7 @@
 
 Tracking the legacy of data assets for an organization is essential to their data strategy and data governance plans. In order to maintain accurate data inventories across multiple information systems and data architectures, an organization must actively monitor and archive essential artifacts from key phases in the their data operations practices. Active and persistent cataloging of data artifacts allows data management teams to avoid pitfalls such as loss of provenance, unclear lineage, and inconsistent profile resolution between raw data and numerous data endpoints.
 
-Data cataloging is critical to institions' data management practices as they are foundational to data operations. Cataloging of data ensures that expenditures made for acquiring and curating data assets are justified and aligned with necessary personnel and resource costs. More specifically, data catalogs chronicle the data asset journey via metadata while also maintaining recent samples of data for exploratory analysis and knowledge discovery. This key advantage allows customers to rapidly generate insights on stakeholder challenges while accelerating the timeline to valid data service solutions.
+Data cataloging is critical to institution's' data management practices as they are foundational to data operations. Cataloging of data ensures that expenditures made for acquiring and curating data assets are justified and aligned with necessary personnel and resource costs. More specifically, data catalogs chronicle the data asset journey via metadata while also maintaining recent samples of data for exploratory analysis and knowledge discovery. This key advantage allows customers to rapidly generate insights on stakeholder challenges while accelerating the timeline to valid data service solutions.
 
 This document will outline the baseline for data cataloging practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi's data management system draws from DAMA[1](cataloging/references) and other resources. For additional context on this documents sections, refer to the references section.
 
@@ -16,7 +16,7 @@ Institutions require a way to track and query their data asset holdings across i
 * Use the catalog to curate the lineage and provenance of data assets through metadata enrichment for data owners and stewards
 * Encourage enrichment and growth of the baseline statistics and tags through cyclical audits and simplified monitoring of catalog metadata and holdings
 * Improve sampling practices resulting in simplified analysis of accurate and representative data subsets
-* Use the catalog as a guide for data acquisition of project and reference data for foundational decisionmaker and stakeholder data collections
+* Use the catalog as a guide for data acquisition of project and reference data for foundational decision maker and stakeholder data collections
 
 ## Processes
 

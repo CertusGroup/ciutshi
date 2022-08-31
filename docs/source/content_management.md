@@ -1,6 +1,6 @@
 # Content Management
 
-Content management is the gathering and organization of information in order to maintain the integrity of, and access to, knowledge artifacts[1](content_management/references). This form of management relies on a combination of consistent best practices and tooling which enable rigor in processes over time. Researchers have found this systemization of documentations workflows permits automation practices and clearer roles and responsibilities for content generation[2](content_management/references). Enhancing content generation in this way permits content management system (CMS) users to advance innovative practices while enriching other essential integrated practices such as metadata generation, best practice reuse, and improved collaboration. These procedural shifts in documentation practices reduce the need for presentations, drastically shortens the time on tasks to delivery, and improves quality of secure systems and products.
+Content management is the gathering and organization of information in order to maintain the integrity of, and access to, knowledge artifacts[1](content_management/references). This form of management relies on a combination of consistent best practices and tooling which enable rigor in processes over time. Researchers have found this systematization of documentations workflows permits automation practices and clearer roles and responsibilities for content generation[2](content_management/references). Enhancing content generation in this way permits content management system (CMS) users to advance innovative practices while enriching other essential integrated practices such as metadata generation, best practice reuse, and improved collaboration. These procedural shifts in documentation practices reduce the need for presentations, drastically shortens the time on tasks to delivery, and improves quality of secure systems and products.
 
 Content management is an essential part of modern knowledge-based systems. Moore in McKeever’s 2003 publication on content management systems stated, “Content is the feeder mechanism for all business processes. And always has been.”[3](content_management/references) As a result, the more consistent and rigorous a content management framework (CMF) is implemented and reviewed by institutions and stakeholders, the more improvements in practices and outcomes can be observed. These outcomes, such as retrieval of information and inter-system integrations, ensure that personnel can respond to requests from leadership in a manner compliant to or exceeding stakeholder expectation[1](content_management/references). From the data-driven system perspective, the outcomes are increasingly reliable data models and metrics which enrich the analytics and knowledge-based system processes. As a result, collaborative efforts across an organization are more likely to accelerate their efforts through consolidated understanding of shared CMS resources.
 
@@ -38,16 +38,16 @@ The __*templates*__ act as the forms through which consistent and rigorous detai
 
 __*Rubrics*__ act as the guides through which templates are defined and implemented. Rubrics cover (at a minimum): field name, field category, field definition, intended benchmarks, and the measures or metrics expected.
 
-* _Field name_ is the label for a given field. If the label is a multiword phrase, each word should be separated by underscores (e.g., `first_name`).
+* _Field name_ is the label for a given field. If the label is a multi-word phrase, each word should be separated by underscores (e.g., `first_name`).
 * _Field category_ will vary from template to template. Categories are defined as options within the rubric for a given template.
 * _Field definition_ is a brief description of what the field should contain. Each field should have a concise, singular definition that captures a single thing.
 * _Benchmarks_ are the standards for how the content of a field should be structured or stated. This includes data types and any grammar to which a field should comply.
-* _Metrics_ are measureable features within a field, generally defining quantitative or qualitative standards, such as acceptability thresholds, for the field and its content.
+* _Metrics_ are measurable features within a field, generally defining quantitative or qualitative standards, such as acceptability thresholds, for the field and its content.
   * _Weight_ is the relevance factor for an element within the larger data model. These may vary between rubrics, but their implementation methodology must be documented each time.
 
 ### Structure
 
-Templates and rubrics can be developed in any number of ways to suit the needs of the institution's data operations. Though each template element should have a corresponding rubric metatdata element, these elements can be split between several sub-templates and sub-rubrics within a major modular practice area. This allows the content management of data operations information to adapt and shift with the organization's data practices.
+Templates and rubrics can be developed in any number of ways to suit the needs of the institution's data operations. Though each template element should have a corresponding rubric metadata element, these elements can be split between several sub-templates and sub-rubrics within a major modular practice area. This allows the content management of data operations information to adapt and shift with the organization's data practices.
 
 ### Access
 
@@ -55,7 +55,7 @@ Existing institutional policy regarding handling of varying levels of secure dat
 
 ### Tags, Labels, & Annotations
 
-Institutions must consider what data elements to label and how those labels add annotated information and dimension to metadata. Tags, labels, and annotations code data asset elements to ensure that the context and utilitzation of a data asset from requirements to delivery is understood by current and future data management professionals. Each institution's tagging methodology will vary, but it is something that must be consistently and rigorously adhered to: noting shifts through robust metadata collection for provenance in order to analyze the longitudinal value of a data asset for an organization. This system of tags must be appropriately accessible to data customers on each system's content management system.
+Institutions must consider what data elements to label and how those labels add annotated information and dimension to metadata. Tags, labels, and annotations code data asset elements to ensure that the context and utilization of a data asset from requirements to delivery is understood by current and future data management professionals. Each institution's tagging methodology will vary, but it is something that must be consistently and rigorously adhered to: noting shifts through robust metadata collection for provenance in order to analyze the longitudinal value of a data asset for an organization. This system of tags must be appropriately accessible to data customers on each system's content management system.
 
 ### Content Lifecycle Management
 
