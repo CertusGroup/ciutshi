@@ -47,7 +47,7 @@ Due to the diversity of data assets handled by institutions across numerous proj
 * _Integrity_ observes the coherence between accuracy, completeness, and consistency between referential data and processed data or simpler factors, such as errors in the data
 * _Reasonability_ checks if the modeled data outputs meet expected values
 * _Timeliness_ observes the volatility of data changes, latency in production and use, or viability for use
-* _Uniqueness_ observes factures such as de-duplication and entity resolution
+* _Uniqueness_ observes factors such as de-duplication and entity resolution
 * _Validity_ observes the conformity of values to data types and defined domains of value consistency
 
 Metrics derived from these dimensions should account for these characteristics:

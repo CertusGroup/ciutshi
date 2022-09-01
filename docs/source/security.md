@@ -4,7 +4,7 @@ Security is a critical component of data operations. Control of access to data a
 
 Data security is largely data strategy-driven. Through a data governance board and governance structures, an examination of data assets, projects, and business requirements can lead to effective guiding policies. These policies must stand in rigorous compliance with regulations without adding unnecessary process complexity, ultimately leading to delays in delivery. This complexity is controlled through a balance between shared efforts from the data management personnel, data architecture professionals, and the information technology administrators for the institution. This concerted collaboration is at the core of the data strategy, adding strength to the organizations overall data security.
 
-Collaborative vigilance is the key to good data security practices. The collaboration across data systems and teams is only one level in data security. Data security is responsive to stakeholder security practices, international regulations for data and systems security, requirements for data assets, and contractual arrangements between data owners, data stewarts, and customers. These relationships establish the baseline for roles and responsibilities around legitimate access for personnel and teams. This baseline also represents the risk mitigation measures put in place by stakeholders, ensuring appropriate practices surrounding the data are applied within compliance standards. This focus on people and practices lends itself to layering risk mitigation for data assets. This concerted effort across the data systems by data professionals fosters institutional model growth with "security first" data asset practices.
+Collaborative vigilance is the key to good data security practices. The collaboration across data systems and teams is only one level in data security. Data security is responsive to stakeholder security practices, international regulations for data and systems security, requirements for data assets, and contractual arrangements between data owners, data stewards, and customers. These relationships establish the baseline for roles and responsibilities around legitimate access for personnel and teams. This baseline also represents the risk mitigation measures put in place by stakeholders, ensuring appropriate practices surrounding the data are applied within compliance standards. This focus on people and practices lends itself to layering risk mitigation for data assets. This concerted effort across the data systems by data professionals fosters institutional model growth with "security first" data asset practices.
 
 This discussion on data security requires us to define a few key concepts: vulnerability, threat, risk, and risk classification. A vulnerability is a weakness or defect in the system[1](security/references). A threat is a potential action that is or can be taken against a system[1](security/references). As already talked about at length, a risk is a potential to lose something[1](security/references). A risk classification is a system of measure put in place to assess the type and effect of a risk (e.g., the risk sensitivity) [1](security/references). These classifications are deeply rooted in all operations, requiring persistent policy and training shifts to account for the latest risks. Data security also depends on persistent adjustment, seeking solutions to risks accounting for vulnerabilities and evolving threats.
 
@@ -17,22 +17,24 @@ ciuTshi suggests optimal security practices at the forefront of all data asset m
 ## Goals
 
 * Enable appropriate accesses to data assets for stakeholders and customers
-* Prevent asset and system compromises through adherances to regulations and policies on privacy, protection, and confidentiality practices
+* Prevent asset and system compromises through adherence to regulations and policies on privacy, protection, and confidentiality practices
 
 ## Implementation
 
 Due to institutional regulations associated with security practice implementations, much of the implementation details should be stored on content management systems at the appropriate security access levels. Security personnel should also make security and classification training available which should be refreshed yearly or with policy changes.
 
-### Roles and Responsibilities
+### Roles
 
-* __*Stakeholder*__ - is a person or group that is primarily impacted by data operations outcomes. Stakeholders often have significant impact on requirements and product delivery.
-* __*Data Owner*__ - is the person or group that owns the rights to the data asset and shares, sells, or licenses said data asset to others for specified utilization.
-* __*Data Steward*__ - is in charge of moving a data asset into data operations and maintaining vigilance of data asset utilization within data management. This vigilance does not indicate they are involved in data management, only that they maintain their accountability of the asset within the terms of agreement they have with the data owner.
-* __*Data Manager*__ - is in charge of data management practices applied to the data assets within specified data architectures. This responsibility includes security and ethics practices central to institutional policy and data owner agreements.
-* __*Information Security Manager*__ - is in charge of content and knowledge management pertaining to security practices for a specified data asset. This management includes observation of transfers of the data asset within classification and policy boundaries.
-* __*Information Assurance*__ - is the cummulative accountancy of quality assurance practices including security and ethics encompassing requirements and legal agreements pertaining to a data asset. Information assurance is a level of a quality control that ensures data and information security are within compliance and that reflections of this compliance are capture in the metadata for a data asset.
+* __*Stakeholder*__
+* __*Data Owner*__
+* __*Data Steward*__
+* __*Data Manager*__
+* __*Information Security Manager*__
+* __*Information Assurance*__
 
 ### Security Guidelines
+
+![SEC Overview](static/images/do_overview_sec.png)
 
 There are several data security standards to consider in a complete data asset workflow. Coordination must be made to establish and regulate access to the data assets and its associated data systems. Security managers, information assurance, and data stewards must have purview into these practices, auditing the practices for compliance. There must be a way to authenticate data asset handling for the data owner to demonstrate rigor to stakeholders and data owners: often via a series of audit logs and metrics found in content management and data managements systems. These logs and metrics indicate authorization and entitlements compliance as established in the requirements and is enforced through roles within data operations.
 
@@ -40,11 +42,11 @@ Requirements not only drive initiation of secure data operations, but they ultim
 
 #### Data Masking and Synthetic Data
 
-Due to the security considerations for individual or combined data assets, obfuscation across secured system levels must be part of the requirements security discussions. This includes developement and evolution of synthetic data for prototyping. The use of synthetic data aids in identity managements, controlling personally indentifiable information (PII) and secure access to the data asset. These synthetic productions and links will be noted in the metadata for the data asset.
+Due to the security considerations for individual or combined data assets, obfuscation across secured system levels must be part of the requirements security discussions. This includes development and evolution of synthetic data for prototyping. The use of synthetic data aids in identity managements, controlling personally identifiable information (PII) and secure access to the data asset. These synthetic productions and links will be noted in the metadata for the data asset.
 
 #### Security Team
 
-Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cummulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several framework elements:
+Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cumulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several framework elements:
 
 * Clear roles and responsibilities for data operations, governance, and management
 * Controlled credential management in line with roles

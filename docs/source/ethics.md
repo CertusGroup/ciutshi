@@ -6,13 +6,13 @@ From 1932 to 1972, the US Public Health Service and Centers for Disease Control 
 
 This research failure and others like it around the world (e.g., Nuremburg Code and the Declaration of Helsinki following World War 2 human rights violations[2](ethics/references)) led to broad discussions on study participant rights and public trust. By violating participant rights to consent through deception and obfuscation, researchers erode the trust of ethical researchers and the quality and validity of their research results. Ergo, leading research institutions established internal review boards[3](ethics/references) (IRBs) top ensure compliant research practices that can be rapidly shared and cross-validated without the immediate worry of ethical violations by the researchers.
 
-There are currently several ethical considerations outlined for data managment and data governance present in the DAMA guidelines[4](ethics/references). These guidelines provide an excellent baseline for ethical data use and research.
+There are currently several ethical considerations outlined for data management and data governance present in the DAMA guidelines[4](ethics/references). These guidelines provide an excellent baseline for ethical data use and research.
 
 * Reduce impact on people
 * Reduce potential misuse of data
 * Maximize economic value of ethical data handling
 
-These guidelines pursue ethical practices that ultimately reduce misunderstanding, misrepresentation, and misuse of data assets within data architectures. This reduction is guided by consistent and rigorous data governance which maintains living documents and practices that encourage ethical data practices. These practices must be persistent within a culture of ethical risk accountability. If instititutions maintain a high-level of accountability, they stand to be more competitive, trusted, and relevant within their associated networks. This ultimately equates to much higher economic value in their data assets and the practices that support the generation and curation of data assets.
+These guidelines pursue ethical practices that ultimately reduce misunderstanding, misrepresentation, and misuse of data assets within data architectures. This reduction is guided by consistent and rigorous data governance which maintains living documents and practices that encourage ethical data practices. These practices must be persistent within a culture of ethical risk accountability. If institutions maintain a high-level of accountability, they stand to be more competitive, trusted, and relevant within their associated networks. This ultimately equates to much higher economic value in their data assets and the practices that support the generation and curation of data assets.
 
 Data ethics drive several policy decisions around the world. The European GDPR standard[5,6](ethics/references) passed on the premise that Internet providers would put consumer data privacy and control first. As a result, GDPR pushes companies such as Google and Apple to shift their user data practices toward more protective and mutually beneficial forms. In the US, several efforts attempted to push corporations and governments to implement ethical AI and data practices. One such effort was the Bloomberg-backed Data for Democracy ethics project[7,8](ethics/references) which advanced a crowd-sourced approach to ethical data and model generation.
 
@@ -20,7 +20,7 @@ The US government advanced several recent efforts in the national and defense se
 
 * Maintaining ethical use of data
 * Practicing ethical governance, conscious design, and a learning culture
-* Uphold ethical governance with resposible and transparent practices
+* Uphold ethical governance with responsible and transparent practices
 * Development and use of data ethics framework
 
 The federal data strategy maintains it ethical framework as part of its data infrastructure. The US national defense strategy holds data ethics at the core of all its data operations planning. The federal and defense frameworks both indirectly adhere to DAMA standards, opting to minimize negative effects of negligent or malicious data handling practices.
@@ -29,9 +29,9 @@ The federal data strategy maintains it ethical framework as part of its data inf
 
 Innovation must be pursued within a clearly understood categorical imperative. Data operations should critically situate definition of this moral structure to enable stakeholders and their missions. As a result, an organization must persistently observe their obligations to evolve this imperative as environments and agents shift their ethical processes.
 
-_**Do No Harm**_ should be at the core of an institution's mission and goals. The institution should enable mission effectiveness for community stakeholders in a way that minimizes the economic and strucutual impact on people. This reduction in effect is managed through balancing surgically-precise solutions with ethical guidance and policy that are sustainable and adaptable.
+_**Do No Harm**_ should be at the core of an institution's mission and goals. The institution should enable mission effectiveness for community stakeholders in a way that minimizes the economic and structural impact on people. This reduction in effect is managed through balancing surgically-precise solutions with ethical guidance and policy that are sustainable and adaptable.
 
-Specific to data operations, it must manage data ethically within its communities and between its stakeholders. This data management principle mandates compliance with guidelines on data asset and data architecture utilization in a manner that adds additional credibility to an institution's systems and results. Ethics supplements analytic and scientific product credibility through transparent adherance to practices that bolsters an institution's reputation.
+Specific to data operations, it must manage data ethically within its communities and between its stakeholders. This data management principle mandates compliance with guidelines on data asset and data architecture utilization in a manner that adds additional credibility to an institution's systems and results. Ethics supplements analytic and scientific product credibility through transparent adherence to practices that bolsters an institution's reputation.
 
 ## Goals
 
@@ -40,15 +40,17 @@ Specific to data operations, it must manage data ethically within its communitie
 
 ## Implementation
 
+![ETH Overview](static/images/do_overview_eth.png)
+
 ciutshi suggests leveraging existing ethics guidelines with industry and data asset provider standards for the ethical handling and storage of data products and services. Content management systems (CMS) must be referenced for appropriate protective practices per those systems' data processing policies.
 
-Much of the following sections will be similar to topics covered in the security documentation as these topics are deeply connected. Ensure that care is taken in reviewing all associated documentation prior to aquiring data assets that may violate security and ethics guidelines for your project and its stakeholders.
+Much of the following sections will be similar to topics covered in the security documentation as these topics are deeply connected. Ensure that care is taken in reviewing all associated documentation prior to acquiring data assets that may violate security and ethics guidelines for your project and its stakeholders.
 
-### Aquisition and Ingest
+### Acquisition and Ingest
 
-Prior to purchase or transfer of data assets for ownership or stewardship, data management personnel should ensure that said assets are not opening the institution to any unnecessary risk. Questions should be asked regarding the source of the data, collection methods, and other typical metadata information that may prove useful for later analysis and deprication practices.
+Prior to purchase or transfer of data assets for ownership or stewardship, data management personnel should ensure that said assets are not opening the institution to any unnecessary risk. Questions should be asked regarding the source of the data, collection methods, and other typical metadata information that may prove useful for later analysis and deprecation practices.
 
-Lack of purview and insight on data origins may prove catostrophic for research outcomes. A large part of ethical practices is sustaining credibility within communities of practice as well as with industry, academic, and government leaders. Using low-quality or erroneous data assets may have a significant negative impact on institutional credibility and the strategic viability of the institution as a research leader.
+Lack of purview and insight on data origins may prove catastrophic for research outcomes. A large part of ethical practices is sustaining credibility within communities of practice as well as with industry, academic, and government leaders. Using low-quality or erroneous data assets may have a significant negative impact on institutional credibility and the strategic viability of the institution as a research leader.
 
 If a data asset is found to violate or potentially violate ethics guidelines, immediate action should be taken to remediate the issue. Data purchases or transfers should be halted by data management and/or data architecture personnel while the ethical risk is assessed. Any data assets existing on IT systems should be frozen pending removal. The exception to this removal process is the metadata and catalog entries: metadata should be updated with the ethical issues while the master data sample should be removed from the catalog (scrubbing metadata as needed to removed any protected personal information indicators). ETL documentation and code should be maintained as well in case the ethical issue is resolved (also observing the scrubbing of any protected information).
 

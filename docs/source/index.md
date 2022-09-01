@@ -1,6 +1,6 @@
 # ciuTshi
 
-Release v0.1.0
+Release v0.2.0
 
 ## The Adaptable Data Operations Framework
 
@@ -70,4 +70,5 @@ cataloging
 
 appendix_a
 appendix_b
+appendix_c
 ```
