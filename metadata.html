@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Metadata &#8212; data knowledge made easy</title>
+    <title>Metadata &#8212; the Adaptable Data Operations Framework</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Cataloging" href="cataloging.html" />
@@ -194,13 +195,18 @@
    Appendix - Data Strategy
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_c.html">
+   Appendix - Scenario
+  </a>
+ </li>
 </ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -254,7 +260,10 @@
             href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fmetadata.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
     </div>
 </div>
@@ -402,7 +411,7 @@
 <p>This document will outline the essentials for metadata practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi’s data management system draws from DAMA<a class="reference internal" href="#metadata-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this documents sections, refer to the references section.</p>
 <div class="section" id="challenge">
 <h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
-<p>Data management lifecycles require rapid access to insightful details for a variety of data assets. A shift from heuristic documentation models to broader automation efforts requires and enhanced metadata paradigm: artifacts from each phase of data operations for a data asset cataloged for longitudinal data operations metrics in support of institutional knowledge discovery. This massive effort requires data engineers to capitalize on efficiencies within each phase of data management, responding to numerous requirements, each with varying complexity and tight deadlines. In order to accelerate the data management team’s service model, cataloging of templated metadata profiles for a data asset will result in accelerated customer engagements for problem redefinition while shortening the timeline for future requests of existing data assets.</p>
+<p>Data management lifecycle requires rapid access to insightful details for a variety of data assets. A shift from heuristic documentation models to broader automation efforts requires and enhanced metadata paradigm: artifacts from each phase of data operations for a data asset cataloged for longitudinal data operations metrics in support of institutional knowledge discovery. This massive effort requires data engineers to capitalize on efficiencies within each phase of data management, responding to numerous requirements, each with varying complexity and tight deadlines. In order to accelerate the data management team’s service model, cataloging of templated metadata profiles for a data asset will result in accelerated customer engagements for problem redefinition while shortening the timeline for future requests of existing data assets.</p>
 </div>
 <div class="section" id="goals">
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
@@ -415,7 +424,7 @@
 </div>
 <div class="section" id="processes">
 <h2>Processes<a class="headerlink" href="#processes" title="Permalink to this headline">¶</a></h2>
-<p>Metadata is an inseperable part of the data asset: it containd all essential information for how the raw data evolved into the final integration deliverable. ciuTshi recommends a metadata strategy to establish a baseline for metadata elements that can be migrated upward through information systems for enrichment. Metadata requirements will entail capturing of key data points at each phase of data operations, culminating in a baseline metamodel for each data asset. The metamodel should observe security and policy restrictions through the use of tags, noting everything from usage to transfer restrictions. This metadata must be maintained within each information system, looking at quality and relevance via the data catalog’s analytic reports and queries.</p>
+<p>Metadata is an inseparable part of the data asset: it contained all essential information for how the raw data evolved into the final integration deliverable. ciuTshi recommends a metadata strategy to establish a baseline for metadata elements that can be migrated upward through information systems for enrichment. Metadata requirements will entail capturing of key data points at each phase of data operations, culminating in a baseline metamodel for each data asset. The metamodel should observe security and policy restrictions through the use of tags, noting everything from usage to transfer restrictions. This metadata must be maintained within each information system, looking at quality and relevance via the data catalog’s analytic reports and queries.</p>
 <blockquote>
 <div><p>Note: There are many types of metadata such as business, technical, and operational. Data engineers must constantly be examining the use of metadata types across the data catalog, making migrations if necessary. ISO 11179 is an excellent reference for metadata registries.</p>
 </div></blockquote>
@@ -495,6 +504,8 @@
     </div>
     <footer class="footer">
   <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
     
         &copy; Copyright 2022, Certus Core.<br/>
   </p>

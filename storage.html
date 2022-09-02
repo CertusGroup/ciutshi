@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Storage &#8212; data knowledge made easy</title>
+    <title>Storage &#8212; the Adaptable Data Operations Framework</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Modeling" href="modeling.html" />
@@ -194,13 +195,18 @@
    Appendix - Data Strategy
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_c.html">
+   Appendix - Scenario
+  </a>
+ </li>
 </ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -254,7 +260,10 @@
             href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fstorage.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
     </div>
 </div>
@@ -558,14 +567,14 @@
 <p>This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi’s data management practices draw from DAMA<a class="reference internal" href="#storage-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this document’s sections, refer to the references section.</p>
 <div class="section" id="challenge">
 <h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
-<p>Institutions invest heavily into data assets with a number of technologies and industry partners. As a result, organizations require an array of data and technical support systems to maintain the utilization of those assets. These data assets must provide internal customers the opportunity to access and explore data holdings, encouraging reuse of those assets within a shared system of best practices from acquisition to archive. Instutitions also require an enhanced requirements system to drive data storage within consistent data lifecycle management. To these ends, the accuracy and consistency by which data is stored and structured is critical for enabling innovative products and services. Tasks such as production of consistent data type standards, formatting, metadata, and documentation enable rigorous planning, optimization of modeling, and delivery of data assets to internal customers and stakeholders.</p>
+<p>Institutions invest heavily into data assets with a number of technologies and industry partners. As a result, organizations require an array of data and technical support systems to maintain the utilization of those assets. These data assets must provide internal customers the opportunity to access and explore data holdings, encouraging reuse of those assets within a shared system of best practices from acquisition to archive. Institutions also require an enhanced requirements system to drive data storage within consistent data lifecycle management. To these ends, the accuracy and consistency by which data is stored and structured is critical for enabling innovative products and services. Tasks such as production of consistent data type standards, formatting, metadata, and documentation enable rigorous planning, optimization of modeling, and delivery of data assets to internal customers and stakeholders.</p>
 </div>
 <div class="section" id="goals">
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Enable consistent data lifecycle management through observance of storage best practices across multiple data systems</p></li>
 <li><p>Maintain data integrity of stored data through modularizing practices that are applied consistently, implemented rigorously, and documented for reuse and exploratory analysis</p></li>
-<li><p>Optimize data asset performance through a grounded storage system which integrates into larger data operations practices while minimizing interuptions within data management practices</p></li>
+<li><p>Optimize data asset performance through a grounded storage system which integrates into larger data operations practices while minimizing interruptions within data management practices</p></li>
 </ul>
 </div>
 <div class="section" id="processes">
@@ -617,7 +626,7 @@
 <p>Once the data request is assessed, required documents are obtained, and data load or access form is completed and approved, the data management team will proceed with loading the data. The team will setup task management and version control resources as outlined in task management and version control documents. Once setup, the data engineers will identify the technical requirements for loading the data into storage, structuring these tasks in the task management tools for sprints. Once sprints begin, the data management team will build pipelines based on the delivery medium for the raw data assets.</p>
 <div class="section" id="data-mining">
 <h5>Data Mining<a class="headerlink" href="#data-mining" title="Permalink to this headline">¶</a></h5>
-<p>Commercially-available data is a predominant class of raw data asset. Obtaining external or raw data from a variety of data providers or endpoints may be required to bring data assets into an instition’s multiple data architectures. Data mining covers the methods and code required to interact with the organizations, people and technical infrastructure associated with extraction and loading of raw data from a data owner. Notes on these data artifacts will constitute portions of the metadata and version control contributions for a particular data asset.</p>
+<p>Commercially-available data is a predominant class of raw data asset. Obtaining external or raw data from a variety of data providers or endpoints may be required to bring data assets into an institution’s multiple data architectures. Data mining covers the methods and code required to interact with the organizations, people and technical infrastructure associated with extraction and loading of raw data from a data owner. Notes on these data artifacts will constitute portions of the metadata and version control contributions for a particular data asset.</p>
 </div>
 <div class="section" id="pipelines">
 <h5>Pipelines<a class="headerlink" href="#pipelines" title="Permalink to this headline">¶</a></h5>
@@ -727,6 +736,8 @@
     </div>
     <footer class="footer">
   <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
     
         &copy; Copyright 2022, Certus Core.<br/>
   </p>

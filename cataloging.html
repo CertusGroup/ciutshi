@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cataloging &#8212; data knowledge made easy</title>
+    <title>Cataloging &#8212; the Adaptable Data Operations Framework</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Appendix - Templates and Rubrics" href="appendix_a.html" />
@@ -194,13 +195,18 @@
    Appendix - Data Strategy
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_c.html">
+   Appendix - Scenario
+  </a>
+ </li>
 </ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -254,7 +260,10 @@
             href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fcataloging.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
     </div>
 </div>
@@ -452,7 +461,7 @@
   <div class="section" id="cataloging">
 <h1>Cataloging<a class="headerlink" href="#cataloging" title="Permalink to this headline">¶</a></h1>
 <p>Tracking the legacy of data assets for an organization is essential to their data strategy and data governance plans. In order to maintain accurate data inventories across multiple information systems and data architectures, an organization must actively monitor and archive essential artifacts from key phases in the their data operations practices. Active and persistent cataloging of data artifacts allows data management teams to avoid pitfalls such as loss of provenance, unclear lineage, and inconsistent profile resolution between raw data and numerous data endpoints.</p>
-<p>Data cataloging is critical to institions’ data management practices as they are foundational to data operations. Cataloging of data ensures that expenditures made for acquiring and curating data assets are justified and aligned with necessary personnel and resource costs. More specifically, data catalogs chronicle the data asset journey via metadata while also maintaining recent samples of data for exploratory analysis and knowledge discovery. This key advantage allows customers to rapidly generate insights on stakeholder challenges while accelerating the timeline to valid data service solutions.</p>
+<p>Data cataloging is critical to institution’s’ data management practices as they are foundational to data operations. Cataloging of data ensures that expenditures made for acquiring and curating data assets are justified and aligned with necessary personnel and resource costs. More specifically, data catalogs chronicle the data asset journey via metadata while also maintaining recent samples of data for exploratory analysis and knowledge discovery. This key advantage allows customers to rapidly generate insights on stakeholder challenges while accelerating the timeline to valid data service solutions.</p>
 <p>This document will outline the baseline for data cataloging practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi’s data management system draws from DAMA<a class="reference internal" href="#cataloging-references"><span class="std std-ref">1</span></a> and other resources. For additional context on this documents sections, refer to the references section.</p>
 <div class="section" id="challenge">
 <h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
@@ -465,7 +474,7 @@
 <li><p>Use the catalog to curate the lineage and provenance of data assets through metadata enrichment for data owners and stewards</p></li>
 <li><p>Encourage enrichment and growth of the baseline statistics and tags through cyclical audits and simplified monitoring of catalog metadata and holdings</p></li>
 <li><p>Improve sampling practices resulting in simplified analysis of accurate and representative data subsets</p></li>
-<li><p>Use the catalog as a guide for data acquisition of project and reference data for foundational decisionmaker and stakeholder data collections</p></li>
+<li><p>Use the catalog as a guide for data acquisition of project and reference data for foundational decision maker and stakeholder data collections</p></li>
 </ul>
 </div>
 <div class="section" id="processes">
@@ -566,6 +575,8 @@
     </div>
     <footer class="footer">
   <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
     
         &copy; Copyright 2022, Certus Core.<br/>
   </p>

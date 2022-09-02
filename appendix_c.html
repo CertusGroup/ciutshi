@@ -1,0 +1,528 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appendix - Scenario &#8212; the Adaptable Data Operations Framework</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Appendix - Data Strategy" href="appendix_b.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="summary.html">
+   Summary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="faq.html">
+   FAQ
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Content Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content_management.html">
+   Content Management
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Governance
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="requirements.html">
+   Requirements
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_management.html">
+   Task Management
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="quality_assurance.html">
+   Quality Assurance
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="security.html">
+   Security
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ethics.html">
+   Ethics
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Data Management
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="storage.html">
+   Storage
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="modeling.html">
+   Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="analytics.html">
+   Analytics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="integration.html">
+   Integration
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="metadata.html">
+   Metadata
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="cataloging.html">
+   Cataloging
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_a.html">
+   Appendix - Templates and Rubrics
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_b.html">
+   Appendix - Data Strategy
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Appendix - Scenario
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+<div class="sbt-scroll-pixel-helper"></div>
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            <div class="topbar-left">
+                
+                <label class="nav-toggle-button" for="__navigation">
+                    <div class="visually-hidden">Toggle navigation</div>
+                    <i class="fas fa-bars"></i>
+                </label>
+                
+            </div>
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/appendix_c.md.txt"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fappendix_c.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ciutshi-in-action">
+   ciuTshi in Action
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#verification">
+     Verification
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection">
+     Selection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collection">
+     Collection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modeling">
+     Modeling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proof">
+     Proof
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Appendix - Scenario</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ciutshi-in-action">
+   ciuTshi in Action
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#verification">
+     Verification
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection">
+     Selection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collection">
+     Collection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modeling">
+     Modeling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proof">
+     Proof
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="section" id="appendix-scenario">
+<h1>Appendix - Scenario<a class="headerlink" href="#appendix-scenario" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="ciutshi-in-action">
+<h2>ciuTshi in Action<a class="headerlink" href="#ciutshi-in-action" title="Permalink to this headline">¶</a></h2>
+<p>For the purpose of demonstrating the use of ciuTshi, we will briefly go through the process of bringing in a new data asset. This will cover data management, data governance, and content management considerations within the scope of a consistent and rigorous data operations workflow. As stated throughout the framework’s modules, organizations will leverage ciuTshi in the way that best fits their master data lifecycle management needs for metadata and value metrics.</p>
+<p>This scenario will collect and process a new data asset, resulting in an initial metadata object unique to the organization’s requirements and metrics. This data will then be integrated with other project data, continuing the metadata modeling to demonstrate value impact for the organization.</p>
+<div class="section" id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>A project accepted by an institution requires geocoding to facilitate a geospatial analysis of another core project data asset. Project managers approach data operations personnel regarding the project, its scope, and its data requirements. The data operations personnel arrange a requirements workshop in order to solidify the data asset tasks for the project. Data operations reaches out to data architecture (DA) and information technology (IT) management representatives to ensure schedule alignment: they are needed to guide system utilization and personnel resources for project needs. Data operations then conducts a requirements workshop to gather data points: this precedes both tasking and metadata generation for the new data asset.</p>
+<p>When the workshops begins, the data operations team leads with clarification on terminology with the customer and helps them translate their requirements and intent into actionable data engineering tasks for the data operations teams.</p>
+<ul class="simple">
+<li><p>Why is geospatial analysis needed?</p></li>
+<li><p>What are the spatial features?</p></li>
+<li><p>How are you using these spatial features?</p></li>
+<li><p>Where are you consuming or deploying this data?</p></li>
+<li><p>Who are your consumers?</p></li>
+<li><p>When do you need this data?</p></li>
+</ul>
+<p>These task-related questions identify the tentative connection between each requirement’s temporal and monetary cost, its project value, and its effect on the institution’s bottom line. Challenging topics such as knowledge gaps and initial metrics are discussed and addressed before final requirements are issued. The identification of tentative connections between data features and testable metrics of the final data asset deliverable is especially critical as this is the way cost and value justify tasks for measurable impact.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Questions</p></th>
+<th class="head"><p>Connection</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Why</p></td>
+<td><p>Justification, Impact</p></td>
+</tr>
+<tr class="row-odd"><td><p>What</p></td>
+<td><p>Cost, Value, Resources</p></td>
+</tr>
+<tr class="row-even"><td><p>How</p></td>
+<td><p>Methods, Metrics, Models</p></td>
+</tr>
+<tr class="row-odd"><td><p>Where</p></td>
+<td><p>Architecture, Systems</p></td>
+</tr>
+<tr class="row-even"><td><p>Who</p></td>
+<td><p>Impact, Value, Cost</p></td>
+</tr>
+<tr class="row-odd"><td><p>When</p></td>
+<td><p>Cost, Systems, Methods</p></td>
+</tr>
+</tbody>
+</table>
+<p>Once topics of language and value are resolved, the data operations team verifies the tentative finalized requirements with the project customers. This verification process also includes notifications be sent to the customer on the effects of requirement drift if changes are made once the data operations processes begin.</p>
+<p>The workshop outcomes determine that a gazetteer is needed to geocode the existing data asset for this analysis. The establishment of the finalized requirements for gazetteer integration initiates three actions: role alignment for task management, creation of new documentation in content management, and creation of metadata objects for the data asset.</p>
+<ul class="simple">
+<li><p>Due to ciuTshi’s module connections to data operations roles, initial considerations on personnel resource alignment with tasks must be made prior to module selection and execution. A team member can fill several roles, but this is the time where augmentation of personnel is determined prior to establishing tasks and the final deadline for delivery. It is critical to establish task delegation and delegation contingencies as this directly effects delivery outcomes and timelines.</p>
+<ul>
+<li><p>Reminder: Data project <code class="docutils literal notranslate"><span class="pre">outcomes</span></code> are associated with content management documentation that is consumable by a broader non-technical audience despite its technical composition. Data project <code class="docutils literal notranslate"><span class="pre">status</span></code> is associate more with task management which is covered in the next section.</p></li>
+</ul>
+</li>
+<li><p>Data operations leadership leverages the organization’s content management system to communicate the state of the new data asset with tags, labels, and annotations to establish the qualitative analytic layer. This includes information on data governance and data management requirements to be actioned in the coming delivery timeline. Data operations leadership reminds their teams to update content management documents as frequently as possible to ensure communication on data project outcomes with institutional leadership and project stakeholders.</p></li>
+<li><p>Once roles and documentation are initially drafted and agreed upon, metadata is generated for the new data asset based on initial requirements, content management, and task management efforts. This includes data from the workshop and initial content management documentation elements.</p></li>
+</ul>
+<p><img alt="verification" src="_images/sce_verify.png" /></p>
+</div>
+<div class="section" id="selection">
+<h3>Selection<a class="headerlink" href="#selection" title="Permalink to this headline">¶</a></h3>
+<p>With the requirements for the new data asset established, selection of tasks begins. Data personnel push back on the requirements at this time if needed. The task management team changes requirements into user stories, taking care to capture key metadata points during this process. Project and data operations leadership verify these user stories as their form and function dictate the form and quality of the metadata elements collected on each task. Based on tasks established during user story review, data and project personnel then review the latest ciuTshi module documentation for their associated roles. This review establishes baseline expectations for who works on:</p>
+<ul class="simple">
+<li><p>Generating the gazetteer</p></li>
+<li><p>Coordinating access to the core data asset</p></li>
+<li><p>Geocoding the required fields</p></li>
+<li><p>Delivering the new enriched data asset</p></li>
+</ul>
+<p>While reviewing documentation to ensure role and task alignment, quality assurance personnel should be made aware of task management activities and prepare a review of processes. This review process ensures critical quality assurance factors comply with institutional policies on security, ethics and other guidelines. Metadata should capture initial aspects of quality assurance for the new data asset process.</p>
+<p>Version control is also initiated for data asset process artifacts. This system captures code and other technical information pertinent to the production of a gazetteer, geocoding, data processing, and other technical practices required by the customer for a sufficient data delivery. The metadata at this point reflects the setup of version control to the documented rubric standard (extended by each organization as needed).</p>
+<p>Data storage is setup and deployed as required. This initial data management process ensures raw spatial data can be stored in the DA and IT system as outlined in the requirements. The ciuTshi documentation guides baseline considerations for this, assisting in metadata generation on storage practices for the data asset.</p>
+<p><img alt="selection" src="_images/sce_selection.png" /></p>
+</div>
+<div class="section" id="collection">
+<h3>Collection<a class="headerlink" href="#collection" title="Permalink to this headline">¶</a></h3>
+<p>Collection and processing of the data asset begins once personnel and tasks are aligned. At this point, the data engineering team proceeds with the assigned data management tasks. Additional review of ciuTshi modules associated with data management guide population of metadata for their associated tasks. Fill out as much metadata as possible, but DO NOT make up data or fill in empty spaces.</p>
+<blockquote>
+<div><p>Note: Gaps in metadata collection are okay. ciuTshi is not stating you need to fill in all fields: teams and organizations may have different processes and systems resulting in very different metadata. The goal is consistent and rigorous metadata collection that reflects your unique data practices.</p>
+</div></blockquote>
+<p>At this point, data professionals may find that module templates and rubrics cannot account for some aspect of their data processes. Any changes should be noted in content management and monitored within the data catalog.</p>
+<blockquote>
+<div><p>Note: ciuTshi modules and their metadata artifacts are extensible. If changes need to be made based on new findings, it is important to ensure backward compatibility with older ciuTshi metadata objects. Maintaining metadata objects while adding to them ensures data provenance and legacy for data assets are maintained.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Note: Issues should be posted to ciuTshi’s repository for significant updates to the modules, templates, and rubrics. This helps everyone as data engineering practices, and their metadata, are always growing and shifting.</p>
+</div></blockquote>
+<p>Care is taken to maintain guidance on quality assurance, security, ethics, and other data governance practices throughout data management activities. These interactions may affect both delivery outcomes and metadata curation associated with enriching the geocoded data asset, so update metadata as frequently as needed to reflect the latest guidance. Content management documentation is also updated as needed based on major milestones outlined by task management.</p>
+<p>If requirements change, regardless of major or minor shifts, an addendum is submitted and documented to ensure tracking of this shift via the metadata and content management documentation.</p>
+<p><img alt="collection" src="_images/sce_collection.png" /></p>
+</div>
+<div class="section" id="modeling">
+<h3>Modeling<a class="headerlink" href="#modeling" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Note: This modeling section is NOT the same as the one in the above diagrams. This section is the metric modeling of the metadata that resulted from all data management, data governance, and content management processes.</p>
+</div></blockquote>
+<p>At this point, the data team produced a gazetteer and geocoded data that meets the enrichment standards outlined in the requirements. The data catalog contains a metadata object for the gazetteer data completed to the best ability of data operations team as a result of persistent module completion and updates. We can now proceed with modeling the metadata. We must now assess the impact and value of the data asset.</p>
+<p>When forming the requirements through workshops and detailed outlines, data operations personnel gathered some initial metrics concepts from project management and customers. These metrics may overlap with institutional metrics that apply to all data assets and already exist in production for data operations. A review is performed to ensure existing metrics cannot be used to accelerate outputs on value and impact. This review ensure metadata is sufficiently populated with the requisite data for a model once the metrics is selected.</p>
+<p>Modeling the data asset with the appropriate metrics is critical as its connection to institutional value and project impact will be managed and monitored. As part of the master data management lifecycle for the data asset and data utilities which depend on the asset, data operations personnel in charge of modeling metadata metrics must determine the model is connected to a measurable form of value for the institution. The model category guides this initial consideration as a review of tags and labels will help establish the types of models best suited to define the required metric. In some cases, a universal metric (e.g., a metric applied to all data assets) may be sufficient for demonstrating value and impact.</p>
+<p>The scope of the model is a key consideration. Data operations personnel account for the types of value and impact through careful consideration of quality, interconnection to other data assets, customer application metrics, and other pertinent variables: covering internal and external factors that may prove the scope of value and the scale of impact. If the data asset is part of a data mesh, what DA and IT factors accounts for value shifts or variation on project impact? The inclusion of qualitative factors from content management help guide this, but a deep literature review aids appropriate selection and later justification of model validity.</p>
+<p>In this scenario, the gazetteer data was leveraged to geocode one data set for advanced analysis. The initial consideration is the direct project impact: what was the value gained by this analysis? Starting with impact, we have: data operations labor hour, system resources leveraged, deliverable timelines, and customer cost for this task. These variable would give us a baseline budget impact for the project and justification for pursuing this course of action for leadership and stakeholders. Extending this, longitudinal studies can be conducted (so long as the ciuTshi metamodel is properly extended) to analyze the effects of geospatial analysis on other data with similar features to the project’s core data asset but leveraging the gazetteer beyond its initial requirements (within proper security and ethics guidelines).</p>
+<p>Once the model is assessed, processed, and tested, content management and version control documentation should be updated. This update will feed the additional metadata fields for the gazetteer and the core data asset. A write-up in the content management system follows this as leadership and stakeholder will need a review of proof that the metrics are valid. Model review will be covered in the next section in greater detail, but a consideration prior to this is review of other team metrics outside of data operations that may overlap with with ciuTshi-derived metrics. Understanding the extended users of a data product and their unique metrics and heuristics can aid in fixing metric errors and bolster the value proposition for the data asset. A key goal of ciuTshi is documenting these metric link in your metadata as both proof of metric utilization and linkage between data operations to the larger organization.</p>
+<p><img alt="modeling" src="_images/sce_modeling.png" /></p>
+</div>
+<div class="section" id="proof">
+<h3>Proof<a class="headerlink" href="#proof" title="Permalink to this headline">¶</a></h3>
+<p>The model is tested thoroughly in-house to ensure internal team members can securely verify the metrics and their asserted outcomes. Sanity checks, review panels, and other team events ensure the metrics and their outcomes are understandable and are able to be cross-validated. If issues arise during this process, a deeper review of the data asset, its metadata, and the metric may be required to ensure process rigor, data consistency, and model scope pass established quality benchmarks. The model results must be reproducible by other team members and the model must be tested for transferability between different systems. These checks ensure execution of the model between internal systems of varying security as well as utilization of the model by customers and stakeholders.</p>
+<p>Once data team reviews are complete, leadership and stakeholders assess the outcomes and decide if those metrics are sufficient for their needs. If the metrics are in need of additional inputs, external validation may be required. Prior to external assistance, security and ethics check should be reviewed to ensure access and review are conducive to the institution’s policies and agreements. External review, or peer review, may elucidate certain data elements and model features that critically impact the model outcomes. Peer review also reinforces transferable practices for models as well as ensuring diverse perspectives on particular data challenges.</p>
+<p>In the case of the gazetteer and its use in geocoding the core data asset for the project, proof of the value and impact of the data operation expands on traditional models of process efficiencies and knowledge enrichment. The optimal scenario is that core asset data points are geocoded, the analysis is completed, and the customer is able to advance their project operations and institutional goals. However, a peer reviewer finds an additional data feature present in the core data asset that when geocoded misrepresents features not in the original model proof. Though this does not affect the customer immediately, it may have cascading effects on later metadata production and model validation.</p>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="appendix_b.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Appendix - Data Strategy</p>
+        </div>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
+    
+        &copy; Copyright 2022, Certus Core.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

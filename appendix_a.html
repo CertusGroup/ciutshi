@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Appendix - Templates and Rubrics &#8212; data knowledge made easy</title>
+    <title>Appendix - Templates and Rubrics &#8212; the Adaptable Data Operations Framework</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Appendix - Data Strategy" href="appendix_b.html" />
@@ -194,13 +195,18 @@
    Appendix - Data Strategy
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_c.html">
+   Appendix - Scenario
+  </a>
+ </li>
 </ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -254,7 +260,10 @@
             href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fappendix_a.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
     </div>
 </div>
@@ -279,8 +288,40 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-a-content-management">
-   Appendix A. Content Management
+  <a class="reference internal nav-link" href="#appendix-a-methodology">
+   Appendix A. Methodology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#verification">
+     Verification
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection">
+     Selection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collection">
+     Collection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modeling">
+     Modeling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proof">
+     Proof
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix-b-content-management">
+   Appendix B. Content Management
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -296,8 +337,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-b-requirements">
-   Appendix B. Requirements
+  <a class="reference internal nav-link" href="#appendix-c-requirements">
+   Appendix C. Requirements
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -320,8 +361,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-c-task-management">
-   Appendix C. Task Management
+  <a class="reference internal nav-link" href="#appendix-d-task-management">
+   Appendix D. Task Management
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -344,8 +385,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-d-version-control">
-   Appendix D. Version Control
+  <a class="reference internal nav-link" href="#appendix-e-version-control">
+   Appendix E. Version Control
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -373,8 +414,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-e-quality-assurance">
-   Appendix E. Quality Assurance
+  <a class="reference internal nav-link" href="#appendix-f-quality-assurance">
+   Appendix F. Quality Assurance
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -390,8 +431,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-f-security">
-   Appendix F. Security
+  <a class="reference internal nav-link" href="#appendix-g-security">
+   Appendix G. Security
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -407,8 +448,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-g-ethics">
-   Appendix G. Ethics
+  <a class="reference internal nav-link" href="#appendix-h-ethics">
+   Appendix H. Ethics
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -424,8 +465,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-h-storage">
-   Appendix H. Storage
+  <a class="reference internal nav-link" href="#appendix-i-storage">
+   Appendix I. Storage
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -441,8 +482,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-i-modeling">
-   Appendix I. Modeling
+  <a class="reference internal nav-link" href="#appendix-j-modeling">
+   Appendix J. Modeling
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -458,8 +499,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-j-analytics">
-   Appendix J. Analytics
+  <a class="reference internal nav-link" href="#appendix-k-analytics">
+   Appendix K. Analytics
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -475,8 +516,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-k-integration">
-   Appendix K. Integration
+  <a class="reference internal nav-link" href="#appendix-l-integration">
+   Appendix L. Integration
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -492,8 +533,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-l-metadata">
-   Appendix L. Metadata
+  <a class="reference internal nav-link" href="#appendix-m-metadata">
+   Appendix M. Metadata
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -509,8 +550,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-m-cataloging">
-   Appendix M. Cataloging
+  <a class="reference internal nav-link" href="#appendix-n-cataloging">
+   Appendix N. Cataloging
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -546,8 +587,40 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-a-content-management">
-   Appendix A. Content Management
+  <a class="reference internal nav-link" href="#appendix-a-methodology">
+   Appendix A. Methodology
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#verification">
+     Verification
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selection">
+     Selection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#collection">
+     Collection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modeling">
+     Modeling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proof">
+     Proof
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#appendix-b-content-management">
+   Appendix B. Content Management
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -563,8 +636,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-b-requirements">
-   Appendix B. Requirements
+  <a class="reference internal nav-link" href="#appendix-c-requirements">
+   Appendix C. Requirements
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -587,8 +660,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-c-task-management">
-   Appendix C. Task Management
+  <a class="reference internal nav-link" href="#appendix-d-task-management">
+   Appendix D. Task Management
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -611,8 +684,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-d-version-control">
-   Appendix D. Version Control
+  <a class="reference internal nav-link" href="#appendix-e-version-control">
+   Appendix E. Version Control
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -640,8 +713,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-e-quality-assurance">
-   Appendix E. Quality Assurance
+  <a class="reference internal nav-link" href="#appendix-f-quality-assurance">
+   Appendix F. Quality Assurance
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -657,8 +730,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-f-security">
-   Appendix F. Security
+  <a class="reference internal nav-link" href="#appendix-g-security">
+   Appendix G. Security
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -674,8 +747,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-g-ethics">
-   Appendix G. Ethics
+  <a class="reference internal nav-link" href="#appendix-h-ethics">
+   Appendix H. Ethics
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -691,8 +764,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-h-storage">
-   Appendix H. Storage
+  <a class="reference internal nav-link" href="#appendix-i-storage">
+   Appendix I. Storage
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -708,8 +781,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-i-modeling">
-   Appendix I. Modeling
+  <a class="reference internal nav-link" href="#appendix-j-modeling">
+   Appendix J. Modeling
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -725,8 +798,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-j-analytics">
-   Appendix J. Analytics
+  <a class="reference internal nav-link" href="#appendix-k-analytics">
+   Appendix K. Analytics
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -742,8 +815,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-k-integration">
-   Appendix K. Integration
+  <a class="reference internal nav-link" href="#appendix-l-integration">
+   Appendix L. Integration
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -759,8 +832,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-l-metadata">
-   Appendix L. Metadata
+  <a class="reference internal nav-link" href="#appendix-m-metadata">
+   Appendix M. Metadata
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -776,8 +849,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-m-cataloging">
-   Appendix M. Cataloging
+  <a class="reference internal nav-link" href="#appendix-n-cataloging">
+   Appendix N. Cataloging
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
@@ -803,8 +876,58 @@
                 
   <div class="section" id="appendix-templates-and-rubrics">
 <h1>Appendix - Templates and Rubrics<a class="headerlink" href="#appendix-templates-and-rubrics" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="appendix-a-content-management">
-<h2>Appendix A. Content Management<a class="headerlink" href="#appendix-a-content-management" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-a-methodology">
+<h2>Appendix A. Methodology<a class="headerlink" href="#appendix-a-methodology" title="Permalink to this headline">¶</a></h2>
+<p>ciuTshi makes adaptable data operations simple. Despite the size and complexity of this appendix (and the overall framework), building metadata and process value are incremental and cumulative efforts. The challenge of generating rich metadata for modeling and analysis is a team effort, shared by several persons in the organization for which the data provides value. The aim of ciuTshi is to make the connection between the data and its value to the organization clear and valid for its users. What follows is a brief overview of an adaptable methodology for using this framework to gather and generate data asset value metrics.</p>
+<div class="section" id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<p>ciuTshi starts its data operations journey through clear requirements for a data asset. If your institution does not have a clear need for a data set or collection, nor a good value proposition for using people and resources to process the data into useable endpoint, it is not needed. Begin by reviewing and verifying the requirements with project leads, leadership, and other stakeholders who may provide clarity on the intent and purpose for a data asset request. If there is a clear justification for tasking a data engineering team with acquisition and curation of the data asset, start using dimensions, features, and user stories for the data to conceive of metrics which can validate process value for the institution (e.g., How does the use of this data impact the project and organization? How do I show this impact to leadership, stakeholders, and non-technical personnel?).</p>
+<blockquote>
+<div><p>Note: This step is where knowledge gaps are also identified. Even if the data is not accessible or is non-existent, an effort should be made to note the gap and what value the data, if present, would provide the organization. This will leave an ontological marker for later data enrichment via proxy data assets and/or metrics.</p>
+</div></blockquote>
+</div>
+<div class="section" id="selection">
+<h3>Selection<a class="headerlink" href="#selection" title="Permalink to this headline">¶</a></h3>
+<p>Every modular practice in ciuTshi has a template and rubric to facilitate eventual population of metadata for a data asset: creating data provenance for the organization’s metadata lineage. This process is a team effort with several data professionals tasked to action one or more modules for a given data asset. To begin, review the module’s documentation: summary, template, rubric, and any worksheets that assist in populating metadata for the data asset. Each module has roles, each with their own responsibilities and tasks that may depend on or overlap with other modules, tasks, and roles. A number of data professionals and organizational team members facilitate these task and modules by performing one or more roles within and between modules. This approach to task management within data operations allow organizations with variable available personnel to layer and delegate tasks within reasonable deadlines for both delivery of the data asset and population of the metadata.</p>
+<blockquote>
+<div><p>Note: This represents a situation common for many organizations and is why ciuTshi’s metatdata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quantifying process value in data practices.</p>
+</div></blockquote>
+</div>
+<div class="section" id="collection">
+<h3>Collection<a class="headerlink" href="#collection" title="Permalink to this headline">¶</a></h3>
+<p>Once requirements are validated and tasks are appropriately assigned, data professionals should collect and populate their portion of the metadata in the process of facilitating their data engineering, management, and governance tasks. All fields in the rubric schema should be filled out as completely as possible. It is understood that you may not use all the fields at first, but it is recommended that you maintain the entire schema as future data requirements may expand the scope of metadata needs. This also ensures that as ciuTshi grows, augmenting your existing metadata collections is simplified.</p>
+<p>Additionally, metadata collection should observe existing scientific research practices in population of the metadata rubrics. It is important to not make up data: null elements or empty fields are acceptable inputs if sufficient data is unavailable. It is important that every member of the data operations team agree to the consistent manner in which data is collected and entered into the rubric: noting the agreed method in the content management documents for the data project. It is recommended that this consistent data collection across all modules be rigorously adhered to within and between data projects: the more consistent and rigorous the metadata collection is, and the better shifts in these practices are tracked, the more valid the metric model outputs may be for decision-makers, stakeholders, and customers. This ability to validate metrics with collection practices aids in cross-validated review of those metrics with others throughout the organization.</p>
+<blockquote>
+<div><p>Note: Not every organization will use the same parts of ciuTshi in the same ways. The key focus should be to perform metadata collection in a consistent, rigorous, and verifiable manner. This level of metadata quality assurance is critical for long-term review and verification of metrics for data operations.</p>
+</div></blockquote>
+</div>
+<div class="section" id="modeling">
+<h3>Modeling<a class="headerlink" href="#modeling" title="Permalink to this headline">¶</a></h3>
+<p>In the requirements phase, we began asking critical questions to connect the data asset to its value impact for the project and as a result, the institution. After generating a rich and deep metadata collection for a data asset, we can now start adjusting and adding metrics to our fields for module- and asset-level modeling. Metrics are often organization specific, but may fall in several categories: descriptive, prescriptive, perceptive, interaction, outcome to name a few. Over time, each organization will develop and model their own sets of quantitative and qualitative metrics for their data assets. These metrics should be developed and documented as the organization’s mission, vision, and goals shift: this helps leadership and stakeholders understand how value and impact change based on key indicators found in the metadata. Value should be at these metrics’ loci, but it is by no means to only concern data professionals should have for a data asset. There may be quality, security, ethics, or other ensemble metrics derived from the organization’s members, leadership, stakeholder networks, communities of practice, and other data partners.</p>
+<p>There are also universals that exist across all data assets which add richness to the metadata for longitudinal analysis:</p>
+<ul class="simple">
+<li><p><strong><em>weight</em></strong> is a default metric that exists across all data elements. Weight can imply several things for a data asset and will be defined by each organization based on their core metric requirements for data lifecycle management (documented in detail via content management), but the initial intent for the metric is to determine how important a metadata field is for the organization (on a scale from 0 to 1). This variable heuristic weight allows each data asset to be shaped by data professionals to reflect their organization’s unique application of data operations for value generation and stakeholder impact.</p></li>
+</ul>
+<blockquote>
+<div><p>Note: Outside of data operations, other institutional teams and sections may have metrics that do not adhere to ciuTshi standards for comprehensive metadata collection and modeling. Efforts should be made to account for any connections within these external metrics that have direct implications for data asset impact on overall process value. Despite the technical and complex nature of some metrics, a non-technical team member must be able to understand the output of the model, its value, and its implications for institutional impact.</p>
+</div></blockquote>
+</div>
+<div class="section" id="proof">
+<h3>Proof<a class="headerlink" href="#proof" title="Permalink to this headline">¶</a></h3>
+<p>Establishment of models requires a persistent level of vigilance to ensure their validity. This validity requires several engagements with the model and its modelers to ensure the metrics prove what they claim to prove. This validation starts with a sanity check: does the model, metadata, metrics, and outputs make sense based on what we know about the data asset, its collection, and its utilization? Validation should then be socialized, opening communication with colleagues to ensure the model makes sense when walked-through the modeling process (observing appropriate security and other ethical research practices). Once internal colleagues review the model and validate its metrics, it may then call for peer-review with stakeholders and other reliable partners (preferably a mix of specialized professionals with domain knowledge and astute non-technical persons with keen interrogation skills and curiosity).</p>
+<p>If data, system, and other necessary accesses are possible for a reviewer, there are a baseline of questions that would aid in maintaining proof of a metric’s validity:</p>
+<ul class="simple">
+<li><p>Are the results reproducible?</p></li>
+<li><p>Is the model transferable?</p></li>
+<li><p>Are the results cross validated?</p></li>
+<li><p>Is proof understandable?</p></li>
+</ul>
+<p>These steps in the process of validation ensure that a model mobilizes metadata production and utilization, keeping data systems and those that leverage them in a persistent state of constructive flow. This flow makes the cumulative and iterative cycle of metadata generation a systematic part of the data operations culture for the organization and its many talented professionals.</p>
+<p><img alt="Metadata Methodology" src="_images/methodology.png" /></p>
+</div>
+</div>
+<div class="section" id="appendix-b-content-management">
+<h2>Appendix B. Content Management<a class="headerlink" href="#appendix-b-content-management" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="templates">
 <h3>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with content management for a data asset. It is highly recommended that you collect all essential elements if possible in the course of content management practices.</p>
@@ -840,7 +963,7 @@
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -877,7 +1000,7 @@
 </tr>
 <tr class="row-odd"><td><p>cm_security</p></td>
 <td><p>content_management</p></td>
-<td><p>security advisor for content managment practices</p></td>
+<td><p>security advisor for content management practices</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -919,7 +1042,7 @@
 </tr>
 <tr class="row-even"><td><p>cm_access</p></td>
 <td><p>content_management</p></td>
-<td><p>list of policies and groups associted with data project</p></td>
+<td><p>list of policies and groups associated with data project</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -969,13 +1092,13 @@
 </table>
 </div>
 </div>
-<div class="section" id="appendix-b-requirements">
-<h2>Appendix B. Requirements<a class="headerlink" href="#appendix-b-requirements" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-c-requirements">
+<h2>Appendix C. Requirements<a class="headerlink" href="#appendix-c-requirements" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id1">
 <h3>Templates<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with requirements gathering for a data asset. It is highly recommended that you collect all essential elements if possible in the course of requirements gathering practices.</p>
 <ul class="simple">
-<li><p>What system are reuquired to accomplish the data project?</p></li>
+<li><p>What system are required to accomplish the data project?</p></li>
 <li><p>Who are the data owners for the data assets?</p></li>
 <li><p>From where do the data assets originate?</p></li>
 <li><p>Who and/or what produced the data asset?</p></li>
@@ -987,14 +1110,14 @@
 <li><p>What is the version control plan for the data assets?</p></li>
 <li><p>What is the conceptual model for the data asset?</p></li>
 <li><p>What is the logical model for the data asset?</p></li>
-<li><p>What is the cononical model for the data asset including the final schema?</p></li>
+<li><p>What is the canonical model for the data asset including the final schema?</p></li>
 <li><p>What is the revision plan for the data asset requirements?</p></li>
-<li><p>What addendums were added to the official requirements (if any)?</p></li>
+<li><p>What addendum were added to the official requirements (if any)?</p></li>
 <li><p>What is the cancellation plan for the data asset requirements?</p></li>
 </ul>
 <div class="section" id="request-for-engineering">
 <h4>Request for Engineering<a class="headerlink" href="#request-for-engineering" title="Permalink to this headline">¶</a></h4>
-<p>The request for engineering is a short form to capture essential elements of the requirements workshop. This can be expanded and apated to suite the needs of the particular workshop and its associated data assets.</p>
+<p>The request for engineering is a short form to capture essential elements of the requirements workshop. This can be expanded and adapted to suite the needs of the particular workshop and its associated data assets.</p>
 <table class="colwidths-auto table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
@@ -1086,7 +1209,7 @@
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -1153,7 +1276,7 @@
 </tr>
 <tr class="row-even"><td><p>req_tms</p></td>
 <td><p>requirements</p></td>
-<td><p>decription of the task management plan and setup for the data project</p></td>
+<td><p>description of the task management plan and setup for the data project</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -1183,13 +1306,13 @@
 </tr>
 <tr class="row-odd"><td><p>req_rev</p></td>
 <td><p>requirements</p></td>
-<td><p>description of the revision and review plan for the requirements and addendums</p></td>
+<td><p>description of the revision and review plan for the requirements and addendum</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
-<tr class="row-even"><td><p>req_addendums</p></td>
+<tr class="row-even"><td><p>req_addendum</p></td>
 <td><p>requirements</p></td>
-<td><p>a list and description of the addendums for the official published requirements: using the RFE template field to demonstrate changes</p></td>
+<td><p>a list and description of the addendum for the official published requirements: using the RFE template field to demonstrate changes</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -1203,13 +1326,13 @@
 </table>
 </div>
 </div>
-<div class="section" id="appendix-c-task-management">
-<h2>Appendix C. Task Management<a class="headerlink" href="#appendix-c-task-management" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-d-task-management">
+<h2>Appendix D. Task Management<a class="headerlink" href="#appendix-d-task-management" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id3">
 <h3>Templates<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<p>These are questions associated with task managment for a data asset. It is highly recommended that you collect all essential elements if possible in the course of task management practices.</p>
+<p>These are questions associated with task management for a data asset. It is highly recommended that you collect all essential elements if possible in the course of task management practices.</p>
 <ul class="simple">
-<li><p>Who is the manager for the task managment process?</p></li>
+<li><p>Who is the manager for the task management process?</p></li>
 <li><p>Who is the product owner who will oversee and receive the data asset?</p></li>
 <li><p>Who is the scrum master?</p></li>
 <li><p>Who are the scrum team personnel?</p></li>
@@ -1316,7 +1439,7 @@
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -1365,7 +1488,7 @@
 </tr>
 <tr class="row-odd"><td><p>tms_vendor</p></td>
 <td><p>task_management</p></td>
-<td><p>vendors facilitationg tasks within TMS processes</p></td>
+<td><p>vendors facilitating tasks within TMS processes</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -1419,7 +1542,7 @@
 </tr>
 <tr class="row-even"><td><p>tms_mvp</p></td>
 <td><p>task_management</p></td>
-<td><p>description of complete MVP to defintion of done standards including any changes</p></td>
+<td><p>description of complete MVP to definition of done standards including any changes</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -1439,8 +1562,8 @@
 </table>
 </div>
 </div>
-<div class="section" id="appendix-d-version-control">
-<h2>Appendix D. Version Control<a class="headerlink" href="#appendix-d-version-control" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-e-version-control">
+<h2>Appendix E. Version Control<a class="headerlink" href="#appendix-e-version-control" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id5">
 <h3>Templates<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with version control for a data asset. It is highly recommended that you collect all essential elements if possible in the course of version control practices.</p>
@@ -1586,7 +1709,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -1671,7 +1794,7 @@ README.md</p></li>
 </tr>
 <tr class="row-odd"><td><p>vcs_rev</p></td>
 <td><p>version_control</p></td>
-<td><p>description of the review practices for respositories</p></td>
+<td><p>description of the review practices for repositories</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -1697,8 +1820,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-e-quality-assurance">
-<h2>Appendix E. Quality Assurance<a class="headerlink" href="#appendix-e-quality-assurance" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-f-quality-assurance">
+<h2>Appendix F. Quality Assurance<a class="headerlink" href="#appendix-f-quality-assurance" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id7">
 <h3>Templates<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with quality assurance for a data asset. It is highly recommended that you collect all essential elements if possible in the course of quality assurance practices.</p>
@@ -1713,7 +1836,7 @@ README.md</p></li>
 <li><p>What are the reasonability standards for the data assets?</p></li>
 <li><p>What are the timeliness standards for the data assets?</p></li>
 <li><p>What are the uniqueness standards for the data assets?</p></li>
-<li><p>What are the validty standards for the data assets?</p></li>
+<li><p>What are the validity standards for the data assets?</p></li>
 <li><p>What are the quality assurance rules associated with the data assets?</p></li>
 <li><p>How are issues handles for the data assets?</p></li>
 <li><p>What are the profile models for the data assets?</p></li>
@@ -1735,7 +1858,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -1870,8 +1993,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-f-security">
-<h2>Appendix F. Security<a class="headerlink" href="#appendix-f-security" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-g-security">
+<h2>Appendix G. Security<a class="headerlink" href="#appendix-g-security" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id9">
 <h3>Templates<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with security for a data asset. It is highly recommended that you collect all essential elements if possible in the course of security practices.</p>
@@ -1879,7 +2002,7 @@ README.md</p></li>
 <li><p>Who are the security managers associated with the data project?</p></li>
 <li><p>Who are the owners of the data assets?</p></li>
 <li><p>Who are the stewards for the data assets?</p></li>
-<li><p>Who are the infomation security managers associated with the data project?</p></li>
+<li><p>Who are the information security managers associated with the data project?</p></li>
 <li><p>Who are the information assurance personnel associate with the data project?</p></li>
 <li><p>Who are the data governance board members associated with the data project?</p></li>
 <li><p>Who are the security team members associated with data project security tasks?</p></li>
@@ -1905,7 +2028,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -1996,7 +2119,7 @@ README.md</p></li>
 </tr>
 <tr class="row-even"><td><p>sec_authentication</p></td>
 <td><p>security</p></td>
-<td><p>description of authentication practice requireds for the data project and data assets including required logs, metrics, and audits</p></td>
+<td><p>description of authentication practice required for the data project and data assets including required logs, metrics, and audits</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -2022,20 +2145,20 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-g-ethics">
-<h2>Appendix G. Ethics<a class="headerlink" href="#appendix-g-ethics" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-h-ethics">
+<h2>Appendix H. Ethics<a class="headerlink" href="#appendix-h-ethics" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id11">
 <h3>Templates<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with ethics for a data asset. It is highly recommended that you collect all essential elements if possible in the course of ethics practices.</p>
 <ul class="simple">
 <li><p>Who are the managers associated with data asset ethics?</p></li>
-<li><p>Who are the data asset ownerx?</p></li>
+<li><p>Who are the data asset owners?</p></li>
 <li><p>Who are the data asset stewards?</p></li>
 <li><p>Who are the team members associated with ethical review for data asset utilization?</p></li>
 <li><p>Who are the data asset stakeholders?</p></li>
 <li><p>Who are the IRB team members associated with the data project?</p></li>
 <li><p>Who are the agencies associated with ethical practices for the data project?</p></li>
-<li><p>What is the code of coduct associated with ethical data practices?</p></li>
+<li><p>What is the code of conduct associated with ethical data practices?</p></li>
 <li><p>What was the consent process for the data assets and data project?</p></li>
 <li><p>Are there certification associated with data project ethics?</p></li>
 <li><p>What ethics policies are associated with the data project?</p></li>
@@ -2059,7 +2182,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -2126,7 +2249,7 @@ README.md</p></li>
 </tr>
 <tr class="row-even"><td><p>eth_consent</p></td>
 <td><p>ethics</p></td>
-<td><p>consent practics associated with data assets and the data project</p></td>
+<td><p>consent practices associated with data assets and the data project</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -2188,8 +2311,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-h-storage">
-<h2>Appendix H. Storage<a class="headerlink" href="#appendix-h-storage" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-i-storage">
+<h2>Appendix I. Storage<a class="headerlink" href="#appendix-i-storage" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id13">
 <h3>Templates<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with storage of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data storage.</p>
@@ -2216,7 +2339,7 @@ README.md</p></li>
 <li><p>What pipeline models, tools and/or code for processing raw data into storage are used?</p></li>
 <li><p>Where is the raw data stored?</p></li>
 <li><p>Where is the master data derived from the raw data stored?</p></li>
-<li><p>Are there any addendums or changes to the raw data requirements?If so, please describe in detail with references.</p></li>
+<li><p>Are there any addendum or changes to the raw data requirements?If so, please describe in detail with references.</p></li>
 <li><p>What is the monitoring plan for the raw data (including retention and deprecation plan)?</p></li>
 </ul>
 </div>
@@ -2231,7 +2354,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -2383,12 +2506,12 @@ README.md</p></li>
 <tr class="row-even"><td><p>sto_addendum</p></td>
 <td><p>storage</p></td>
 <td><p>form reference for the change in storage to a raw data asset</p></td>
-<td><p>recommended if addendums generated, else optional</p></td>
+<td><p>recommended if addendum generated, else optional</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
 <tr class="row-odd"><td><p>sto_monitoring</p></td>
 <td><p>storage</p></td>
-<td><p>reference for the retention and deprication to all data assets</p></td>
+<td><p>reference for the retention and deprecation to all data assets</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -2396,8 +2519,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-i-modeling">
-<h2>Appendix I. Modeling<a class="headerlink" href="#appendix-i-modeling" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-j-modeling">
+<h2>Appendix J. Modeling<a class="headerlink" href="#appendix-j-modeling" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id15">
 <h3>Templates<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with modeling of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data modeling.</p>
@@ -2418,7 +2541,7 @@ README.md</p></li>
 <li><p>What are the tags for the model’s associated categories?</p></li>
 <li><p>What are the ontological entities that are linked to the modeled data features?</p></li>
 <li><p>What is the dictionary reference for the modeled data schema features (e.g., data dictionary)?</p></li>
-<li><p>How was the data tranformed for the final data model?</p></li>
+<li><p>How was the data transformed for the final data model?</p></li>
 <li><p>How was the data normalized for the final data model?</p></li>
 <li><p>What is the sampling method suggested for the data asset?</p></li>
 <li><p>Was synthetic data recommended for use of the data asset? If so, what is the method used?</p></li>
@@ -2437,7 +2560,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -2552,7 +2675,7 @@ README.md</p></li>
 </tr>
 <tr class="row-even"><td><p>mod_transformation</p></td>
 <td><p>modeling</p></td>
-<td><p>tranformation details for the final data model</p></td>
+<td><p>transformation details for the final data model</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -2590,8 +2713,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-j-analytics">
-<h2>Appendix J. Analytics<a class="headerlink" href="#appendix-j-analytics" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-k-analytics">
+<h2>Appendix K. Analytics<a class="headerlink" href="#appendix-k-analytics" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id17">
 <h3>Templates<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with data analytics. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data asset analytics.</p>
@@ -2632,7 +2755,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -2791,8 +2914,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-k-integration">
-<h2>Appendix K. Integration<a class="headerlink" href="#appendix-k-integration" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-l-integration">
+<h2>Appendix L. Integration<a class="headerlink" href="#appendix-l-integration" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id19">
 <h3>Templates<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with data integration. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data integration.</p>
@@ -2813,11 +2936,11 @@ README.md</p></li>
 <li><p>What are the resources and personnel tasked to implement the integration endpoint design?</p></li>
 <li><p>What database(s) were used for the integration endpoint solution?</p></li>
 <li><p>What are the API details for the integration endpoint solution?</p></li>
-<li><p>What are the developement details for the integration endpoint solution including testing and logging information?</p></li>
-<li><p>What are the date(s) and time(s) the intgration endpoint was first accessed by the customer?</p></li>
-<li><p>What are the date(s) and time(s) the intgration endpoint ceased to be available to the customer?</p></li>
+<li><p>What are the development details for the integration endpoint solution including testing and logging information?</p></li>
+<li><p>What are the date(s) and time(s) the integration endpoint was first accessed by the customer?</p></li>
+<li><p>What are the date(s) and time(s) the integration endpoint ceased to be available to the customer?</p></li>
 <li><p>Describe of how the data asset is used by the customer from the endpoint?</p></li>
-<li><p>Decribe the monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle?</p></li>
+<li><p>Describe the monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle?</p></li>
 </ul>
 </div>
 <div class="section" id="id20">
@@ -2831,7 +2954,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -2946,19 +3069,19 @@ README.md</p></li>
 </tr>
 <tr class="row-even"><td><p>int_development</p></td>
 <td><p>integration</p></td>
-<td><p>developement details for the integration endpoint solution including testing and logging information</p></td>
+<td><p>development details for the integration endpoint solution including testing and logging information</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
 <tr class="row-odd"><td><p>int_endpoint_implemented</p></td>
 <td><p>integration</p></td>
-<td><p>date and time the intgration endpoint was first accessed by the customer (this may be several datatimes, each needing an explanation)</p></td>
+<td><p>date and time the integration endpoint was first accessed by the customer (this may be several datetimes, each needing an explanation)</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
 <tr class="row-even"><td><p>int_endpoint_deprecated</p></td>
 <td><p>integration</p></td>
-<td><p>date and time the intgration endpoint ceased to be available to the customer (this may be several datatimes, each needing an explanation)</p></td>
+<td><p>date and time the integration endpoint ceased to be available to the customer (this may be several datetimes, each needing an explanation)</p></td>
 <td><p>essential</p></td>
 <td><p>[‘weight’:1]</p></td>
 </tr>
@@ -2978,8 +3101,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-l-metadata">
-<h2>Appendix L. Metadata<a class="headerlink" href="#appendix-l-metadata" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-m-metadata">
+<h2>Appendix M. Metadata<a class="headerlink" href="#appendix-m-metadata" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id21">
 <h3>Templates<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with metadata for a data asset. It is highly recommended that you collect all essential elements if possible in the course of data management practices for metadata. This section in particular can draw from all other sections as Appendix A is the metamodel for metadata.</p>
@@ -3003,7 +3126,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -3060,8 +3183,8 @@ README.md</p></li>
 </table>
 </div>
 </div>
-<div class="section" id="appendix-m-cataloging">
-<h2>Appendix M. Cataloging<a class="headerlink" href="#appendix-m-cataloging" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="appendix-n-cataloging">
+<h2>Appendix N. Cataloging<a class="headerlink" href="#appendix-n-cataloging" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id23">
 <h3>Templates<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
 <p>These are questions associated with cataloging of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data cataloging.</p>
@@ -3089,7 +3212,7 @@ README.md</p></li>
 <li><p><em>recommended</em> elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.</p></li>
 </ul>
 </li>
-<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
+<li><p><strong><em>Metrics</em></strong> is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. <em>weight</em> is the only default feature in <em>metrics</em></p>
 <ul>
 <li><p><em>weight</em> by default is set to <code class="docutils literal notranslate"><span class="pre">1</span></code> for each metadata element.</p></li>
 </ul>
@@ -3198,6 +3321,8 @@ README.md</p></li>
     </div>
     <footer class="footer">
   <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
     
         &copy; Copyright 2022, Certus Core.<br/>
   </p>

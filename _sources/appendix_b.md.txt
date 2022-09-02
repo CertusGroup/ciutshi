@@ -315,7 +315,7 @@ The operational model section covers the organization and team considerations fo
 
 ##### Vision
 
-The vision statement for the data strategy must encapsulate the necessary future state of the institution's data infrastruture for enhanced data asset management. This will support the broader vision, but from a technology and information systems perspective. The vision statement must also point to key groups or people whom benefit from, or are determinant of, the vision's implementation.
+The vision statement for the data strategy must encapsulate the necessary future state of the institution's data infrastructure for enhanced data asset management. This will support the broader vision, but from a technology and information systems perspective. The vision statement must also point to key groups or people whom benefit from, or are determinant of, the vision's implementation.
 
 ##### Mission
 
@@ -335,11 +335,11 @@ The people section covers the data personnel considerations for the data strateg
 
 ##### Roles and Responsibility
 
-This section should list key roles and subordinate roles essential to guidance and completion of data strategy objectives. Each role will include a list of primary resposibilities which distinguish the roles within the context of the proceding data strategy sections. This clarification on what roles achieve in the scope of mission, vision, and goals helps create a lexicon which reduces conflict between data teams while encouraging maximum collaboration between essential data personnel.
+This section should list key roles and subordinate roles essential to guidance and completion of data strategy objectives. Each role will include a list of primary responsibilities which distinguish the roles within the context of the proceeding data strategy sections. This clarification on what roles achieve in the scope of mission, vision, and goals helps create a lexicon which reduces conflict between data teams while encouraging maximum collaboration between essential data personnel.
 
 ##### Talent and Skills
 
-This section will list essential talents and skills seen as critical or essential for the completion of objectives during the biennial data strategy period. This may include hardware, software, organizational, educational, interpersonal, and any other category of skill or talent needed to acheive positive results toward the mission, vision, and institutional priorities.
+This section will list essential talents and skills seen as critical or essential for the completion of objectives during the biennial data strategy period. This may include hardware, software, organizational, educational, interpersonal, and any other category of skill or talent needed to achieve positive results toward the mission, vision, and institutional priorities.
 
 #### Data Operations
 
@@ -351,11 +351,11 @@ This section covers shifts in data governance as a core element of the data oper
 
 ###### Data Lifecycle Management
 
-This section covers the direct system-level considerations for the biennial data strategy. Data lifecycle management is the engine of data operations, buffered by data governance to allow data engineering personnel to excute requirements with increased efficiency. This covers changes to data storage, modeling, analytics, data integration, metadata, and cataloging of data assets from raw state to end-point delivery.
+This section covers the direct system-level considerations for the biennial data strategy. Data lifecycle management is the engine of data operations, buffered by data governance to allow data engineering personnel to execute requirements with increased efficiency. This covers changes to data storage, modeling, analytics, data integration, metadata, and cataloging of data assets from raw state to end-point delivery.
 
 ##### Trust and Security
 
-The biennial data strategy should enable a strong link between operations and security. This includes bridging the gaps in trusted systems and personnel with the data infrastructure accesses that perpetuate efficient data asset delivery. Institutional and community factors should be acounted for as regulations and license agreements for both systems and assets can shift the security and trust paradigm for data operations customers and stakeholders.
+The biennial data strategy should enable a strong link between operations and security. This includes bridging the gaps in trusted systems and personnel with the data infrastructure accesses that perpetuate efficient data asset delivery. Institutional and community factors should be accounted for as regulations and license agreements for both systems and assets can shift the security and trust paradigm for data operations customers and stakeholders.
 
 ##### KPIs and Metrics
 
@@ -363,11 +363,11 @@ KPIs and metrics will be a significant part of the data strategy as they help tr
 
 #### Data Architecture
 
-The data architecture section covers the data technology and data asset considerations for the data strategy period of performance. Data assets depend on data archictectures ability to facilitate assests per requirements to customer end-points. A large part of this relationship are the tools and technologies that support their management and governance within the organization's information systems.
+The data architecture section covers the data technology and data asset considerations for the data strategy period of performance. Data assets depend on data architectures ability to facilitate assets per requirements to customer end-points. A large part of this relationship are the tools and technologies that support their management and governance within the organization's information systems.
 
 ##### Technology and Tools
 
-This section covers essential considerations for maintenance and shifts in tools and technologies for data management. This includes software and programming languages essential to process and regulate data assets across systems. This focus ensures that the data strategy accounts for timelines to upgrades and license technologies in a manner that acheives continuity of data operations within and between strategy periods.
+This section covers essential considerations for maintenance and shifts in tools and technologies for data management. This includes software and programming languages essential to process and regulate data assets across systems. This focus ensures that the data strategy accounts for timelines to upgrades and license technologies in a manner that achieves continuity of data operations within and between strategy periods.
 
 ##### Architecture
 
@@ -383,15 +383,15 @@ With data management buffered by data governance within broader data operation p
 
 ###### Transition of Products and Services to External Stakeholder
 
-With clearly defined delivery and deprecation standards obtained through the requirements practices, this section should focus on packaging practices for data assets and services from appropriately secure systems to external stakeholders as part of project completion. This includes additional features of quality assuarance and integration that must pass both organization and customer standards for final requirement fulfillment. The data strategy should account for any critical gaps in this set of practices to ensure essential revision and adoption of data operations practices within evolving data architectures.
+With clearly defined delivery and deprecation standards obtained through the requirements practices, this section should focus on packaging practices for data assets and services from appropriately secure systems to external stakeholders as part of project completion. This includes additional features of quality assurance and integration that must pass both organization and customer standards for final requirement fulfillment. The data strategy should account for any critical gaps in this set of practices to ensure essential revision and adoption of data operations practices within evolving data architectures.
 
 #### Roadmap
 
-This roadmap covers the cumulative path of actions to be taken during the biennenial data strategy period to realize the data operations' requirements outlined in above sections.
+This roadmap covers the cumulative path of actions to be taken during the biennial data strategy period to realize the data operations' requirements outlined in above sections.
 
 ##### Action Plans toward Vision and Objectives
 
-This section lays out the two year timeline for all elements of the data strategy. Though this plan may change per organizational shifts, the action plan must be pursued to its fullest extent possible. Each of the above sections will have their own set of action plans making tasking per roles more simple and equitable for the array of personnel skills available. This consideration for delegation across sections and personnel should be seen as an opportunity to review and revise both plans and indeation towards essential integration to the institution's vision and objectives for the expected years encompassed by the data strategy.
+This section lays out the two year timeline for all elements of the data strategy. Though this plan may change per organizational shifts, the action plan must be pursued to its fullest extent possible. Each of the above sections will have their own set of action plans making tasking per roles more simple and equitable for the array of personnel skills available. This consideration for delegation across sections and personnel should be seen as an opportunity to review and revise both plans and ideation towards essential integration to the institution's vision and objectives for the expected years encompassed by the data strategy.
 
 The organization may shift the format and systems through which action plans are conceived and executed. The core of the action plans utilization within the data strategy is in the consistent accountancy of critical shifts to any element of data asset management and governance. These considerations permit leadership to enable valuable feedback to data professionals regarding the strategy and the ultimate value delivered to the business model and the institutional array of customers and stakeholders.
 
@@ -403,7 +403,7 @@ The ciuTshi metamodel for metadata contains a set of baseline criteria. This can
   * *essential* elements are metric elements of information needed to ensure data retained in done so for measurable reason(s).
   * *non-essential* elements are elements that may not be relevant to the raw data asset of the institution in charge of the data asset.
   * *recommended* elements are recommended in cases where the raw data asset has set conditions upon it utilization or complexities in its interpretation.
-* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augemented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
+* __*Metrics*__ is an extensible array of quantitative and qualitative features associated with the data asset element and can be augmented to suit an institutions metric requirements. *weight* is the only default feature in *metrics*
   * *weight* by default is set to `1` for each metadata element.
   * *field_category* has three variables: direct; indirect; and mixed measures.
     * Direct measures are first-hand data points collected by the research.

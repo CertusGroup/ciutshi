@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Security &#8212; data knowledge made easy</title>
+    <title>Security &#8212; the Adaptable Data Operations Framework</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
+    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Ethics" href="ethics.html" />
@@ -194,13 +195,18 @@
    Appendix - Data Strategy
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="appendix_c.html">
+   Appendix - Scenario
+  </a>
+ </li>
 </ul>
 
     </div>
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <img src='_static/images/certus_logo.png' alt='a Certus project'>
+  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -254,7 +260,10 @@
             href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
-        
+        <a class="issues-button"
+            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fsecurity.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
     </div>
 </div>
@@ -294,8 +303,8 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#roles-and-responsibilities">
-     Roles and Responsibilities
+    <a class="reference internal nav-link" href="#roles">
+     Roles
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -363,8 +372,8 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#roles-and-responsibilities">
-     Roles and Responsibilities
+    <a class="reference internal nav-link" href="#roles">
+     Roles
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -409,7 +418,7 @@
 <h1>Security<a class="headerlink" href="#security" title="Permalink to this headline">¶</a></h1>
 <p>Security is a critical component of data operations. Control of access to data architecture and data assets is a primary consideration for any data management task or data engineering solution. However, institutions do not want strict access controls to hinder agility and speed to decision making for stakeholders and customers. As a result, data security must leverage internal and external concerns from stakeholders, regulations, and business needs to guide best security practices for data assets.</p>
 <p>Data security is largely data strategy-driven. Through a data governance board and governance structures, an examination of data assets, projects, and business requirements can lead to effective guiding policies. These policies must stand in rigorous compliance with regulations without adding unnecessary process complexity, ultimately leading to delays in delivery. This complexity is controlled through a balance between shared efforts from the data management personnel, data architecture professionals, and the information technology administrators for the institution. This concerted collaboration is at the core of the data strategy, adding strength to the organizations overall data security.</p>
-<p>Collaborative vigilance is the key to good data security practices. The collaboration across data systems and teams is only one level in data security. Data security is responsive to stakeholder security practices, international regulations for data and systems security, requirements for data assets, and contractual arrangements between data owners, data stewarts, and customers. These relationships establish the baseline for roles and responsibilities around legitimate access for personnel and teams. This baseline also represents the risk mitigation measures put in place by stakeholders, ensuring appropriate practices surrounding the data are applied within compliance standards. This focus on people and practices lends itself to layering risk mitigation for data assets. This concerted effort across the data systems by data professionals fosters institutional model growth with “security first” data asset practices.</p>
+<p>Collaborative vigilance is the key to good data security practices. The collaboration across data systems and teams is only one level in data security. Data security is responsive to stakeholder security practices, international regulations for data and systems security, requirements for data assets, and contractual arrangements between data owners, data stewards, and customers. These relationships establish the baseline for roles and responsibilities around legitimate access for personnel and teams. This baseline also represents the risk mitigation measures put in place by stakeholders, ensuring appropriate practices surrounding the data are applied within compliance standards. This focus on people and practices lends itself to layering risk mitigation for data assets. This concerted effort across the data systems by data professionals fosters institutional model growth with “security first” data asset practices.</p>
 <p>This discussion on data security requires us to define a few key concepts: vulnerability, threat, risk, and risk classification. A vulnerability is a weakness or defect in the system<a class="reference internal" href="#security-references"><span class="std std-ref">1</span></a>. A threat is a potential action that is or can be taken against a system<a class="reference internal" href="#security-references"><span class="std std-ref">1</span></a>. As already talked about at length, a risk is a potential to lose something<a class="reference internal" href="#security-references"><span class="std std-ref">1</span></a>. A risk classification is a system of measure put in place to assess the type and effect of a risk (e.g., the risk sensitivity) <a class="reference internal" href="#security-references"><span class="std std-ref">1</span></a>. These classifications are deeply rooted in all operations, requiring persistent policy and training shifts to account for the latest risks. Data security also depends on persistent adjustment, seeking solutions to risks accounting for vulnerabilities and evolving threats.</p>
 <p>Data security processes, via carefully implemented data strategy, must be integrated across data operations through governance and management practices. Data operations depend heavily on the move to integrated metrics and automation<a class="reference internal" href="#security-references"><span class="std std-ref">2</span></a>. As a result, humans-in-the-loop must understand that a lack of testing and security around these factors increase vulnerability and risk. Practices such as data governance board reviews on security policy<a class="reference internal" href="#security-references"><span class="std std-ref">3</span></a> alleviate this in several ways. First, it makes data security a leadership and culture goal. Second, it enables adaptable roles and responsibilities for data practices to shift governance policy for rapid data management impact. Third, data security positively impacts business outcomes for institutional stakeholders, building trust in data products and systems.</p>
 <div class="section" id="challenge">
@@ -420,34 +429,35 @@
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Enable appropriate accesses to data assets for stakeholders and customers</p></li>
-<li><p>Prevent asset and system compromises through adherances to regulations and policies on privacy, protection, and confidentiality practices</p></li>
+<li><p>Prevent asset and system compromises through adherence to regulations and policies on privacy, protection, and confidentiality practices</p></li>
 </ul>
 </div>
 <div class="section" id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this headline">¶</a></h2>
 <p>Due to institutional regulations associated with security practice implementations, much of the implementation details should be stored on content management systems at the appropriate security access levels. Security personnel should also make security and classification training available which should be refreshed yearly or with policy changes.</p>
-<div class="section" id="roles-and-responsibilities">
-<h3>Roles and Responsibilities<a class="headerlink" href="#roles-and-responsibilities" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="roles">
+<h3>Roles<a class="headerlink" href="#roles" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p><strong><em>Stakeholder</em></strong> - is a person or group that is primarily impacted by data operations outcomes. Stakeholders often have significant impact on requirements and product delivery.</p></li>
-<li><p><strong><em>Data Owner</em></strong> - is the person or group that owns the rights to the data asset and shares, sells, or licenses said data asset to others for specified utilization.</p></li>
-<li><p><strong><em>Data Steward</em></strong> - is in charge of moving a data asset into data operations and maintaining vigilance of data asset utilization within data management. This vigilance does not indicate they are involved in data management, only that they maintain their accountability of the asset within the terms of agreement they have with the data owner.</p></li>
-<li><p><strong><em>Data Manager</em></strong> - is in charge of data management practices applied to the data assets within specified data architectures. This responsibility includes security and ethics practices central to institutional policy and data owner agreements.</p></li>
-<li><p><strong><em>Information Security Manager</em></strong> - is in charge of content and knowledge management pertaining to security practices for a specified data asset. This management includes observation of transfers of the data asset within classification and policy boundaries.</p></li>
-<li><p><strong><em>Information Assurance</em></strong> - is the cummulative accountancy of quality assurance practices including security and ethics encompassing requirements and legal agreements pertaining to a data asset. Information assurance is a level of a quality control that ensures data and information security are within compliance and that reflections of this compliance are capture in the metadata for a data asset.</p></li>
+<li><p><strong><em>Stakeholder</em></strong></p></li>
+<li><p><strong><em>Data Owner</em></strong></p></li>
+<li><p><strong><em>Data Steward</em></strong></p></li>
+<li><p><strong><em>Data Manager</em></strong></p></li>
+<li><p><strong><em>Information Security Manager</em></strong></p></li>
+<li><p><strong><em>Information Assurance</em></strong></p></li>
 </ul>
 </div>
 <div class="section" id="security-guidelines">
 <h3>Security Guidelines<a class="headerlink" href="#security-guidelines" title="Permalink to this headline">¶</a></h3>
+<p><img alt="SEC Overview" src="_images/do_overview_sec.png" /></p>
 <p>There are several data security standards to consider in a complete data asset workflow. Coordination must be made to establish and regulate access to the data assets and its associated data systems. Security managers, information assurance, and data stewards must have purview into these practices, auditing the practices for compliance. There must be a way to authenticate data asset handling for the data owner to demonstrate rigor to stakeholders and data owners: often via a series of audit logs and metrics found in content management and data managements systems. These logs and metrics indicate authorization and entitlements compliance as established in the requirements and is enforced through roles within data operations.</p>
 <p>Requirements not only drive initiation of secure data operations, but they ultimately guide data governance in execution of secure data management practices. Data system implementation is a direct result of requirements. These requirements establish the profile of the data assets and a set of tasks through which security standards are met at each phase. Data operations and its data governance practices establish and evolve roles and responsibilities to ensure that the data asset at each of these phases is handled to a high standard of ethics and quality in line with stakeholder and customer expectations. This underlies the institutions business model through fostering trust in data asset practices and delivery standards to project managers and stakeholders.</p>
 <div class="section" id="data-masking-and-synthetic-data">
 <h4>Data Masking and Synthetic Data<a class="headerlink" href="#data-masking-and-synthetic-data" title="Permalink to this headline">¶</a></h4>
-<p>Due to the security considerations for individual or combined data assets, obfuscation across secured system levels must be part of the requirements security discussions. This includes developement and evolution of synthetic data for prototyping. The use of synthetic data aids in identity managements, controlling personally indentifiable information (PII) and secure access to the data asset. These synthetic productions and links will be noted in the metadata for the data asset.</p>
+<p>Due to the security considerations for individual or combined data assets, obfuscation across secured system levels must be part of the requirements security discussions. This includes development and evolution of synthetic data for prototyping. The use of synthetic data aids in identity managements, controlling personally identifiable information (PII) and secure access to the data asset. These synthetic productions and links will be noted in the metadata for the data asset.</p>
 </div>
 <div class="section" id="security-team">
 <h4>Security Team<a class="headerlink" href="#security-team" title="Permalink to this headline">¶</a></h4>
-<p>Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cummulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several framework elements:</p>
+<p>Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cumulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several framework elements:</p>
 <ul class="simple">
 <li><p>Clear roles and responsibilities for data operations, governance, and management</p></li>
 <li><p>Controlled credential management in line with roles</p></li>
@@ -509,6 +519,8 @@
     </div>
     <footer class="footer">
   <p>
+    
+      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
     
         &copy; Copyright 2022, Certus Core.<br/>
   </p>
