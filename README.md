@@ -4,7 +4,7 @@ The Adaptable Data Operations Framework
 
 ## Contributing
 
-Please see the wiki page for [Contributors](#). It's also recommended to install the [MyST-Markdown Extension](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) if you're using VSCode.
+Please see the wiki page for [Contributors](https://github.com/CertusGroup/ciutshi/wiki). It's also recommended to install the [MyST-Markdown Extension](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) if you're using VSCode.
 
 ## License
 
