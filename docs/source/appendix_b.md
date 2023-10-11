@@ -347,7 +347,7 @@ The data operations section covers the data asset process considerations for the
 
 ##### Data Governance
 
-This section covers shifts in data governance as a core element of the data operations framework for guiding data management efficiencies. Shifts may cover changes to requirements processes, task management system practices, version control guidance, quality assurance practices, security updates, and revised ethics for data asset utilization. This has direct implications for the biennial strategy's handling of data availability, data access, and resource prioritization.
+This section covers shifts in data governance as a core element of the data operations standard for guiding data management efficiencies. Shifts may cover changes to requirements processes, task management system practices, version control guidance, quality assurance practices, security updates, and revised ethics for data asset utilization. This has direct implications for the biennial strategy's handling of data availability, data access, and resource prioritization.
 
 ###### Data Lifecycle Management
 
