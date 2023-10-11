@@ -2,7 +2,7 @@
 
 ## ciuTshi in Action
 
-For the purpose of demonstrating the use of ciuTshi, we will briefly go through the process of bringing in a new data asset. This will cover data management, data governance, and content management considerations within the scope of a consistent and rigorous data operations workflow. As stated throughout the framework's modules, organizations will leverage ciuTshi in the way that best fits their master data lifecycle management needs for metadata and value metrics.
+For the purpose of demonstrating the use of ciuTshi, we will briefly go through the process of bringing in a new data asset. This will cover data management, data governance, and content management considerations within the scope of a consistent and rigorous data operations workflow. As stated throughout the standard's modules, organizations will leverage ciuTshi in the way that best fits their master data lifecycle management needs for metadata and value metrics.
 
 This scenario will collect and process a new data asset, resulting in an initial metadata object unique to the organization's requirements and metrics. This data will then be integrated with other project data, continuing the metadata modeling to demonstrate value impact for the organization.
 

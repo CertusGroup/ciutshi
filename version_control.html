@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Version Control &#8212; the Adaptable Data Operations Framework</title>
+    <title>Version Control &#8212; the Adaptable Data Operations Standard</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -32,7 +32,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <link rel="shortcut icon" href="_static/ciutshi_logo.jpg"/>
+    <link rel="shortcut icon" href="_static/favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Quality Assurance" href="quality_assurance.html" />
@@ -67,7 +67,7 @@
         
       
       
-      <img src="_static/ciutshi_logo.jpg" class="logo" alt="logo">
+      <img src="_static/ciutshi_logo.png" class="logo" alt="logo">
       
       
     </a>
@@ -206,7 +206,7 @@
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  <a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
+  <a href='https://www.certuscore.com' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
 </div>
 
 </div>
@@ -432,11 +432,11 @@
                 
   <div class="section" id="version-control">
 <h1>Version Control<a class="headerlink" href="#version-control" title="Permalink to this headline">¶</a></h1>
-<p>The practices and resultant works associate with data management and data operations<a class="reference internal" href="#version-control-references"><span class="std std-ref">1</span></a> are highly technical and dimensionally complex, involving a combination of documentation and source code control. Curation of documents and source code allow the data management team to pursue consistent and rigorous practices for projects. This accumulation of best practices, code, and knowledge artifacts requires a framework to support their storage and reuse to a high level of quality and access. Version and documentation control allows data engineers and data managers to increase efficiency and innovate new techniques for mobilization of data assets.</p>
-<p>ciuTshi requires version control (also known as revision or source control<a class="reference internal" href="#version-control-references"><span class="std std-ref">2</span></a>) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices framework exists, but code generation for data products and services still requires a version control framework. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes.</p>
+<p>The practices and resultant works associate with data management and data operations<a class="reference internal" href="#version-control-references"><span class="std std-ref">1</span></a> are highly technical and dimensionally complex, involving a combination of documentation and source code control. Curation of documents and source code allow the data management team to pursue consistent and rigorous practices for projects. This accumulation of best practices, code, and knowledge artifacts requires a standard to support their storage and reuse to a high level of quality and access. Version and documentation control allows data engineers and data managers to increase efficiency and innovate new techniques for mobilization of data assets.</p>
+<p>ciuTshi requires version control (also known as revision or source control<a class="reference internal" href="#version-control-references"><span class="std std-ref">2</span></a>) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices standard exists, but code generation for data products and services still requires a version control standard. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes.</p>
 <div class="section" id="challenge">
 <h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
-<p>Data engineering and data analysis practices are increasingly hybrid, using a mix of analytic tools and programmed source code solutions to acquire, process, and deliver data products and services. This activity occurs across multiple system and data architectures, all of which must comply with security and policy stipulations while maintaining parity. This requires a well-managed and vigilant approach to version control to support an equally complex data operations environment. The result of such a version control framework would allow more rapid response to business requirements through utilization and mobilization of existing source code assets while creating space to develop new solutions with optimally effective resource and cost impact.</p>
+<p>Data engineering and data analysis practices are increasingly hybrid, using a mix of analytic tools and programmed source code solutions to acquire, process, and deliver data products and services. This activity occurs across multiple system and data architectures, all of which must comply with security and policy stipulations while maintaining parity. This requires a well-managed and vigilant approach to version control to support an equally complex data operations environment. The result of such a version control standard would allow more rapid response to business requirements through utilization and mobilization of existing source code assets while creating space to develop new solutions with optimally effective resource and cost impact.</p>
 </div>
 <div class="section" id="goals">
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
@@ -459,7 +459,7 @@
 <li><p>a <em>repository</em> is a collection of changes associated with the source code</p></li>
 <li><p>a <em>working copy</em> is your copy of the changes where you work on your parts of the source code</p></li>
 <li><p>a <em>branch</em> is a variant copy of the source code changes in a repository. Most repositories start with a <em>main</em> or <em>master</em> branch, but may have other variant branch categories as dictated by the human practices maintaining the source code</p></li>
-<li><p>a <em>workflow</em> is a series of actions taken to ensure changes in source code are saved to a branch that do not result in conflicts in changes across the repository. This involves agreement by people maintaining a repository to implement change practices that allow multiple reviews and resolution of conflicting changes. We will cover such a framework and its steps when we talk about <em>GitFlow</em> (see below)</p></li>
+<li><p>a <em>workflow</em> is a series of actions taken to ensure changes in source code are saved to a branch that do not result in conflicts in changes across the repository. This involves agreement by people maintaining a repository to implement change practices that allow multiple reviews and resolution of conflicting changes. We will cover such a standard and its steps when we talk about <em>GitFlow</em> (see below)</p></li>
 </ul>
 <p>These concepts are monitored and applied by several key actors in the version control processes:</p>
 <ul class="simple">
@@ -507,7 +507,7 @@
 <div class="section" id="gitflow">
 <h3>GitFlow<a class="headerlink" href="#gitflow" title="Permalink to this headline">¶</a></h3>
 <p>In order to maintain productivity through efficient communication on data projects, data professionals leverage consistent, continuous workflow methods. There are several of these methods developers and technical professionals use for software development and other technical tasks. Regardless of the method or model, their application should produce sufficiently rigorous documentation and structured source code that is easily consumable and understandable by team members. These documentation and code artifacts ultimately drive consistent deployment of usable software to a sustainable level of quality and security for the customer.</p>
-<p>GitFlow<a class="reference internal" href="#version-control-references"><span class="std std-ref">3</span></a> (demonstrated in the image below) is a Git-centric development operation workflow framework. Git<a class="reference internal" href="#version-control-references"><span class="std std-ref">4</span></a> is a distributed version control system built to manage and resolve numerous source code contributions. GitFlow is implemented around Git operations to ensure their sequential execution results in optimized development actions across the development team.</p>
+<p>GitFlow<a class="reference internal" href="#version-control-references"><span class="std std-ref">3</span></a> (demonstrated in the image below) is a Git-centric development operation workflow standard. Git<a class="reference internal" href="#version-control-references"><span class="std std-ref">4</span></a> is a distributed version control system built to manage and resolve numerous source code contributions. GitFlow is implemented around Git operations to ensure their sequential execution results in optimized development actions across the development team.</p>
 <p><img alt="GitFlow" src="_images/gitflow.png" /></p>
 <p>A standard Git<a class="reference internal" href="#version-control-references"><span class="std std-ref">4</span></a> workflow from contributor to review may look like this:</p>
 <ul class="simple">
@@ -615,9 +615,9 @@
     <footer class="footer">
   <p>
     
-      By <a href='https://certusgroup.org' target='_blank'>Certus Core</a><br/>
+      By <a href='https://www.certuscore.com' target='_blank'>Certus Core</a><br/>
     
-        &copy; Copyright 2022, Certus Core.<br/>
+        &copy; Copyright 2023 Certus Core. All rights reserved.<br/>
   </p>
 </footer>
 </main>
