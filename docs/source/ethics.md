@@ -21,9 +21,9 @@ The US government advanced several recent efforts in the national and defense se
 * Maintaining ethical use of data
 * Practicing ethical governance, conscious design, and a learning culture
 * Uphold ethical governance with responsible and transparent practices
-* Development and use of data ethics framework
+* Development and use of data ethics standard
 
-The federal data strategy maintains it ethical framework as part of its data infrastructure. The US national defense strategy holds data ethics at the core of all its data operations planning. The federal and defense frameworks both indirectly adhere to DAMA standards, opting to minimize negative effects of negligent or malicious data handling practices.
+The federal data strategy maintains it ethical standard as part of its data infrastructure. The US national defense strategy holds data ethics at the core of all its data operations planning. The federal and defense standards both indirectly adhere to DAMA standards, opting to minimize negative effects of negligent or malicious data handling practices.
 
 ## Challenge
 
