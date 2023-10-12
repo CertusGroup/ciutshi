@@ -12,7 +12,7 @@ Data security processes, via carefully implemented data strategy, must be integr
 
 ## Challenge
 
-ciuTshi suggests optimal security practices at the forefront of all data asset management. This encompassing approach is the result of efficient data operations guided by security-centric data governance practices. This approach to data security requires proper policies and coordination with information technology management (ITM) and data architecture teams to ensure access and compliance. This compliance model is implemented through guidelines that are adaptive and effectively monitored, covering authorization, access and audit practices to and between all systems. Security outcomes and metrics must also integrate with content management frameworks (CMF) and other on-site and online security practices. This network of connected security communications guides data asset management within secure data architecture implementations for stakeholder risk mitigation and customer safety across numerous secure systems.
+ciuTshi suggests optimal security practices at the forefront of all data asset management. This encompassing approach is the result of efficient data operations guided by security-centric data governance practices. This approach to data security requires proper policies and coordination with information technology management (ITM) and data architecture teams to ensure access and compliance. This compliance model is implemented through guidelines that are adaptive and effectively monitored, covering authorization, access and audit practices to and between all systems. Security outcomes and metrics must also integrate with content management standards (CMS) and other on-site and online security practices. This network of connected security communications guides data asset management within secure data architecture implementations for stakeholder risk mitigation and customer safety across numerous secure systems.
 
 ## Goals
 
@@ -46,7 +46,7 @@ Due to the security considerations for individual or combined data assets, obfus
 
 #### Security Team
 
-Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cumulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several framework elements:
+Data asset security is a concern for three initial internal groups: data management; data architecture; information technology management. ITM and data architecture must approve and be able to maintain vigilance of data asset movement in their systems. This is not only a security matter, but a matter of accreditation of systems and compliance with community partners and data owner standards. This is also a cornerstone of cumulative metrics for data governance and data management practice improvement. As a result, these data teams must leverage several standard elements:
 
 * Clear roles and responsibilities for data operations, governance, and management
 * Controlled credential management in line with roles

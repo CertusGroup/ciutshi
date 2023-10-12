@@ -1,6 +1,6 @@
 # ciuTshi
 
-The Adaptable Data Operations Framework
+The Adaptable Data Operations Standard
 
 ## Contributing
 

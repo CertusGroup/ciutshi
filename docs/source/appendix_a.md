@@ -2,7 +2,7 @@
 
 ## Appendix A. Methodology
 
-ciuTshi makes adaptable data operations simple. Despite the size and complexity of this appendix (and the overall framework), building metadata and process value are incremental and cumulative efforts. The challenge of generating rich metadata for modeling and analysis is a team effort, shared by several persons in the organization for which the data provides value. The aim of ciuTshi is to make the connection between the data and its value to the organization clear and valid for its users. What follows is a brief overview of an adaptable methodology for using this framework to gather and generate data asset value metrics.
+ciuTshi makes adaptable data operations simple. Despite the size and complexity of this appendix (and the overall standard), building metadata and process value are incremental and cumulative efforts. The challenge of generating rich metadata for modeling and analysis is a team effort, shared by several persons in the organization for which the data provides value. The aim of ciuTshi is to make the connection between the data and its value to the organization clear and valid for its users. What follows is a brief overview of an adaptable methodology for using this standard to gather and generate data asset value metrics.
 
 ### Verification
 

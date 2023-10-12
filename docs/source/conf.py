@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'ciuTshi'
-copyright = '2022, Certus Core'
-author = "<a href='https://certusgroup.org' target='_blank'>Certus Core</a>"
+copyright = '2023 Certus Core. All rights reserved'
+author = "<a href='https://www.certuscore.com' target='_blank'>Certus Core</a>"
 
 # The full version, including alpha/beta/rc tags
 release = '0.2.0'
@@ -52,12 +52,12 @@ html_theme_options = {
     "repository_url": "https://github.com/CertusGroup/ciutshi",
     "use_repository_button": True,
     "use_issues_button": True,
-    "extra_navbar": "<a href='https://certusgroup.org' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>",
+    "extra_navbar": "<a href='https://www.certuscore.com' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>",
     "logo_only": True,
 }
-html_title = "the Adaptable Data Operations Framework"
-html_logo = "static/images/ciutshi_logo.jpg"
-html_favicon = "static/images/ciutshi_logo.jpg"
+html_title = "the Adaptable Data Operations Standard"
+html_logo = "static/images/ciutshi_logo.png"
+html_favicon = "static/images/favicon.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
