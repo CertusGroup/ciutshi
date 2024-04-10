@@ -2,11 +2,11 @@
 
 Ethics in research have undergone drastic changes in the 20th century and continue to improve in the 21st. These changes, which persistently evolve through legislative and institutional policy, have direct implications on data acquisition and data processing practices. As a result, any institution conducting scientific research must observe all applicable ethical doctrines for their research domains. There are several events that drove the development of national and international research ethics. These ethics have also been adopted and used within industry to the best of their abilities.
 
-From 1932 to 1972, the US Public Health Service and Centers for Disease Control conducted an unethical study on more than 400 African-American men to examine the effects of long-term, untreated syphilis (e.g., the Tuskegee Syphilis Study)[1](ethics/references). As a result, more than a hundred participants died and almost all suffered long-term effects from the research. This egregious violation in research ethics lead to the Belmont Report, the establishment of the Office for Human Research Protections, and several federal laws that continue to be updated to reflect modern research data practices.
+From 1932 to 1972, the US Public Health Service and Centers for Disease Control conducted an unethical study on more than 400 African-American men to examine the effects of long-term, untreated syphilis (e.g., the Tuskegee Syphilis Study)[^1]. As a result, more than a hundred participants died and almost all suffered long-term effects from the research. This egregious violation in research ethics lead to the Belmont Report, the establishment of the Office for Human Research Protections, and several federal laws that continue to be updated to reflect modern research data practices.
 
-This research failure and others like it around the world (e.g., Nuremburg Code and the Declaration of Helsinki following World War 2 human rights violations[2](ethics/references)) led to broad discussions on study participant rights and public trust. By violating participant rights to consent through deception and obfuscation, researchers erode the trust of ethical researchers and the quality and validity of their research results. Ergo, leading research institutions established internal review boards[3](ethics/references) (IRBs) top ensure compliant research practices that can be rapidly shared and cross-validated without the immediate worry of ethical violations by the researchers.
+This research failure and others like it around the world (e.g., Nuremburg Code and the Declaration of Helsinki following World War 2 human rights violations[^2]) led to broad discussions on study participant rights and public trust. By violating participant rights to consent through deception and obfuscation, researchers erode the trust of ethical researchers and the quality and validity of their research results. Ergo, leading research institutions established internal review boards[^3] (IRBs) top ensure compliant research practices that can be rapidly shared and cross-validated without the immediate worry of ethical violations by the researchers.
 
-There are currently several ethical considerations outlined for data management and data governance present in the DAMA guidelines[4](ethics/references). These guidelines provide an excellent baseline for ethical data use and research.
+There are currently several ethical considerations outlined for data management and data governance present in the DAMA guidelines[^4]. These guidelines provide an excellent baseline for ethical data use and research.
 
 * Reduce impact on people
 * Reduce potential misuse of data
@@ -14,9 +14,9 @@ There are currently several ethical considerations outlined for data management 
 
 These guidelines pursue ethical practices that ultimately reduce misunderstanding, misrepresentation, and misuse of data assets within data architectures. This reduction is guided by consistent and rigorous data governance which maintains living documents and practices that encourage ethical data practices. These practices must be persistent within a culture of ethical risk accountability. If institutions maintain a high-level of accountability, they stand to be more competitive, trusted, and relevant within their associated networks. This ultimately equates to much higher economic value in their data assets and the practices that support the generation and curation of data assets.
 
-Data ethics drive several policy decisions around the world. The European GDPR standard[5,6](ethics/references) passed on the premise that Internet providers would put consumer data privacy and control first. As a result, GDPR pushes companies such as Google and Apple to shift their user data practices toward more protective and mutually beneficial forms. In the US, several efforts attempted to push corporations and governments to implement ethical AI and data practices. One such effort was the Bloomberg-backed Data for Democracy ethics project[7,8](ethics/references) which advanced a crowd-sourced approach to ethical data and model generation.
+Data ethics drive several policy decisions around the world. The European GDPR standard[^5][^6] passed on the premise that Internet providers would put consumer data privacy and control first. As a result, GDPR pushes companies such as Google and Apple to shift their user data practices toward more protective and mutually beneficial forms. In the US, several efforts attempted to push corporations and governments to implement ethical AI and data practices. One such effort was the Bloomberg-backed Data for Democracy ethics project[^7][^8] which advanced a crowd-sourced approach to ethical data and model generation.
 
-The US government advanced several recent efforts in the national and defense sectors to formalize standard data practices[9,10](ethics/references). The national and defense data strategy documents cover several areas integral to data ethics.
+The US government advanced several recent efforts in the national and defense sectors to formalize standard data practices[^9][^10]. The national and defense data strategy documents cover several areas integral to data ethics.
 
 * Maintaining ethical use of data
 * Practicing ethical governance, conscious design, and a learning culture
@@ -72,19 +72,15 @@ Monitoring the output of data systems after fulfilling project requirements is a
 
 Deprecation must also be carefully handled to maintain an appropriate balance between legacy and ethical security. Prior to deprecation or deletion of data assets, ensure that metadata, catalogs, and other documentation are updated to reflect the final implementation of the data asset requirements: tagging ethical topics and levels where necessary. If no additional requirements are issued, the data asset is shutdown and placed in iceberg for no more than one year. If the data asset is not accessed in that year, it should be considered for deletion from data architecture-controlled systems (keeping in mind that the raw data is the only data corpus that should exist on these systems for long-term holding beyond requirement-defined implementations and that the essential elements of information for the mastering of the data is stored in the metadata which is housed in the data catalog).
 
-(ethics/references)=
-
 ## References
 
-Number|Reference
---|--
-1|CDC (2021, April 22). *Tuskegee study and health benefit program - CDC - NCHHSTP.*, Cdc.Gov. https://www.cdc.gov/tuskegee/
-2|Wikipedia contributors. (2021, December 12). *Declaration of Helsinki*, https://en.wikipedia.org/w/index.php?title=Declaration_of_Helsinki&oldid=1059877888
-3|Wikipedia contributors. (2021a, October 9). Institutional review board. https://en.wikipedia.org/w/index.php?title=Institutional_review_board&oldid=1049043275
-4|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
-5|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
-6|Ladley, J. (2019). *Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)*. San Diego, CA: Academic Press.
-7|Data for Democracy (2018). d4dcommunity.org. Retreived August 2, 2021, from https://d4dcommunity.org
-8|Bloomberg (2018, March 23). It's time for data ethics conversations at your dinner table. Tech at Bloomberg. https://www.techatbloomberg.com/blog/time-data-ethics-conversations-dinner-table/
-9|Federal Data Strategy. (2020). Data.Gov. Retrieved August 2, 2021, from https://strategy.data.gov/
-10|DoD Data Strategy (2020). Defense.Gov. Retrieved August 2, 2021, from https://media.defense.gov/2020/Oct/08/2002514180/-1/-1/0/DOD-DATA-STRATEGY.PDF
+[^1]: CDC (2021, April 22). _Tuskegee study and health benefit program - CDC - NCHHSTP._, Cdc.Gov. <https://www.cdc.gov/tuskegee/>
+[^2]: Wikipedia contributors. (2021, December 12). _Declaration of Helsinki_, <https://en.wikipedia.org/w/index.php?title=Declaration_of_Helsinki&oldid=1059877888>
+[^3]: Wikipedia contributors. (2021a, October 9). Institutional review board. <https://en.wikipedia.org/w/index.php?title=Institutional_review_board&oldid=1049043275>
+[^4]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.
+[^5]: Atwal, H. (2020). _Practical dataops: Delivering agile data science at scale._ UK: Apress.
+[^6]: Ladley, J. (2019). _Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)_. San Diego, CA: Academic Press.
+[^7]: Data for Democracy (2018). d4dcommunity.org. Retreived August 2, 2021, from <https://d4dcommunity.org>
+[^8]: Bloomberg (2018, March 23). It's time for data ethics conversations at your dinner table. Tech at Bloomberg. <https://www.techatbloomberg.com/blog/time-data-ethics-conversations-dinner-table/>
+[^9]: Federal Data Strategy. (2020). Data.Gov. Retrieved August 2, 2021, from <https://strategy.data.gov/>
+[^10]: DoD Data Strategy (2020). Defense.Gov. Retrieved August 2, 2021, from <https://media.defense.gov/2020/Oct/08/2002514180/-1/-1/0/DOD-DATA-STRATEGY.PDF>

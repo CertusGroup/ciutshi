@@ -1,8 +1,8 @@
 # Version Control
 
-The practices and resultant works associate with data management and data operations[1](version_control/references) are highly technical and dimensionally complex, involving a combination of documentation and source code control. Curation of documents and source code allow the data management team to pursue consistent and rigorous practices for projects. This accumulation of best practices, code, and knowledge artifacts requires a standard to support their storage and reuse to a high level of quality and access. Version and documentation control allows data engineers and data managers to increase efficiency and innovate new techniques for mobilization of data assets.
+The practices and resultant works associate with data management and data operations[^1] are highly technical and dimensionally complex, involving a combination of documentation and source code control. Curation of documents and source code allow the data management team to pursue consistent and rigorous practices for projects. This accumulation of best practices, code, and knowledge artifacts requires a standard to support their storage and reuse to a high level of quality and access. Version and documentation control allows data engineers and data managers to increase efficiency and innovate new techniques for mobilization of data assets.
 
-ciuTshi requires version control (also known as revision or source control[2](version_control/references)) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices standard exists, but code generation for data products and services still requires a version control standard. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes. 
+ciuTshi requires version control (also known as revision or source control[^2]) to capture the technical artifacts associated with data management workflows for data assets. A content management (CM) best practices standard exists, but code generation for data products and services still requires a version control standard. These guidelines will outline modular practices for storage, documentation, and improvement of technical assets associated with complex and reusable data processes.
 
 ## Challenge
 
@@ -48,7 +48,7 @@ Semantic versioning is a common method and is initially recommended for ciuTshi 
 * *major* is the first element, denoting major versions like Beta, 1, and so on
   * Changes here may break the API
   * Change resets minor and patch numbers
-  * An example would be version 1.2.2 changing to version 2.0.0 
+  * An example would be version 1.2.2 changing to version 2.0.0
 * *minor* is the second element, denoting release of new functionality
   * Changes here should not affect the API
   * Change resets patch numbers
@@ -70,11 +70,11 @@ __*VERY IMPORTANT: check for any sensitive material before committing your code!
 
 In order to maintain productivity through efficient communication on data projects, data professionals leverage consistent, continuous workflow methods. There are several of these methods developers and technical professionals use for software development and other technical tasks. Regardless of the method or model, their application should produce sufficiently rigorous documentation and structured source code that is easily consumable and understandable by team members. These documentation and code artifacts ultimately drive consistent deployment of usable software to a sustainable level of quality and security for the customer.
 
-GitFlow[3](version_control/references) (demonstrated in the image below) is a Git-centric development operation workflow standard. Git[4](version_control/references) is a distributed version control system built to manage and resolve numerous source code contributions. GitFlow is implemented around Git operations to ensure their sequential execution results in optimized development actions across the development team.
+GitFlow[^3] (demonstrated in the image below) is a Git-centric development operation workflow standard. Git[^4] is a distributed version control system built to manage and resolve numerous source code contributions. GitFlow is implemented around Git operations to ensure their sequential execution results in optimized development actions across the development team.
 
 ![GitFlow](static/images/gitflow.png)
 
-A standard Git[4](version_control/references) workflow from contributor to review may look like this:
+A standard Git[^4] workflow from contributor to review may look like this:
 
 * *Fork* the repository to obtain a local working copy of the source code and documentation
 * Identify and *checkout* (or create) the appropriate branch for you to develop as outlined by task management instructions
@@ -83,9 +83,11 @@ A standard Git[4](version_control/references) workflow from contributor to revie
 * *Deploy* the code following quality assurance and security checks have passed prior to merging with the production branch
 * *Merge* approved code to the appropriate repository production branch with (multiple) reviewer approval
 
-GitFlow[3](version_control/references) enhances this process through orchestrating proper branch management to minimize conflicts in commits between contributors to the source code, bridging efficient task management, quality assurance, and security practices.
+GitFlow[^3] enhances this process through orchestrating proper branch management to minimize conflicts in commits between contributors to the source code, bridging efficient task management, quality assurance, and security practices.
 
-> Note: each branch type should be part of the branch naming conventions. For example, a new feature branch should following a `feature-my_new_feature` naming convention.
+```{note}
+Each branch type should be part of the branch naming conventions. For example, a new feature branch should following a `feature-my_new_feature` naming convention.
+```
 
 * *Main* branches help safeguard production deploy through implementation of layered deployment testing of the source code
   * *Main* or *Master* branch is where the stable production version of the source code resides
@@ -98,7 +100,7 @@ GitFlow[3](version_control/references) enhances this process through orchestrati
   * *Release* branches are implemented to aid rapid staging of the next production version
     * Release is staged from the develop branch
 
-For additional information, refer to the [references](version_control/references) on Git and GitFlow.
+For additional information, refer to the [^3][^4] on Git and GitFlow.
 
 ### Task Management Boards to GitHub
 
@@ -112,13 +114,9 @@ However, data personnel should always develop and store solutions with the inten
 
 Data operations team member should persistently check to see if a particular solution should be moved to its own repository for more broad utilization. The manner in which this will be done is largely up to data management leadership and heavily depends on the type and persistence of the model solutions. Regardless, this migration task should be considered an essential data operations objective as an additional line of data product and service to organizations and their stakeholders.
 
-(version_control/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
-2|Ruparelia, N.B. (2010). The history of version control. *ACM SIGSOFT Software Engineering Notes*. 35(1). 5–9.
-3|Driessen, V. (2020). A successful GIT branching model. Obtained from https://nvie.com/posts/a-successful-git-branching-model/.
-4|GitHub Documentation (2021). Available at https://docs.github.com/.
+[^1]: Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
+[^2]: Ruparelia, N.B. (2010). The history of version control. *ACM SIGSOFT Software Engineering Notes*. 35(1). 5–9.
+[^3]: Driessen, V. (2020). A successful GIT branching model. Obtained from <https://nvie.com/posts/a-successful-git-branching-model/>.
+[^4]: GitHub Documentation (2021). Available at <https://docs.github.com/>.

@@ -2,7 +2,7 @@
 
 Institutions and their projects will likely encounter a number of integration challenges: from delivery of requirement-specified data products to preservation of the data asset provenance including monitored changes over time. As a result, ciuTshi suggests a modular approach to data asset integration through a tool-agnostic guide to data delivery that facilitates both legacy and planned data endpoints. This approach intends to reduce the costs associated with maintaining data in lakes and other endpoints through tighter data governance practices and metrics. The governance practices do not compromise the speed and flexibility required for projects, ensuring resource utilization is optimized per requirements to maximize data asset value and reduce time on data task.
 
-This document will outline the baseline for data integration practices, directing data engineers to content management systems and catalogs for details on specific data architecture implementations. ciuTshi's data management system draws from DAMA[1](integration/references) and other resources. For additional context on this documents sections, refer to the references section.
+This document will outline the baseline for data integration practices, directing data engineers to content management systems and catalogs for details on specific data architecture implementations. ciuTshi's data management system draws from DAMA[^1] and other resources. For additional context on this documents sections, refer to the references section.
 
 ## Challenge
 
@@ -83,10 +83,6 @@ The data catalog is a persistent utility through which metadata captures lineage
 
 Within the data architecture for a deployed endpoint, the data management team must coordinate tasks and lifecycle benchmarks for monitoring alerts, logs, and other essential endpoint data artifacts. When issues in the integration solution arise, additional requirements must be defined, approved, and completed by the data management team. Once requirements are received, the team will be able to rapidly action the issue.
 
-(integration/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
