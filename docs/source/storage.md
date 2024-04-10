@@ -4,7 +4,7 @@ Storage of data assets remains a critical challenge area. Data assets are mainta
 
 ciuTshi suggests a simplified storage system to ensure secure and consistent inter-system compliance. Such a system will create a stable foundation for data management practices such as lifecycle management. Tasks such as delineating raw and processed data within rigorous storage guidelines enables essential research practices such as sampling and exploratory data analysis (EDA). This simple, consistent, and rigorous system of storage promotes utilization of data asset documentation and artifacts for stakeholder insight and customer metrics. This produces a lifecycle management paradigm grounded in contextualized data asset classes for an enriched approach to data operations.
 
-This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi's data management practices draw from DAMA[1](storage/references) and other resources. For additional context on this document's sections, refer to the references section.
+This document outlines essential data storage practices, directing data engineers in the implementation of simple and effective data storage architectures. ciuTshi's data management practices draw from DAMA[^1] and other resources. For additional context on this document's sections, refer to the references section.
 
 ## Challenge
 
@@ -77,7 +77,9 @@ Expanding on the concept of data mining, pipelines constitute the technical mode
 
 The TTA authorized personnel ensure that data assets are appropriately staged and reviewed prior to loading onto the identified data architecture. Their responsibilities include completion, review, and approval of a TTA security forms (e.g., load and access forms) prior to loading the data from its staging area onto the required data architecture.
 
-> Notes: TTA forms will be maintained in accordance with institutional policy.
+```{note}
+TTA forms will be maintained in accordance with institutional policy.
+```
 
 #### Data Storage
 
@@ -112,7 +114,9 @@ Within these top-level folders, there are several sub-folders with specific func
 * _data_load_access_ - Contains copies of the data load and data access forms.
 * _data_documents_ - Contains any documents provided by customers or data providers that act as source information for data cataloging and metadata elements
 
-> Note: These may vary based on the data asset: adapt the Naming Standards section as needed.
+```{note}
+These may vary based on the data asset: adapt the Naming Standards section as needed.
+```
 
 #### Change Implementation
 
@@ -126,10 +130,6 @@ Once the data management team has fulfilled all requirements for endpoints, they
 
 Refer to above sections and the quality assurance document for additional details and policy on quality standards and considerations.
 
-(storage/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.
