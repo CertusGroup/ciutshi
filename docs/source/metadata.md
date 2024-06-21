@@ -4,7 +4,7 @@ The most important data asset artifact in the data management process is metadat
 
 ciuTshi suggests a persistent, simplified augmentation of metadata for the entire lifecycle of a data asset, tailored to you specific project needs and strategic business model(s). Data operations often involve complex models of data management in rapidly changing and dynamic governance environments. This complexity demands a critical focus on metadata practices from requirements to deprecation of the data asset. Through curation and enrichment of metadata artifacts along the way, the institution can rapidly mobilize data inventories toward knowledge discovery and exploratory data analysis. As a result, insights can be garnered and project vectors can be visible far quicker for leadership, customers, and stakeholders. With the added complexity of parity across multiple information systems and data architectures, metadata is at the core of effective data management and institutional data governance success.
 
-This document will outline the essentials for metadata practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi's data management system draws from DAMA[1](metadata/references) and other resources. For additional context on this documents sections, refer to the references section.
+This document will outline the essentials for metadata practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi's data management system draws from DAMA[^1] and other resources. For additional context on this documents sections, refer to the references section.
 
 ## Challenge
 
@@ -21,7 +21,9 @@ Data management lifecycle requires rapid access to insightful details for a vari
 
 Metadata is an inseparable part of the data asset: it contained all essential information for how the raw data evolved into the final integration deliverable. ciuTshi recommends a metadata strategy to establish a baseline for metadata elements that can be migrated upward through information systems for enrichment. Metadata requirements will entail capturing of key data points at each phase of data operations, culminating in a baseline metamodel for each data asset. The metamodel should observe security and policy restrictions through the use of tags, noting everything from usage to transfer restrictions. This metadata must be maintained within each information system, looking at quality and relevance via the data catalog's analytic reports and queries.
 
-> Note: There are many types of metadata such as business, technical, and operational. Data engineers must constantly be examining the use of metadata types across the data catalog, making migrations if necessary. ISO 11179 is an excellent reference for metadata registries.
+```{note}
+There are many types of metadata such as business, technical, and operational. Data engineers must constantly be examining the use of metadata types across the data catalog, making migrations if necessary. ISO 11179 is an excellent reference for metadata registries.
+```
 
 ### Lifecycle Management
 
@@ -40,16 +42,14 @@ The metamodel must cover these categorical areas:
 * _Physical Technical Data_ covers the metadata elements associated with integrations and physical endpoints for data delivery.
   * _Operational Data_ is a subset that covers the monitoring specific elements
 
-> Note: this is subject to change depending on the information systems, data architectures, and their associated data capabilities profile. Reference the CMS documentation on those systems for specific guidance.
+```{note}
+this is subject to change depending on the information systems, data architectures, and their associated data capabilities profile. Reference the CMS documentation on those systems for specific guidance.
+```
 
 #### Metadata Maintenance
 
 Data assets are largely acquired and stored in association with projects. As a result, initial maintenance of metadata will begin post-integration until the end of the delivery timeline dictated in the requirements for the data asset. This changes if the data asset is updated in raw storage, necessitating management workflow runs and metadata updates. This metadata management posture entails accountability, standards, and improvement benchmarks implemented by the data management team to ensure resources are allocated and deprecated while maintaining these metadata artifacts in the data catalog (in compliance with security, policy, and customer stipulations). Retention of metadata is critical for institutional leadership as querying and analysis of historical holdings in association with organization goals permit knowledge discovery for project insights, business development leads, and customer engagements.
 
-(metadata/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publication

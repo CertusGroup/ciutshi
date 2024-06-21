@@ -1,18 +1,18 @@
 # Quality Assurance
 
-Data operations is focused on mobilizing high-quality outcomes for data products and data services requests. This goal of quality assurance for data assets is critical as it effects the practices and shifts through data governance to data management fundamentals. Data quality management is the planning, implementation, and control of activities that apply consistent and rigorous techniques to requested data assets at a high standard of assurance[1](quality_assurance/references).
+Data operations is focused on mobilizing high-quality outcomes for data products and data services requests. This goal of quality assurance for data assets is critical as it effects the practices and shifts through data governance to data management fundamentals. Data quality management is the planning, implementation, and control of activities that apply consistent and rigorous techniques to requested data assets at a high standard of assurance[^1].
 
-This focus on assurance for reliability is ultimately geared towards building institutional trust with customers and stakeholders[2](quality_assurance/references). As the data operations standard encourages literacy for broad application of common data practices, quality assurance is directed at development of understanding for the methods and context of data products and services. These knowledge processes require a nuanced set of relationships linking planning, data practices, institutional data standards, and overarching data governance processes.
+This focus on assurance for reliability is ultimately geared towards building institutional trust with customers and stakeholders[^2]. As the data operations standard encourages literacy for broad application of common data practices, quality assurance is directed at development of understanding for the methods and context of data products and services. These knowledge processes require a nuanced set of relationships linking planning, data practices, institutional data standards, and overarching data governance processes.
 
 It is important to understand that data governance processes, like data operations and data management, should be handled and grown as a program and not a project. The mentality of a data assurance program encourages a strategic engagement with the practices as a holistic system within data operations, guiding data governance practices towards data management efficiencies. A commitment to this guidance results in measurability of impact, leading to data-driven cost reductions in operations, access to, and maintenance of data asset resources. Commitment to quality assurance also hedges security risks through iterative, supervised review of practices. Observation and refinement of these practices allows for rapid remediation of data challenges encounter by the customers.
 
-Ultimately, quality assurance is a constant shift in how institutions manage their data assets: focusing on doing the right things consistently and rigorously with data rather than simply doing data things right. This dichotomy is the key difference between quality assurance (e.g., doing the right things) and quality control (e.g., doing things right)[3](quality_assurance/references). It is not simply enough to repeat a process: the customer must be able to repeat and validate what you do down to the smallest detail.
+Ultimately, quality assurance is a constant shift in how institutions manage their data assets: focusing on doing the right things consistently and rigorously with data rather than simply doing data things right. This dichotomy is the key difference between quality assurance (e.g., doing the right things) and quality control (e.g., doing things right)[^3]. It is not simply enough to repeat a process: the customer must be able to repeat and validate what you do down to the smallest detail.
 
 ## Data Dimensions
 
 In data assurance, dimensions are the features or characteristics of the data sets. These features are what data professionals use to define what the data represents in the real world and how this is reflected through institutional data systems. As a result, dimensions are critical in data management practices as they guide schema development and contextualize metadata generation. This impact situates data quality assurance as a critical element in data governance through guiding the initial dimensional definitions, through requirements, for use in data management systems.
 
-There are seven foundational dimensions that ciuTshi adopts from DAMA[1](quality_assurance/references):
+There are seven foundational dimensions that ciuTshi adopts from DAMA[^1]:
 
 * _**Accuracy**_ is the degree of correctness to which the data represents things in the real world.
 * _**Completeness**_ is the presence of all required data.
@@ -27,7 +27,7 @@ These dimensions guide the core of how metadata is constructed for use across mu
 
 ## ISO 8000
 
-In addition to fundamental data dimensionality, quality assurance is also guided by ISO 8000 guidelines[1,4](quality_assurance/references). This standard not only covers general considerations for data quality, but suggests useful guidance on how to best implement data quality practices into industrial data systems and architectures.
+In addition to fundamental data dimensionality, quality assurance is also guided by ISO 8000 guidelines[^1][^4]. This standard not only covers general considerations for data quality, but suggests useful guidance on how to best implement data quality practices into industrial data systems and architectures.
 
 ## Data Management
 
@@ -82,9 +82,10 @@ Assessment is a core element of data operations, implemented to consistently con
 
 #### Root Cause Analysis
 
-As stated in the DAMA-DMBOK[1](quality_assurance/references):
+```{admonition} As stated in the DAMA-DMBOK[^1]:
 
-> A root cause of a problem is a factor that, if eliminated, would remove the problem itself. Root cause analysis is a process of understanding factors that contribute to problems and the ways they contribute.
+A root cause of a problem is a factor that, if eliminated, would remove the problem itself. Root cause analysis is a process of understanding factors that contribute to problems and the ways they contribute.
+```
 
 This is a critical element of quality assurance as maintaining consistent and rigorous processes are contingent upon persistent monitoring of systems and processes. These systems and processes must have detailed metrics that inform data architecture and data management teams of root challenges and immediate potential solutions. There are several methods to perform root cause analysis such as Pareto analysis, process analysis, and causal factor analysis among many others. Approaches to root cause analysis should be templated within the content management standard for future reference and documented throughout system-appropriate content management software for knowledge discovery.
 
@@ -105,13 +106,9 @@ All metrics defined in data operations, data management, and content management 
 
 Institutional impact and corrective actions require accurate and consistent reporting in order to enable standard improvements. Reporting is critical as consistent documentation of negotiated metrics for quality assurance enables knowledge discovery during the root cause analysis for a given data asset challenge. Defects and other flaws in the system require rapid and accurate reporting between project and data operations as a primary requirement adjustment mechanism. This mechanism will aid the data management team in their task management and content management efforts including metadata shifts, data catalog adjustments, and delivery timeline effects resultant from new requirements.
 
-(quality_assurance/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
-2|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
-3|Ladley, J. (2019). *Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)*. San Diego, CA: Academic Press.
-4|ISO (2021). *ISO/TS 8000-1:2011: Data quality.* Available at `https://www.iso.org/standard/50798.html`
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.
+[^2]: Atwal, H. (2020). _Practical dataops: Delivering agile data science at scale._ UK: Apress.
+[^3]: Ladley, J. (2019). _Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)_. San Diego, CA: Academic Press.
+[^4]: ISO (2021). _ISO/TS 8000-1:2011: Data quality._ Available at <https://www.iso.org/standard/50798.html>

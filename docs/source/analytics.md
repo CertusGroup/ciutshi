@@ -1,8 +1,10 @@
+<!-- markdownlint-disable MD024 -->
+
 # Analytics
 
 There is a need in data management for effective and sufficiently comprehensive analytics. As part of data processing, analytics produces consistent profiles for data that acts as a series of benchmark tests for the data model prior to integration. Analytics provides consumers of integration endpoints essential information on the model features and structures. This analytic output, stored in the data catalog, allows an institution's internal customers to make rapid assessments for additional data management requirements while making code and tool reuse simpler to assess and implement throughout the data management system.
 
-This document will set a baseline for data analytics practices, directing data engineers to content management practices essential for simple and impactful data analytics implementations. ciuTshi's data management practices draws from DAMA[1](analytics/references) and other resources. For additional context on this document's sections, refer to the references section.
+This document will set a baseline for data analytics practices, directing data engineers to content management practices essential for simple and impactful data analytics implementations. ciuTshi's data management practices draws from DAMA[^1] and other resources. For additional context on this document's sections, refer to the references section.
 
 ## Challenge
 
@@ -83,10 +85,6 @@ Modeled data may experience significant transformations once it conforms to a sc
 
 ciuTshi suggests a flexible and simple approach to analytics in data management practices. However, due to the variety of data assets in use and the complexity of challenges for a given project or metric, analytics techniques may be adapted and advanced to adjust to the requirements and complexity of the data model and its associated metrics. Ensure to update documentation, metadata, and data catalog with this information.
 
-(analytics/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.

@@ -21,14 +21,14 @@ When the workshops begins, the data operations team leads with clarification on 
 
 These task-related questions identify the tentative connection between each requirement's temporal and monetary cost, its project value, and its effect on the institution's bottom line. Challenging topics such as knowledge gaps and initial metrics are discussed and addressed before final requirements are issued. The identification of tentative connections between data features and testable metrics of the final data asset deliverable is especially critical as this is the way cost and value justify tasks for measurable impact.
 
-Questions|Connection
---|--
-Why|Justification, Impact
-What|Cost, Value, Resources
-How|Methods, Metrics, Models
-Where|Architecture, Systems
-Who|Impact, Value, Cost
-When|Cost, Systems, Methods
+| Questions | Connection               |
+| --------- | ------------------------ |
+| Why       | Justification, Impact    |
+| What      | Cost, Value, Resources   |
+| How       | Methods, Metrics, Models |
+| Where     | Architecture, Systems    |
+| Who       | Impact, Value, Cost      |
+| When      | Cost, Systems, Methods   |
 
 Once topics of language and value are resolved, the data operations team verifies the tentative finalized requirements with the project customers. This verification process also includes notifications be sent to the customer on the effects of requirement drift if changes are made once the data operations processes begin.
 
@@ -62,13 +62,19 @@ Data storage is setup and deployed as required. This initial data management pro
 
 Collection and processing of the data asset begins once personnel and tasks are aligned. At this point, the data engineering team proceeds with the assigned data management tasks. Additional review of ciuTshi modules associated with data management guide population of metadata for their associated tasks. Fill out as much metadata as possible, but DO NOT make up data or fill in empty spaces.
 
-> Note: Gaps in metadata collection are okay. ciuTshi is not stating you need to fill in all fields: teams and organizations may have different processes and systems resulting in very different metadata. The goal is consistent and rigorous metadata collection that reflects your unique data practices.
+```{note}
+Gaps in metadata collection are okay. ciuTshi is not stating you need to fill in all fields: teams and organizations may have different processes and systems resulting in very different metadata. The goal is consistent and rigorous metadata collection that reflects your unique data practices.
+```
 
 At this point, data professionals may find that module templates and rubrics cannot account for some aspect of their data processes. Any changes should be noted in content management and monitored within the data catalog.
 
-> Note: ciuTshi modules and their metadata artifacts are extensible. If changes need to be made based on new findings, it is important to ensure backward compatibility with older ciuTshi metadata objects. Maintaining metadata objects while adding to them ensures data provenance and legacy for data assets are maintained.
+```{note}
+ciuTshi modules and their metadata artifacts are extensible. If changes need to be made based on new findings, it is important to ensure backward compatibility with older ciuTshi metadata objects. Maintaining metadata objects while adding to them ensures data provenance and legacy for data assets are maintained.
+```
 
-> Note: Issues should be posted to ciuTshi's repository for significant updates to the modules, templates, and rubrics. This helps everyone as data engineering practices, and their metadata, are always growing and shifting.
+```{note}
+Issues should be posted to ciuTshi's repository for significant updates to the modules, templates, and rubrics. This helps everyone as data engineering practices, and their metadata, are always growing and shifting.
+```
 
 Care is taken to maintain guidance on quality assurance, security, ethics, and other data governance practices throughout data management activities. These interactions may affect both delivery outcomes and metadata curation associated with enriching the geocoded data asset, so update metadata as frequently as needed to reflect the latest guidance. Content management documentation is also updated as needed based on major milestones outlined by task management.
 
@@ -78,7 +84,9 @@ If requirements change, regardless of major or minor shifts, an addendum is subm
 
 ### Modeling
 
-> Note: This modeling section is NOT the same as the one in the above diagrams. This section is the metric modeling of the metadata that resulted from all data management, data governance, and content management processes.
+```{note}
+This modeling section is NOT the same as the one in the above diagrams. This section is the metric modeling of the metadata that resulted from all data management, data governance, and content management processes.
+```
 
 At this point, the data team produced a gazetteer and geocoded data that meets the enrichment standards outlined in the requirements. The data catalog contains a metadata object for the gazetteer data completed to the best ability of data operations team as a result of persistent module completion and updates. We can now proceed with modeling the metadata. We must now assess the impact and value of the data asset.
 

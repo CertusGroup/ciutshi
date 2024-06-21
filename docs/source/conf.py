@@ -1,9 +1,11 @@
+# pylint: disable=C0103,W0622,C0114,C0301
+# flake8: noqa
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
-
+import datetime
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -18,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'ciuTshi'
-copyright = '2023 Certus Core. All rights reserved'
+copyright = f'{datetime.datetime.now().year} Certus Core. All rights reserved'
 author = "<a href='https://www.certuscore.com' target='_blank'>Certus Core</a>"
 
 # The full version, including alpha/beta/rc tags
@@ -34,8 +36,11 @@ extensions = [
         'myst_parser',
 ]
 
+# MyST-Parser Configuration
+myst_footnote_transition = False
+
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['templates']
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -52,8 +57,7 @@ html_theme_options = {
     "repository_url": "https://github.com/CertusGroup/ciutshi",
     "use_repository_button": True,
     "use_issues_button": True,
-    "extra_navbar": "<a href='https://www.certuscore.com' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>",
-    "logo_only": True,
+    "primary_sidebar_end": ["certus_core"],
 }
 html_title = "the Adaptable Data Operations Standard"
 html_logo = "static/images/ciutshi_logo.png"

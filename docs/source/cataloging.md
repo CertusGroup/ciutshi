@@ -4,7 +4,7 @@ Tracking the legacy of data assets for an organization is essential to their dat
 
 Data cataloging is critical to institution's' data management practices as they are foundational to data operations. Cataloging of data ensures that expenditures made for acquiring and curating data assets are justified and aligned with necessary personnel and resource costs. More specifically, data catalogs chronicle the data asset journey via metadata while also maintaining recent samples of data for exploratory analysis and knowledge discovery. This key advantage allows customers to rapidly generate insights on stakeholder challenges while accelerating the timeline to valid data service solutions.
 
-This document will outline the baseline for data cataloging practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi's data management system draws from DAMA[1](cataloging/references) and other resources. For additional context on this documents sections, refer to the references section.
+This document will outline the baseline for data cataloging practices, directing data engineers to content management systems on specific information systems for detailed data architecture implementations. ciuTshi's data management system draws from DAMA[^1] and other resources. For additional context on this documents sections, refer to the references section.
 
 ## Challenge
 
@@ -54,7 +54,9 @@ Once requirements are received and validated by the data management team, data e
 
 Once a new data asset is through the data management workflow to the point of integration, a representative sample of the integrated data should be extracted from the validated workflow. In order to reduce the resources and cost of maintaining the data catalog, representative samples are used for exploratory analysis of the institution's data holdings. The data management team will then update the metadata, expanding the metamodel per requirements or stipulations outlined by the data architecture implementation.
 
-> Note: It may be useful to give the data owner and customer a representative modeled data sample as soon as possible to ensure the sample matches their expectations, reducing any delay times for reprocessing the data or rebuilding the workflow based on shifts in requirements.
+```{note}
+It may be useful to give the data owner and customer a representative modeled data sample as soon as possible to ensure the sample matches their expectations, reducing any delay times for reprocessing the data or rebuilding the workflow based on shifts in requirements.
+```
 
 #### Annotation, Tagging, and Security
 
@@ -64,16 +66,14 @@ Due to the multiple data architectures spread across several information systems
 
 Once the required tags are assigned and data asset annotations are in place as outline by requirements, the data asset should be made available for search and analysis. This will be the time to ensure that access is restricted by group policy as setup for the catalog users. Once users access and begin exploring the new data asset, feedback should be gathered from them to ensure updates are made to the catalog entry. These updates may require changes to the workflow for the data asset.
 
-> Note: It may be useful to remind the users that the representative sample is not the complete endpoint asset deliverable. This will allow the users and data management team to calculate and plan reprocessing of data based on feedback.
+```{note}
+It may be useful to remind the users that the representative sample is not the complete endpoint asset deliverable. This will allow the users and data management team to calculate and plan reprocessing of data based on feedback.
+```
 
 #### Monitoring
 
 The data management team should perform regular monitoring of the data catalog instances and their holdings. For data assets, entries should represent the most recent information available from raw storage to integration endpoint. The data management team should also coordinate with catalog instance maintainers to ensure updates and upgrades are scheduled as to not break the continuity of access to the catalog service. Any issues or errors should trigger actions for the maintainers and data management team while scheduled actions such as archive or deprecation of an entry should be automated when possible.
 
-(cataloging/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
