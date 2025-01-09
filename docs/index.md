@@ -1,7 +1,5 @@
 # ciuTshi
 
-Release v0.2.0
-
 ## The Adaptable Data Operations Standard
 
 ciuTshi is a simplified collection of data practice modules for establishing and building up your data best practices. Understanding that each data challenge is unique, the standard's application can be tailored to develop repeatable data processes for valid models and critical data-driven decisions. The use of ciuTshi will result in a higher quality of data and, as a result, improve the value of data-driven decisions derived from solid metrics and advanced data science models.
@@ -15,7 +13,5 @@ The ciuTshi standard is a critical element in building data value. By layering d
 This project is by data professionals for data professionals at all levels. As a result, we definitely want to keep improving the standard's content for the broadest community use possible. Please share and refer to the contributor's guide in the Wiki for how to submit updates to ciuTshi.
 
 ### License
-
-Copyright 2024 Certus Core Inc.
 
 This content is subject to the terms of the GNU Lesser General Public License v3.0. If a copy of the LGPL-v3 was not distributed with this file, You can obtain one at <https://www.gnu.org/licenses/lgpl-3.0.html>.

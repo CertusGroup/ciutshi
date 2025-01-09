@@ -32,3 +32,4 @@ html:
   favicon: static/images/favicon.png
   use_issues_button: true
   use_repository_button: true
+  extra_footer: Release v0.2.0
