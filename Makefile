@@ -21,6 +21,10 @@ build: install ## Build the book
 	${VENV}/bin/jupyter-book clean ${DOCS_DIR}
 	${VENV}/bin/jupyter-book build ${DOCS_DIR}
 
+.PHONY: serve
+serve: build ## Serve the book locally using python -m http.server
+	cd ${DOCS_DIR}/_build/html && python -m http.server
+	
 .PHONY: clean
 clean:  ## Clean up caches and build artifacts
 	@git clean -X -d -f
