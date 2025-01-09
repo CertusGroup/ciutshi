@@ -1,0 +1,13 @@
+version: "0.2"
+ignorePaths:
+  - "*.svg"
+  - _build
+  - Makefile
+  - .gitignore
+  - _config.yml
+  - _toc.yml
+dictionaryDefinitions: []
+dictionaries: []
+words: []
+ignoreWords: []
+import: []
