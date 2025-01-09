@@ -19,7 +19,7 @@ This step is where knowledge gaps are also identified. Even if the data is not a
 Every modular practice in ciuTshi has a template and rubric to facilitate eventual population of metadata for a data asset: creating data provenance for the organization's metadata lineage. This process is a team effort with several data professionals tasked to action one or more modules for a given data asset. To begin, review the module's documentation: summary, template, rubric, and any worksheets that assist in populating metadata for the data asset. Each module has roles, each with their own responsibilities and tasks that may depend on or overlap with other modules, tasks, and roles. A number of data professionals and organizational team members facilitate these task and modules by performing one or more roles within and between modules. This approach to task management within data operations allow organizations with variable available personnel to layer and delegate tasks within reasonable deadlines for both delivery of the data asset and population of the metadata.
 
 ```{note}
-This represents a situation common for many organizations and is why ciuTshi's metatdata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quantifying process value in data practices.
+This represents a situation common for many organizations and is why ciuTshi's metadata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quantifying process value in data practices.
 ```
 
 ### Collection

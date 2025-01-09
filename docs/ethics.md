@@ -4,7 +4,7 @@ Ethics in research have undergone drastic changes in the 20th century and contin
 
 From 1932 to 1972, the US Public Health Service and Centers for Disease Control conducted an unethical study on more than 400 African-American men to examine the effects of long-term, untreated syphilis (e.g., the Tuskegee Syphilis Study)[^1]. As a result, more than a hundred participants died and almost all suffered long-term effects from the research. This egregious violation in research ethics lead to the Belmont Report, the establishment of the Office for Human Research Protections, and several federal laws that continue to be updated to reflect modern research data practices.
 
-This research failure and others like it around the world (e.g., Nuremburg Code and the Declaration of Helsinki following World War 2 human rights violations[^2]) led to broad discussions on study participant rights and public trust. By violating participant rights to consent through deception and obfuscation, researchers erode the trust of ethical researchers and the quality and validity of their research results. Ergo, leading research institutions established internal review boards[^3] (IRBs) top ensure compliant research practices that can be rapidly shared and cross-validated without the immediate worry of ethical violations by the researchers.
+This research failure and others like it around the world (e.g., Nuremberg Code and the Declaration of Helsinki following World War 2 human rights violations[^2]) led to broad discussions on study participant rights and public trust. By violating participant rights to consent through deception and obfuscation, researchers erode the trust of ethical researchers and the quality and validity of their research results. Ergo, leading research institutions established internal review boards[^3] (IRBs) top ensure compliant research practices that can be rapidly shared and cross-validated without the immediate worry of ethical violations by the researchers.
 
 There are currently several ethical considerations outlined for data management and data governance present in the DAMA guidelines[^4]. These guidelines provide an excellent baseline for ethical data use and research.
 
@@ -80,7 +80,7 @@ Deprecation must also be carefully handled to maintain an appropriate balance be
 [^4]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.
 [^5]: Atwal, H. (2020). _Practical dataops: Delivering agile data science at scale._ UK: Apress.
 [^6]: Ladley, J. (2019). _Data governance: How to design, deploy, and sustain an effective data governance program (2nd ed.)_. San Diego, CA: Academic Press.
-[^7]: Data for Democracy (2018). d4dcommunity.org. Retreived August 2, 2021, from <https://d4dcommunity.org>
+[^7]: Data for Democracy (2018). d4dcommunity.org. Retrieved August 2, 2021, from <https://d4dcommunity.org>
 [^8]: Bloomberg (2018, March 23). It's time for data ethics conversations at your dinner table. Tech at Bloomberg. <https://www.techatbloomberg.com/blog/time-data-ethics-conversations-dinner-table/>
 [^9]: Federal Data Strategy. (2020). Data.Gov. Retrieved August 2, 2021, from <https://strategy.data.gov/>
 [^10]: DoD Data Strategy (2020). Defense.Gov. Retrieved August 2, 2021, from <https://media.defense.gov/2020/Oct/08/2002514180/-1/-1/0/DOD-DATA-STRATEGY.PDF>

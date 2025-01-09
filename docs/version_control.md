@@ -35,7 +35,7 @@ Here are a collection of essential version control concepts:
 These concepts are monitored and applied by several key actors in the version control processes:
 
 * an *owner* is the person or organization that controls admin accesses to a repository
-* a *member* is a person with permissioned access to a repository (regulated by the owner)
+* a *member* is a person with permissible access to a repository (regulated by the owner)
 * a *reviewer* is a person with expert knowledge of the source code and can approve repository changes within and across branches
 * a *contributor* is a person who makes changes to the source code and submits those changes via a working copy to the repository
 

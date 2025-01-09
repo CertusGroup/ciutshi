@@ -96,7 +96,7 @@ The primary goal of quality assurance is positive institutional impact. This imp
 * _**Measurability**_ - Metrics gathered on a data asset should be defined in a way that is countable.
 * _**Relevance**_ - Metrics should useful and applicable to positive institutional impact.
 * _**Acceptability**_ - Metrics should be framed dimensionally within institutional requirements.
-* _**Stewarship**_ - Metrics should be defined, usable, and accountable by data operations stakeholders.
+* _**Stewardship**_ - Metrics should be defined, usable, and accountable by data operations stakeholders.
 * _**Controllability**_ - Metrics should reflect a controllable institutional dimension.
 * _**Trending**_ - Metrics should enable longitudinal and predictive improvement models.
 

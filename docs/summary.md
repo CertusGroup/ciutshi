@@ -14,7 +14,7 @@ ciuTshi allows data teams to get their time back and institutions profit from it
 
 Here are a few key terms we will use throughout this document:
 
-* __Institution__ - is the organizational entity to which the data operations practices enable with data management, data governance, and content management models. Institution is used interchangably with term Organization.
+* __Institution__ - is the organizational entity to which the data operations practices enable with data management, data governance, and content management models. Institution is used interchangeably with term Organization.
 * __Customer__ - is the person or group that is the focus of the institution's data product delivery.
 * __Stakeholder__ - is a person or group associated with the institution and is impacted by data operations outcomes. Stakeholders often have significant impact on requirements and product delivery.
 
