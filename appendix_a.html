@@ -1,919 +1,550 @@
 
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" data-content_root="./" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Appendix - Templates and Rubrics &#8212; the Adaptable Data Operations Standard</title>
-    
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    <title>Appendix - Templates and Rubrics &#8212; ciuTshi</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    
-      
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
-    
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <link rel="shortcut icon" href="_static/favicon.png"/>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'appendix_a';</script>
+    <link rel="icon" href="_static/favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Appendix - Data Strategy" href="appendix_b.html" />
     <link rel="prev" title="Cataloging" href="cataloging.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
-    
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/ciutshi_logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Getting Started
- </span>
-</p>
+    
+    
+    <img src="_static/ciutshi_logo.png" class="logo__image only-light" alt="ciuTshi - Home"/>
+    <script>document.write(`<img src="_static/ciutshi_logo.png" class="logo__image only-dark" alt="ciuTshi - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    ciuTshi
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="summary.html">
-   Summary
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="faq.html">
-   FAQ
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Content Management
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Content Management</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="content_management.html">
-   Content Management
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="content_management.html">Content Management</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Data Governance
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="requirements.html">
-   Requirements
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="task_management.html">
-   Task Management
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="version_control.html">
-   Version Control
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="quality_assurance.html">
-   Quality Assurance
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="security.html">
-   Security
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ethics.html">
-   Ethics
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="task_management.html">Task Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quality_assurance.html">Quality Assurance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="security.html">Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ethics.html">Ethics</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Data Management
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Management</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="storage.html">
-   Storage
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="modeling.html">
-   Modeling
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="analytics.html">
-   Analytics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="integration.html">
-   Integration
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="metadata.html">
-   Metadata
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="cataloging.html">
-   Cataloging
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="storage.html">Storage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modeling.html">Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="analytics.html">Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration.html">Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cataloging.html">Cataloging</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Appendices
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Appendix - Templates and Rubrics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_b.html">
-   Appendix - Data Strategy
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_c.html">
-   Appendix - Scenario
-  </a>
- </li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Appendix - Templates and Rubrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_b.html">Appendix - Data Strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_c.html">Appendix - Scenario</a></li>
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  <a href='https://www.certuscore.com' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
-</div>
-
-</div>
-
-
-          
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
-<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
 <div class="sbt-scroll-pixel-helper"></div>
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            <div class="topbar-left">
-                
-                <label class="nav-toggle-button" for="__navigation">
-                    <div class="visually-hidden">Toggle navigation</div>
-                    <i class="fas fa-bars"></i>
-                </label>
-                
-            </div>
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
 
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/appendix_a.md.txt"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
     </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/CertusGroup/ciutshi" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fappendix_a.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
 </div>
 
-            <!-- Source interaction buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Fappendix_a.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/appendix_a.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
 </div>
 
-            <!-- Full screen (wrap in <a> to have style consistency -->
 
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
 
-            <!-- Launch buttons -->
 
-        </div>
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Appendix - Templates and Rubrics</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
             
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
+            <div>
+                <h2> Contents </h2>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
+            <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-a-methodology">
-   Appendix A. Methodology
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#verification">
-     Verification
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#selection">
-     Selection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#collection">
-     Collection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#modeling">
-     Modeling
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proof">
-     Proof
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-b-content-management">
-   Appendix B. Content Management
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#templates">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rubrics">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-c-requirements">
-   Appendix C. Requirements
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#request-for-engineering">
-       Request for Engineering
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-d-task-management">
-   Appendix D. Task Management
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#data-team-board-setup">
-       Data Team Board Setup
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id4">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-e-version-control">
-   Appendix E. Version Control
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id5">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#gitflow-process">
-       GitFlow Process
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#repository-template">
-       Repository Template
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id6">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-f-quality-assurance">
-   Appendix F. Quality Assurance
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id7">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id8">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-g-security">
-   Appendix G. Security
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id9">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id10">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-h-ethics">
-   Appendix H. Ethics
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id11">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id12">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-i-storage">
-   Appendix I. Storage
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id13">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id14">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-j-modeling">
-   Appendix J. Modeling
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id15">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id16">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-k-analytics">
-   Appendix K. Analytics
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id17">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id18">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-l-integration">
-   Appendix L. Integration
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id19">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id20">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-m-metadata">
-   Appendix M. Metadata
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id21">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id22">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-n-cataloging">
-   Appendix N. Cataloging
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id23">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id24">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-a-methodology">Appendix A. Methodology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verification">Verification</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selection">Selection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collection">Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proof">Proof</a></li>
 </ul>
-
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-b-content-management">Appendix B. Content Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#templates">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rubrics">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-c-requirements">Appendix C. Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#request-for-engineering">Request for Engineering</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-d-task-management">Appendix D. Task Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-team-board-setup">Data Team Board Setup</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-e-version-control">Appendix E. Version Control</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#gitflow-process">GitFlow Process</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-template">Repository Template</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-f-quality-assurance">Appendix F. Quality Assurance</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-g-security">Appendix G. Security</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-h-ethics">Appendix H. Ethics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-i-storage">Appendix I. Storage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-j-modeling">Appendix J. Modeling</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-k-analytics">Appendix K. Analytics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-l-integration">Appendix L. Integration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-m-metadata">Appendix M. Metadata</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-n-cataloging">Appendix N. Cataloging</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Rubrics</a></li>
+</ul>
+</li>
+</ul>
             </nav>
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Appendix - Templates and Rubrics</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-a-methodology">
-   Appendix A. Methodology
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#verification">
-     Verification
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#selection">
-     Selection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#collection">
-     Collection
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#modeling">
-     Modeling
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proof">
-     Proof
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-b-content-management">
-   Appendix B. Content Management
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#templates">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rubrics">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-c-requirements">
-   Appendix C. Requirements
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#request-for-engineering">
-       Request for Engineering
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-d-task-management">
-   Appendix D. Task Management
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#data-team-board-setup">
-       Data Team Board Setup
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id4">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-e-version-control">
-   Appendix E. Version Control
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id5">
-     Templates
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#gitflow-process">
-       GitFlow Process
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#repository-template">
-       Repository Template
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id6">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-f-quality-assurance">
-   Appendix F. Quality Assurance
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id7">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id8">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-g-security">
-   Appendix G. Security
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id9">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id10">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-h-ethics">
-   Appendix H. Ethics
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id11">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id12">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-i-storage">
-   Appendix I. Storage
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id13">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id14">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-j-modeling">
-   Appendix J. Modeling
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id15">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id16">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-k-analytics">
-   Appendix K. Analytics
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id17">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id18">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-l-integration">
-   Appendix L. Integration
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id19">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id20">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-m-metadata">
-   Appendix M. Metadata
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id21">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id22">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#appendix-n-cataloging">
-   Appendix N. Cataloging
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id23">
-     Templates
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id24">
-     Rubrics
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
 
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            
-              <div>
+              
                 
-  <div class="section" id="appendix-templates-and-rubrics">
-<h1>Appendix - Templates and Rubrics<a class="headerlink" href="#appendix-templates-and-rubrics" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="appendix-a-methodology">
-<h2>Appendix A. Methodology<a class="headerlink" href="#appendix-a-methodology" title="Permalink to this headline">¶</a></h2>
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="appendix-templates-and-rubrics">
+<h1>Appendix - Templates and Rubrics<a class="headerlink" href="#appendix-templates-and-rubrics" title="Link to this heading">#</a></h1>
+<section id="appendix-a-methodology">
+<h2>Appendix A. Methodology<a class="headerlink" href="#appendix-a-methodology" title="Link to this heading">#</a></h2>
 <p>ciuTshi makes adaptable data operations simple. Despite the size and complexity of this appendix (and the overall standard), building metadata and process value are incremental and cumulative efforts. The challenge of generating rich metadata for modeling and analysis is a team effort, shared by several persons in the organization for which the data provides value. The aim of ciuTshi is to make the connection between the data and its value to the organization clear and valid for its users. What follows is a brief overview of an adaptable methodology for using this standard to gather and generate data asset value metrics.</p>
-<div class="section" id="verification">
-<h3>Verification<a class="headerlink" href="#verification" title="Permalink to this headline">¶</a></h3>
+<section id="verification">
+<h3>Verification<a class="headerlink" href="#verification" title="Link to this heading">#</a></h3>
 <p>ciuTshi starts its data operations journey through clear requirements for a data asset. If your institution does not have a clear need for a data set or collection, nor a good value proposition for using people and resources to process the data into useable endpoint, it is not needed. Begin by reviewing and verifying the requirements with project leads, leadership, and other stakeholders who may provide clarity on the intent and purpose for a data asset request. If there is a clear justification for tasking a data engineering team with acquisition and curation of the data asset, start using dimensions, features, and user stories for the data to conceive of metrics which can validate process value for the institution (e.g., How does the use of this data impact the project and organization? How do I show this impact to leadership, stakeholders, and non-technical personnel?).</p>
-<blockquote>
-<div><p>Note: This step is where knowledge gaps are also identified. Even if the data is not accessible or is non-existent, an effort should be made to note the gap and what value the data, if present, would provide the organization. This will leave an ontological marker for later data enrichment via proxy data assets and/or metrics.</p>
-</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This step is where knowledge gaps are also identified. Even if the data is not accessible or is non-existent, an effort should be made to note the gap and what value the data, if present, would provide the organization. This will leave an ontological marker for later data enrichment via proxy data assets and/or metrics.</p>
 </div>
-<div class="section" id="selection">
-<h3>Selection<a class="headerlink" href="#selection" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="selection">
+<h3>Selection<a class="headerlink" href="#selection" title="Link to this heading">#</a></h3>
 <p>Every modular practice in ciuTshi has a template and rubric to facilitate eventual population of metadata for a data asset: creating data provenance for the organization’s metadata lineage. This process is a team effort with several data professionals tasked to action one or more modules for a given data asset. To begin, review the module’s documentation: summary, template, rubric, and any worksheets that assist in populating metadata for the data asset. Each module has roles, each with their own responsibilities and tasks that may depend on or overlap with other modules, tasks, and roles. A number of data professionals and organizational team members facilitate these task and modules by performing one or more roles within and between modules. This approach to task management within data operations allow organizations with variable available personnel to layer and delegate tasks within reasonable deadlines for both delivery of the data asset and population of the metadata.</p>
-<blockquote>
-<div><p>Note: This represents a situation common for many organizations and is why ciuTshi’s metatdata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quantifying process value in data practices.</p>
-</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This represents a situation common for many organizations and is why ciuTshi’s metadata model is so critical: the connection between metadata and the socio-technical space of data operations is full of critical metrics that lend to quantifying process value in data practices.</p>
 </div>
-<div class="section" id="collection">
-<h3>Collection<a class="headerlink" href="#collection" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="collection">
+<h3>Collection<a class="headerlink" href="#collection" title="Link to this heading">#</a></h3>
 <p>Once requirements are validated and tasks are appropriately assigned, data professionals should collect and populate their portion of the metadata in the process of facilitating their data engineering, management, and governance tasks. All fields in the rubric schema should be filled out as completely as possible. It is understood that you may not use all the fields at first, but it is recommended that you maintain the entire schema as future data requirements may expand the scope of metadata needs. This also ensures that as ciuTshi grows, augmenting your existing metadata collections is simplified.</p>
 <p>Additionally, metadata collection should observe existing scientific research practices in population of the metadata rubrics. It is important to not make up data: null elements or empty fields are acceptable inputs if sufficient data is unavailable. It is important that every member of the data operations team agree to the consistent manner in which data is collected and entered into the rubric: noting the agreed method in the content management documents for the data project. It is recommended that this consistent data collection across all modules be rigorously adhered to within and between data projects: the more consistent and rigorous the metadata collection is, and the better shifts in these practices are tracked, the more valid the metric model outputs may be for decision-makers, stakeholders, and customers. This ability to validate metrics with collection practices aids in cross-validated review of those metrics with others throughout the organization.</p>
-<blockquote>
-<div><p>Note: Not every organization will use the same parts of ciuTshi in the same ways. The key focus should be to perform metadata collection in a consistent, rigorous, and verifiable manner. This level of metadata quality assurance is critical for long-term review and verification of metrics for data operations.</p>
-</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Not every organization will use the same parts of ciuTshi in the same ways. The key focus should be to perform metadata collection in a consistent, rigorous, and verifiable manner. This level of metadata quality assurance is critical for long-term review and verification of metrics for data operations.</p>
 </div>
-<div class="section" id="modeling">
-<h3>Modeling<a class="headerlink" href="#modeling" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="modeling">
+<h3>Modeling<a class="headerlink" href="#modeling" title="Link to this heading">#</a></h3>
 <p>In the requirements phase, we began asking critical questions to connect the data asset to its value impact for the project and as a result, the institution. After generating a rich and deep metadata collection for a data asset, we can now start adjusting and adding metrics to our fields for module- and asset-level modeling. Metrics are often organization specific, but may fall in several categories: descriptive, prescriptive, perceptive, interaction, outcome to name a few. Over time, each organization will develop and model their own sets of quantitative and qualitative metrics for their data assets. These metrics should be developed and documented as the organization’s mission, vision, and goals shift: this helps leadership and stakeholders understand how value and impact change based on key indicators found in the metadata. Value should be at these metrics’ loci, but it is by no means to only concern data professionals should have for a data asset. There may be quality, security, ethics, or other ensemble metrics derived from the organization’s members, leadership, stakeholder networks, communities of practice, and other data partners.</p>
 <p>There are also universals that exist across all data assets which add richness to the metadata for longitudinal analysis:</p>
 <ul class="simple">
 <li><p><strong><em>weight</em></strong> is a default metric that exists across all data elements. Weight can imply several things for a data asset and will be defined by each organization based on their core metric requirements for data lifecycle management (documented in detail via content management), but the initial intent for the metric is to determine how important a metadata field is for the organization (on a scale from 0 to 1). This variable heuristic weight allows each data asset to be shaped by data professionals to reflect their organization’s unique application of data operations for value generation and stakeholder impact.</p></li>
 </ul>
-<blockquote>
-<div><p>Note: Outside of data operations, other institutional teams and sections may have metrics that do not adhere to ciuTshi standards for comprehensive metadata collection and modeling. Efforts should be made to account for any connections within these external metrics that have direct implications for data asset impact on overall process value. Despite the technical and complex nature of some metrics, a non-technical team member must be able to understand the output of the model, its value, and its implications for institutional impact.</p>
-</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Outside of data operations, other institutional teams and sections may have metrics that do not adhere to ciuTshi standards for comprehensive metadata collection and modeling. Efforts should be made to account for any connections within these external metrics that have direct implications for data asset impact on overall process value. Despite the technical and complex nature of some metrics, a non-technical team member must be able to understand the output of the model, its value, and its implications for institutional impact.</p>
 </div>
-<div class="section" id="proof">
-<h3>Proof<a class="headerlink" href="#proof" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="proof">
+<h3>Proof<a class="headerlink" href="#proof" title="Link to this heading">#</a></h3>
 <p>Establishment of models requires a persistent level of vigilance to ensure their validity. This validity requires several engagements with the model and its modelers to ensure the metrics prove what they claim to prove. This validation starts with a sanity check: does the model, metadata, metrics, and outputs make sense based on what we know about the data asset, its collection, and its utilization? Validation should then be socialized, opening communication with colleagues to ensure the model makes sense when walked-through the modeling process (observing appropriate security and other ethical research practices). Once internal colleagues review the model and validate its metrics, it may then call for peer-review with stakeholders and other reliable partners (preferably a mix of specialized professionals with domain knowledge and astute non-technical persons with keen interrogation skills and curiosity).</p>
 <p>If data, system, and other necessary accesses are possible for a reviewer, there are a baseline of questions that would aid in maintaining proof of a metric’s validity:</p>
 <ul class="simple">
@@ -924,12 +555,12 @@
 </ul>
 <p>These steps in the process of validation ensure that a model mobilizes metadata production and utilization, keeping data systems and those that leverage them in a persistent state of constructive flow. This flow makes the cumulative and iterative cycle of metadata generation a systematic part of the data operations culture for the organization and its many talented professionals.</p>
 <p><img alt="Metadata Methodology" src="_images/methodology.png" /></p>
-</div>
-</div>
-<div class="section" id="appendix-b-content-management">
-<h2>Appendix B. Content Management<a class="headerlink" href="#appendix-b-content-management" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="templates">
-<h3>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-b-content-management">
+<h2>Appendix B. Content Management<a class="headerlink" href="#appendix-b-content-management" title="Link to this heading">#</a></h2>
+<section id="templates">
+<h3>Templates<a class="headerlink" href="#templates" title="Link to this heading">#</a></h3>
 <p>These are questions associated with content management for a data asset. It is highly recommended that you collect all essential elements if possible in the course of content management practices.</p>
 <ul class="simple">
 <li><p>Who are the managers that direct content management?</p></li>
@@ -951,9 +582,9 @@
 <li><p>Where are the locations of the content’s associated assets?</p></li>
 <li><p>What is the timeframe for project content review and revision?</p></li>
 </ul>
-</div>
-<div class="section" id="rubrics">
-<h3>Rubrics<a class="headerlink" href="#rubrics" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="rubrics">
+<h3>Rubrics<a class="headerlink" href="#rubrics" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -970,7 +601,7 @@
 </li>
 </ul>
 <p>For more information, refer to the content management document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -1091,11 +722,12 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-c-requirements">
-<h2>Appendix C. Requirements<a class="headerlink" href="#appendix-c-requirements" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id1">
-<h3>Templates<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-c-requirements">
+<h2>Appendix C. Requirements<a class="headerlink" href="#appendix-c-requirements" title="Link to this heading">#</a></h2>
+<section id="id1">
+<h3>Templates<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
 <p>These are questions associated with requirements gathering for a data asset. It is highly recommended that you collect all essential elements if possible in the course of requirements gathering practices.</p>
 <ul class="simple">
 <li><p>What system are required to accomplish the data project?</p></li>
@@ -1115,10 +747,10 @@
 <li><p>What addendum were added to the official requirements (if any)?</p></li>
 <li><p>What is the cancellation plan for the data asset requirements?</p></li>
 </ul>
-<div class="section" id="request-for-engineering">
-<h4>Request for Engineering<a class="headerlink" href="#request-for-engineering" title="Permalink to this headline">¶</a></h4>
+<section id="request-for-engineering">
+<h4>Request for Engineering<a class="headerlink" href="#request-for-engineering" title="Link to this heading">#</a></h4>
 <p>The request for engineering is a short form to capture essential elements of the requirements workshop. This can be expanded and adapted to suite the needs of the particular workshop and its associated data assets.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Type</p></th>
@@ -1197,9 +829,10 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="id2">
-<h3>Rubrics<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="id2">
+<h3>Rubrics<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -1216,7 +849,7 @@
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -1325,11 +958,12 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-d-task-management">
-<h2>Appendix D. Task Management<a class="headerlink" href="#appendix-d-task-management" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id3">
-<h3>Templates<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-d-task-management">
+<h2>Appendix D. Task Management<a class="headerlink" href="#appendix-d-task-management" title="Link to this heading">#</a></h2>
+<section id="id3">
+<h3>Templates<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
 <p>These are questions associated with task management for a data asset. It is highly recommended that you collect all essential elements if possible in the course of task management practices.</p>
 <ul class="simple">
 <li><p>Who is the manager for the task management process?</p></li>
@@ -1350,10 +984,10 @@
 <li><p>What are the outcomes of the sprint retrospectives?</p></li>
 <li><p>Where are the TMS artifacts stored for the project?</p></li>
 </ul>
-<div class="section" id="data-team-board-setup">
-<h4>Data Team Board Setup<a class="headerlink" href="#data-team-board-setup" title="Permalink to this headline">¶</a></h4>
+<section id="data-team-board-setup">
+<h4>Data Team Board Setup<a class="headerlink" href="#data-team-board-setup" title="Link to this heading">#</a></h4>
 <p>The name of the board should be <code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">Name</span> <span class="pre">-</span> <span class="pre">Data</span> <span class="pre">Team</span></code> where <code class="docutils literal notranslate"><span class="pre">Project</span> <span class="pre">Name</span></code> is the name of the project from which the requirements originated. The list names and descriptions are as follows:</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Name</p></th>
 <th class="head"><p>Description</p></th>
@@ -1374,8 +1008,9 @@
 </tr>
 </tbody>
 </table>
+</div>
 <p>There are special cards included by default with this template:</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Card</p></th>
 <th class="head"><p>List</p></th>
@@ -1401,8 +1036,9 @@
 </tr>
 </tbody>
 </table>
+</div>
 <p>To assist the product owner and scrum master, colored label should also be used to signal status in a sprint.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Label Color</p></th>
 <th class="head"><p>Description</p></th>
@@ -1427,9 +1063,10 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="id4">
-<h3>Rubrics<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="id4">
+<h3>Rubrics<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -1446,7 +1083,7 @@
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -1561,11 +1198,12 @@
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-e-version-control">
-<h2>Appendix E. Version Control<a class="headerlink" href="#appendix-e-version-control" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id5">
-<h3>Templates<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-e-version-control">
+<h2>Appendix E. Version Control<a class="headerlink" href="#appendix-e-version-control" title="Link to this heading">#</a></h2>
+<section id="id5">
+<h3>Templates<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
 <p>These are questions associated with version control for a data asset. It is highly recommended that you collect all essential elements if possible in the course of version control practices.</p>
 <ul class="simple">
 <li><p>Who owns the repositories associated with the data project?</p></li>
@@ -1583,8 +1221,8 @@
 <li><p>Where are the documents associated with the repository and source code stored and managed?</p></li>
 <li><p>What migration are associated with this repository?</p></li>
 </ul>
-<div class="section" id="gitflow-process">
-<h4>GitFlow Process<a class="headerlink" href="#gitflow-process" title="Permalink to this headline">¶</a></h4>
+<section id="gitflow-process">
+<h4>GitFlow Process<a class="headerlink" href="#gitflow-process" title="Link to this heading">#</a></h4>
 <p>There are several things to consider when setting up a repository for source code and documentation. These are a few of those consideration to establish ahead of linking VCS to TMS and other data operations practices:</p>
 <ul class="simple">
 <li><p>What is the repository naming convention?</p>
@@ -1615,50 +1253,50 @@
 </ul>
 </li>
 </ul>
-</div>
-<div class="section" id="repository-template">
-<h4>Repository Template<a class="headerlink" href="#repository-template" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="repository-template">
+<h4>Repository Template<a class="headerlink" href="#repository-template" title="Link to this heading">#</a></h4>
 <p>The goal of using a standard repository template is maximum reuse of well-documented code and methods.</p>
 <p>An example of this template is as follows (from the top of the repository):</p>
 <ul class="simple">
 <li><p>.gitignore</p></li>
-<li><p>README.md</p>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p>
 <ul>
 <li><p>Links/locations to CMS on information system(s)</p></li>
 </ul>
 </li>
-<li><p>LICENSE.md</p></li>
-<li><p>CONTRIBUTING.md</p></li>
-<li><p>SECURITY.md</p></li>
+<li><p><a class="reference external" href="http://LICENSE.md">LICENSE.md</a></p></li>
+<li><p><a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a></p></li>
+<li><p><a class="reference external" href="http://SECURITY.md">SECURITY.md</a></p></li>
 <li><p>data_ops</p>
 <ul>
-<li><p>README.md</p></li>
-<li><p>CONTRIBUTING.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
+<li><p><a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a></p></li>
 <li><p>docs</p>
 <ul>
 <li><p>requirements</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 <li><p>task_management</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 <li><p>methods_research</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 <li><p>quality_assurance</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 <li><p>images</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 </ul>
@@ -1666,17 +1304,17 @@
 <li><p>data_management</p>
 <ul>
 <li><p>storage
-README.md</p>
+<a class="reference external" href="http://README.md">README.md</a></p>
 <ul>
 <li><p>pipelines</p></li>
 </ul>
 </li>
 <li><p>modeling
-README.md</p></li>
+<a class="reference external" href="http://README.md">README.md</a></p></li>
 <li><p>analysis
-README.md</p></li>
+<a class="reference external" href="http://README.md">README.md</a></p></li>
 <li><p>integration
-README.md</p></li>
+<a class="reference external" href="http://README.md">README.md</a></p></li>
 </ul>
 </li>
 </ul>
@@ -1688,7 +1326,7 @@ README.md</p></li>
 <ul>
 <li><p>model_a</p>
 <ul>
-<li><p>README.md</p></li>
+<li><p><a class="reference external" href="http://README.md">README.md</a></p></li>
 <li><p>source</p></li>
 <li><p>tests</p></li>
 </ul>
@@ -1696,10 +1334,10 @@ README.md</p></li>
 </ul>
 </li>
 </ul>
-</div>
-</div>
-<div class="section" id="id6">
-<h3>Rubrics<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="id6">
+<h3>Rubrics<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -1716,7 +1354,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -1819,11 +1457,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-f-quality-assurance">
-<h2>Appendix F. Quality Assurance<a class="headerlink" href="#appendix-f-quality-assurance" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id7">
-<h3>Templates<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-f-quality-assurance">
+<h2>Appendix F. Quality Assurance<a class="headerlink" href="#appendix-f-quality-assurance" title="Link to this heading">#</a></h2>
+<section id="id7">
+<h3>Templates<a class="headerlink" href="#id7" title="Link to this heading">#</a></h3>
 <p>These are questions associated with quality assurance for a data asset. It is highly recommended that you collect all essential elements if possible in the course of quality assurance practices.</p>
 <ul class="simple">
 <li><p>Who are the managers for quality assurance of the data assets?</p></li>
@@ -1846,9 +1485,9 @@ README.md</p></li>
 <li><p>How is reporting handled for the data assets?</p></li>
 <li><p>Where are the quality assurance documents stores for the data assets?</p></li>
 </ul>
-</div>
-<div class="section" id="id8">
-<h3>Rubrics<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id8">
+<h3>Rubrics<a class="headerlink" href="#id8" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -1865,7 +1504,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -1992,11 +1631,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-g-security">
-<h2>Appendix G. Security<a class="headerlink" href="#appendix-g-security" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id9">
-<h3>Templates<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-g-security">
+<h2>Appendix G. Security<a class="headerlink" href="#appendix-g-security" title="Link to this heading">#</a></h2>
+<section id="id9">
+<h3>Templates<a class="headerlink" href="#id9" title="Link to this heading">#</a></h3>
 <p>These are questions associated with security for a data asset. It is highly recommended that you collect all essential elements if possible in the course of security practices.</p>
 <ul class="simple">
 <li><p>Who are the security managers associated with the data project?</p></li>
@@ -2016,9 +1656,9 @@ README.md</p></li>
 <li><p>What are the key security metrics for the data assets?</p></li>
 <li><p>How is training handled for secure access to data project assets?</p></li>
 </ul>
-</div>
-<div class="section" id="id10">
-<h3>Rubrics<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id10">
+<h3>Rubrics<a class="headerlink" href="#id10" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2035,7 +1675,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -2144,11 +1784,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-h-ethics">
-<h2>Appendix H. Ethics<a class="headerlink" href="#appendix-h-ethics" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id11">
-<h3>Templates<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-h-ethics">
+<h2>Appendix H. Ethics<a class="headerlink" href="#appendix-h-ethics" title="Link to this heading">#</a></h2>
+<section id="id11">
+<h3>Templates<a class="headerlink" href="#id11" title="Link to this heading">#</a></h3>
 <p>These are questions associated with ethics for a data asset. It is highly recommended that you collect all essential elements if possible in the course of ethics practices.</p>
 <ul class="simple">
 <li><p>Who are the managers associated with data asset ethics?</p></li>
@@ -2170,9 +1811,9 @@ README.md</p></li>
 <li><p>What are the impacts or potential impacts associated with ethical challenges for the data project?</p></li>
 <li><p>What metrics are leverage to aid in ethical standards for data assets and the data project?</p></li>
 </ul>
-</div>
-<div class="section" id="id12">
-<h3>Rubrics<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id12">
+<h3>Rubrics<a class="headerlink" href="#id12" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2189,7 +1830,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -2310,11 +1951,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-i-storage">
-<h2>Appendix I. Storage<a class="headerlink" href="#appendix-i-storage" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id13">
-<h3>Templates<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-i-storage">
+<h2>Appendix I. Storage<a class="headerlink" href="#appendix-i-storage" title="Link to this heading">#</a></h2>
+<section id="id13">
+<h3>Templates<a class="headerlink" href="#id13" title="Link to this heading">#</a></h3>
 <p>These are questions associated with storage of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data storage.</p>
 <ul class="simple">
 <li><p>Who is the manager that directs data storage practices and personnel?</p></li>
@@ -2342,9 +1984,9 @@ README.md</p></li>
 <li><p>Are there any addendum or changes to the raw data requirements?If so, please describe in detail with references.</p></li>
 <li><p>What is the monitoring plan for the raw data (including retention and deprecation plan)?</p></li>
 </ul>
-</div>
-<div class="section" id="id14">
-<h3>Rubrics<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id14">
+<h3>Rubrics<a class="headerlink" href="#id14" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2361,7 +2003,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -2518,11 +2160,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-j-modeling">
-<h2>Appendix J. Modeling<a class="headerlink" href="#appendix-j-modeling" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id15">
-<h3>Templates<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-j-modeling">
+<h2>Appendix J. Modeling<a class="headerlink" href="#appendix-j-modeling" title="Link to this heading">#</a></h2>
+<section id="id15">
+<h3>Templates<a class="headerlink" href="#id15" title="Link to this heading">#</a></h3>
 <p>These are questions associated with modeling of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data modeling.</p>
 <ul class="simple">
 <li><p>Who is the data manager that directs data modeling practices and personnel</p></li>
@@ -2548,9 +2191,9 @@ README.md</p></li>
 <li><p>Was entity resolution used for the data asset model? If so, what is the method used?</p></li>
 <li><p>What challenges existed with the final model? Is there any additional context that should be noted about the modeled data?</p></li>
 </ul>
-</div>
-<div class="section" id="id16">
-<h3>Rubrics<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id16">
+<h3>Rubrics<a class="headerlink" href="#id16" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2567,7 +2210,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -2712,11 +2355,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-k-analytics">
-<h2>Appendix K. Analytics<a class="headerlink" href="#appendix-k-analytics" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id17">
-<h3>Templates<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-k-analytics">
+<h2>Appendix K. Analytics<a class="headerlink" href="#appendix-k-analytics" title="Link to this heading">#</a></h2>
+<section id="id17">
+<h3>Templates<a class="headerlink" href="#id17" title="Link to this heading">#</a></h3>
 <p>These are questions associated with data analytics. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data asset analytics.</p>
 <ul class="simple">
 <li><p>Who is the manager that directs data management analytics practices and personnel?</p></li>
@@ -2743,9 +2387,9 @@ README.md</p></li>
 <li><p>What is the statistical profile of the raw data asset(s) features including nulls, value ranges, data types, and frequency distributions?</p></li>
 <li><p>What is the format of the modeled data going through analytics processes?</p></li>
 </ul>
-</div>
-<div class="section" id="id18">
-<h3>Rubrics<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id18">
+<h3>Rubrics<a class="headerlink" href="#id18" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2762,7 +2406,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -2913,11 +2557,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-l-integration">
-<h2>Appendix L. Integration<a class="headerlink" href="#appendix-l-integration" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id19">
-<h3>Templates<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-l-integration">
+<h2>Appendix L. Integration<a class="headerlink" href="#appendix-l-integration" title="Link to this heading">#</a></h2>
+<section id="id19">
+<h3>Templates<a class="headerlink" href="#id19" title="Link to this heading">#</a></h3>
 <p>These are questions associated with data integration. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data integration.</p>
 <ul class="simple">
 <li><p>Who is the manager that directs data integration practices and personnel?</p></li>
@@ -2942,9 +2587,9 @@ README.md</p></li>
 <li><p>Describe of how the data asset is used by the customer from the endpoint?</p></li>
 <li><p>Describe the monitoring details, metrics, and actions to be conducted for a deployed endpoint until end of lifecycle?</p></li>
 </ul>
-</div>
-<div class="section" id="id20">
-<h3>Rubrics<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id20">
+<h3>Rubrics<a class="headerlink" href="#id20" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -2961,7 +2606,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -3100,11 +2745,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-m-metadata">
-<h2>Appendix M. Metadata<a class="headerlink" href="#appendix-m-metadata" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id21">
-<h3>Templates<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-m-metadata">
+<h2>Appendix M. Metadata<a class="headerlink" href="#appendix-m-metadata" title="Link to this heading">#</a></h2>
+<section id="id21">
+<h3>Templates<a class="headerlink" href="#id21" title="Link to this heading">#</a></h3>
 <p>These are questions associated with metadata for a data asset. It is highly recommended that you collect all essential elements if possible in the course of data management practices for metadata. This section in particular can draw from all other sections as Appendix A is the metamodel for metadata.</p>
 <ul class="simple">
 <li><p>What is the scheme for the data asset’s categorical metadata areas?</p></li>
@@ -3114,9 +2760,9 @@ README.md</p></li>
 <li><p>How is version control managed for the metadata assets?</p></li>
 <li><p>How is the metadata to be maintained?</p></li>
 </ul>
-</div>
-<div class="section" id="id22">
-<h3>Rubrics<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id22">
+<h3>Rubrics<a class="headerlink" href="#id22" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -3133,7 +2779,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -3182,11 +2828,12 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="appendix-n-cataloging">
-<h2>Appendix N. Cataloging<a class="headerlink" href="#appendix-n-cataloging" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id23">
-<h3>Templates<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+<section id="appendix-n-cataloging">
+<h2>Appendix N. Cataloging<a class="headerlink" href="#appendix-n-cataloging" title="Link to this heading">#</a></h2>
+<section id="id23">
+<h3>Templates<a class="headerlink" href="#id23" title="Link to this heading">#</a></h3>
 <p>These are questions associated with cataloging of data. It is highly recommended that you collect all essential elements if possible in the course of data management practices for data cataloging.</p>
 <ul class="simple">
 <li><p>Who manages data cataloging practices and personnel for the data asset?</p></li>
@@ -3200,9 +2847,9 @@ README.md</p></li>
 <li><p>What feedback method(s) are available for the data sample and associated metadata entry?</p></li>
 <li><p>What is the monitoring plan for the data catalog?</p></li>
 </ul>
-</div>
-<div class="section" id="id24">
-<h3>Rubrics<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="id24">
+<h3>Rubrics<a class="headerlink" href="#id24" title="Link to this heading">#</a></h3>
 <p>The ciuTshi metamodel for metadata contains a set of baseline criteria. This can be adjusted based on the specific language or model metadata requirements. <em>Benchmarks</em> and <em>metrics</em> are flexible elements that can guide and enrich the metadata model for the institution’s specific metadata needs.</p>
 <ul class="simple">
 <li><p><strong><em>Benchmark</em></strong> is the expected suitability measure or criteria for the metadata element.</p>
@@ -3219,7 +2866,7 @@ README.md</p></li>
 </li>
 </ul>
 <p>For more information, refer to the Metadata document.</p>
-<table class="colwidths-auto table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>field_name</p></th>
 <th class="head"><p>category</p></th>
@@ -3292,48 +2939,212 @@ README.md</p></li>
 </tbody>
 </table>
 </div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="cataloging.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Cataloging</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="cataloging.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Cataloging</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="appendix_b.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="appendix_b.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Appendix - Data Strategy</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
+                </footer>
+              
+            </div>
             
-        </div>
-    </div>
-    <footer class="footer">
-  <p>
-    
-      By <a href='https://www.certuscore.com' target='_blank'>Certus Core</a><br/>
-    
-        &copy; Copyright 2023 Certus Core. All rights reserved.<br/>
-  </p>
-</footer>
-</main>
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-      </div>
-    </div>
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-a-methodology">Appendix A. Methodology</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verification">Verification</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selection">Selection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collection">Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modeling">Modeling</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proof">Proof</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-b-content-management">Appendix B. Content Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#templates">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rubrics">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-c-requirements">Appendix C. Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#request-for-engineering">Request for Engineering</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-d-task-management">Appendix D. Task Management</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#data-team-board-setup">Data Team Board Setup</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-e-version-control">Appendix E. Version Control</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Templates</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#gitflow-process">GitFlow Process</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-template">Repository Template</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-f-quality-assurance">Appendix F. Quality Assurance</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-g-security">Appendix G. Security</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-h-ethics">Appendix H. Ethics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-i-storage">Appendix I. Storage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-j-modeling">Appendix J. Modeling</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-k-analytics">Appendix K. Analytics</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-l-integration">Appendix L. Integration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-m-metadata">Appendix M. Metadata</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Rubrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#appendix-n-cataloging">Appendix N. Cataloging</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Templates</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Rubrics</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <div class="footer-item">
+    
+<p class="component-author">
+By Certus Core Inc.
+</p>
 
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Release v0.2.0
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

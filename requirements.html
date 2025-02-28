@@ -1,446 +1,447 @@
 
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" data-content_root="./" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Requirements &#8212; the Adaptable Data Operations Standard</title>
-    
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+    <title>Requirements &#8212; ciuTshi</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
-    
-      
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=84ace793992934648b4de8eed757e5a2" />
-    
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=eba8b062" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/jquery.js"></script>
-    <script src="_static/underscore.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx-book-theme.9d8b4a8b9bb19db25eeaddc40d639ba2.js"></script>
-    <link rel="shortcut icon" href="_static/favicon.png"/>
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'requirements';</script>
+    <link rel="icon" href="_static/favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Task Management" href="task_management.html" />
     <link rel="prev" title="Content Management" href="content_management.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<div class="col-12 col-md-3 bd-sidebar site-navigation " id="site-navigation">
-    
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/ciutshi_logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Getting Started
- </span>
-</p>
+    
+    
+    <img src="_static/ciutshi_logo.png" class="logo__image only-light" alt="ciuTshi - Home"/>
+    <script>document.write(`<img src="_static/ciutshi_logo.png" class="logo__image only-dark" alt="ciuTshi - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="index.html">
+                    ciuTshi
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Started</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="summary.html">
-   Summary
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="faq.html">
-   FAQ
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Content Management
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Content Management</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="content_management.html">
-   Content Management
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="content_management.html">Content Management</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Data Governance
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Governance</span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Requirements
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="task_management.html">
-   Task Management
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="version_control.html">
-   Version Control
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="quality_assurance.html">
-   Quality Assurance
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="security.html">
-   Security
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ethics.html">
-   Ethics
-  </a>
- </li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="task_management.html">Task Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="quality_assurance.html">Quality Assurance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="security.html">Security</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ethics.html">Ethics</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Data Management
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Data Management</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="storage.html">
-   Storage
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="modeling.html">
-   Modeling
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="analytics.html">
-   Analytics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="integration.html">
-   Integration
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="metadata.html">
-   Metadata
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="cataloging.html">
-   Cataloging
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="storage.html">Storage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modeling.html">Modeling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="analytics.html">Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="integration.html">Integration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="metadata.html">Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cataloging.html">Cataloging</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Appendices
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendices</span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_a.html">
-   Appendix - Templates and Rubrics
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_b.html">
-   Appendix - Data Strategy
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="appendix_c.html">
-   Appendix - Scenario
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_a.html">Appendix - Templates and Rubrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_b.html">Appendix - Data Strategy</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix_c.html">Appendix - Scenario</a></li>
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  <a href='https://www.certuscore.com' target='_blank'><img src='_static/images/certus_logo.png' alt='a Certus project'></a>
-</div>
-
-</div>
-
-
-          
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
-<!-- This is an invisible pixel that we watch to see if we've scrolled. -->
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
 <div class="sbt-scroll-pixel-helper"></div>
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            <div class="topbar-left">
-                
-                <label class="nav-toggle-button" for="__navigation">
-                    <div class="visually-hidden">Toggle navigation</div>
-                    <i class="fas fa-bars"></i>
-                </label>
-                
-            </div>
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
 
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/requirements.md.txt"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
     </div>
-</div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
 
-            <!-- Source interaction buttons -->
+<div class="article-header-buttons">
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/CertusGroup/ciutshi"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Frequirements.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
 
-            <!-- Full screen (wrap in <a> to have style consistency -->
 
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
 
-            <!-- Launch buttons -->
 
-        </div>
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/CertusGroup/ciutshi" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
 
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#challenge">
-   Challenge
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#goals">
-   Goals
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#defining-requirements">
-   Defining Requirements
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#roles">
-     Roles
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#conceptualization">
-     Conceptualization
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#request-for-engineering">
-     Request for Engineering
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#review-and-tasks">
-     Review and Tasks
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#approval-and-execution">
-     Approval and Execution
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rfe-addendums">
-     RFE Addendums
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rfe-cancellation">
-     RFE Cancellation
-    </a>
-   </li>
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/CertusGroup/ciutshi/issues/new?title=Issue%20on%20page%20%2Frequirements.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#references">
-   References
-  </a>
- </li>
-</ul>
+</div>
 
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/requirements.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Requirements</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge">Challenge</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#goals">Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-requirements">Defining Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#roles">Roles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptualization">Conceptualization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#request-for-engineering">Request for Engineering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#review-and-tasks">Review and Tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#approval-and-execution">Approval and Execution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rfe-addendum-s">RFE Addendum’s</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rfe-cancellation">RFE Cancellation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
             </nav>
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Requirements</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#challenge">
-   Challenge
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#goals">
-   Goals
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#defining-requirements">
-   Defining Requirements
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#roles">
-     Roles
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#conceptualization">
-     Conceptualization
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#request-for-engineering">
-     Request for Engineering
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#review-and-tasks">
-     Review and Tasks
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#approval-and-execution">
-     Approval and Execution
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rfe-addendums">
-     RFE Addendums
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#rfe-cancellation">
-     RFE Cancellation
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#references">
-   References
-  </a>
- </li>
-</ul>
 
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            
-              <div>
+              
                 
-  <div class="section" id="requirements">
-<h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="requirements">
+<h1>Requirements<a class="headerlink" href="#requirements" title="Link to this heading">#</a></h1>
 <p>In modern data work, it is imperative that decisions about, and for, data solutions be clearly defined. This definition clarification ensures that a customer is optimizing their infrastructure and data worker resources for rapid results and maximized return on investment (ROI). In order to realize these results and ROIs, certain practices must be available to the data team to clearly guide the requisite processes towards desired outcomes.</p>
-<p>Data products are predicated upon a cycle of eliciting answers on the actual problematic and documenting this process to ensure precision<a class="reference internal" href="#requirements-references"><span class="std std-ref">1</span></a> throughout a given project for process lineage. This cycle will lead to selection and development of the most appropriate data models and data processes: not those that are simply desired or initially proposed. This differentiation is critical for on-going data practice improvements. Since data practices must be persistently analyzed and adjusted for validity and applicability within a given combination of project scopes, models, and data, requirement refinement must be the first step in a data project. This initial step will ultimately lead to improved quality and efficiency for data products and services.</p>
-<p>This requirements guide is a simplified approach for requirements adapted from Agile developer operations (DevOps)<a class="reference internal" href="#requirements-references"><span class="std std-ref">2</span></a> and data-focused program management (PM)<a class="reference internal" href="#requirements-references"><span class="std std-ref">3</span></a>. The rationale and objectives that follow are rooted in the practices of identifying errors in thought and processes while outlining risks associated with a given data-oriented approach. This supports parallel data operations efficiencies such as clear task management for personnel, accurate and precise documentation practices, and continuous version control of models, metadata, and data lineage.</p>
-<div class="section" id="challenge">
-<h2>Challenge<a class="headerlink" href="#challenge" title="Permalink to this headline">¶</a></h2>
+<p>Data products are predicated upon a cycle of eliciting answers on the actual problematic and documenting this process to ensure precision<a class="footnote-reference brackets" href="#id5" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> throughout a given project for process lineage. This cycle will lead to selection and development of the most appropriate data models and data processes: not those that are simply desired or initially proposed. This differentiation is critical for on-going data practice improvements. Since data practices must be persistently analyzed and adjusted for validity and applicability within a given combination of project scopes, models, and data, requirement refinement must be the first step in a data project. This initial step will ultimately lead to improved quality and efficiency for data products and services.</p>
+<p>This requirements guide is a simplified approach for requirements adapted from Agile developer operations (DevOps)<a class="footnote-reference brackets" href="#id6" id="id2" role="doc-noteref"><span class="fn-bracket">[</span>2<span class="fn-bracket">]</span></a> and data-focused program management (PM)<a class="footnote-reference brackets" href="#id7" id="id3" role="doc-noteref"><span class="fn-bracket">[</span>3<span class="fn-bracket">]</span></a>. The rationale and objectives that follow are rooted in the practices of identifying errors in thought and processes while outlining risks associated with a given data-oriented approach. This supports parallel data operations efficiencies such as clear task management for personnel, accurate and precise documentation practices, and continuous version control of models, metadata, and data lineage.</p>
+<section id="challenge">
+<h2>Challenge<a class="headerlink" href="#challenge" title="Link to this heading">#</a></h2>
 <p>Failure to gather requirements can be detrimental to data project success. As a result, there are several reasons why you would want to focus on gathering the best requirements possible prior to starting data work. First, requirements improve communication on data challenges between stakeholders. This critical step will define clear problem statements in a two-step process to refine requirements (e.g., a request of engineering and a review of the request to define requirements). Second, requirements help delineate task delegation. Requirements help data team leadership in assignment of tasks, definition of timelines, and delivery of high-quality data products. Task delegation optimizes data tasking by reducing duplicate efforts. Third, requirements help scope task shift costs. Metrics and tracking of resources is critical in any data environment, spanning across various system architectures. Refinement of requirements is a key step in evaluation of support and resources in a manner that is cost effective and systemically streamlined. Fourth, clear requirements make space for your data team to truly innovate. The data team is frequently confronted with several technical and systemic challenges. Consolidating and optimizing requirements creates space and time to permit talented professionals to innovate around key challenges for project stakeholders.</p>
-</div>
-<div class="section" id="goals">
-<h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="goals">
+<h2>Goals<a class="headerlink" href="#goals" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Rapid response to project data requirements</p></li>
 <li><p>Enhance requirements documentation and metrics</p></li>
@@ -448,13 +449,13 @@
 <li><p>Enhance data team integration</p></li>
 <li><p>Improve &amp; consolidate requirements taxonomy</p></li>
 </ul>
-</div>
-<div class="section" id="defining-requirements">
-<h2>Defining Requirements<a class="headerlink" href="#defining-requirements" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="defining-requirements">
+<h2>Defining Requirements<a class="headerlink" href="#defining-requirements" title="Link to this heading">#</a></h2>
 <p><img alt="Requirements Overview" src="_images/do_overview_req.png" /></p>
 <p>The following practices are intended to be adaptable, iterative cycles for requirement refinement. This ensures the data products are clearly defined and as a result, delivered in a timely manner to a high-standard of quality and security.</p>
-<div class="section" id="roles">
-<h3>Roles<a class="headerlink" href="#roles" title="Permalink to this headline">¶</a></h3>
+<section id="roles">
+<h3>Roles<a class="headerlink" href="#roles" title="Link to this heading">#</a></h3>
 <p>In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.</p>
 <ul class="simple">
 <li><p><strong>Science &amp; Methods</strong></p></li>
@@ -463,9 +464,9 @@
 <li><p><strong>Data Management (DM)</strong></p></li>
 <li><p><strong>Data Engineering (DE)</strong></p></li>
 </ul>
-</div>
-<div class="section" id="conceptualization">
-<h3>Conceptualization<a class="headerlink" href="#conceptualization" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="conceptualization">
+<h3>Conceptualization<a class="headerlink" href="#conceptualization" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Roles</p>
 <ul>
@@ -477,9 +478,9 @@
 </li>
 </ul>
 <p>The first step in this process is to iteratively generate a sufficient, valid set of requirements. The customer and PM will work to facilitate the context and intent of the problem to be addressed. This involves coordination with the science &amp; methods and analytics teams to solidify the context and intent into a well defined list of concepts and outcomes. All parties involved in a project will then coordinate the details of the requirements through a workshop. The science &amp; methods teams will begin the drafting of the <em><strong>request for engineering (RFE)</strong></em> template. The workshop and template drafts will establish a tentative course of action towards a finished draft of the requirements.</p>
-</div>
-<div class="section" id="request-for-engineering">
-<h3>Request for Engineering<a class="headerlink" href="#request-for-engineering" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="request-for-engineering">
+<h3>Request for Engineering<a class="headerlink" href="#request-for-engineering" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Roles</p>
 <ul>
@@ -489,9 +490,9 @@
 </li>
 </ul>
 <p>Once requirements are conceptualized, science &amp; methods will bring their RFE template to the data engineering team to clarify understanding of the requirements. Once all requirements are clear, DE will outline tasks and timelines for data delivery for the requirements. Science &amp; Methods and DE will triage each task and timeline to optimize priority and to solidify the delivery schedule. Science &amp; methods will pass any issues or concerns pertaining to requirements back to the conceptualization phase based on technology, personnel, or other restrictions within DE. Finally, science &amp; methods and DE will agree to the final short form draft, leading to review and task assignment by DM.</p>
-</div>
-<div class="section" id="review-and-tasks">
-<h3>Review and Tasks<a class="headerlink" href="#review-and-tasks" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="review-and-tasks">
+<h3>Review and Tasks<a class="headerlink" href="#review-and-tasks" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Roles</p>
 <ul>
@@ -501,9 +502,9 @@
 </li>
 </ul>
 <p>With a completed and verified RFE, DE and DM can perform a final review. DE will clarify the overall scope and justification of the requirements to DM for data services. DE will also elaborate on any questions or concerns DM has regarding the deliverables and deadlines, possibly prompting further discussion with science &amp; methods. DE and DM will review the resources and materials required as well as the personnel best suited to action DE tasks within deadline. Once all facets of the requirements are agreed upon, DM will then publish the official RFE. The <em><strong>task management system (TMS)</strong></em> will then be updated with tasks and DE personnel assignments to expected deadlines.</p>
-</div>
-<div class="section" id="approval-and-execution">
-<h3>Approval and Execution<a class="headerlink" href="#approval-and-execution" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="approval-and-execution">
+<h3>Approval and Execution<a class="headerlink" href="#approval-and-execution" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Roles</p>
 <ul>
@@ -514,81 +515,172 @@
 </li>
 </ul>
 <p>Following publication of the official RFE and TMS assignments, DM will monitor progress. DM will coordinate updates as needed due to issues that may arise with deadlines or task complications. DM will monitor and plan for life cycle of data services as well as cataloging and archiving of data products, data models, and data mastering practices associate with the RFE.</p>
-</div>
-<div class="section" id="rfe-addendums">
-<h3>RFE Addendums<a class="headerlink" href="#rfe-addendums" title="Permalink to this headline">¶</a></h3>
-<p>For major RFE changes<a class="reference internal" href="#requirements-references"><span class="std std-ref">4</span></a>, an addendum will be attached to the published RFE, ensuring shifts in the original RFE timelines and resources are recorded. These changes should come from science &amp; methods via PM based on initial delivery from DM and DE or changes from the customer issued to PM. DM may also ask DS to review shifts in the RFE with science &amp; methods to ensure the research model is valid.</p>
-</div>
-<div class="section" id="rfe-cancellation">
-<h3>RFE Cancellation<a class="headerlink" href="#rfe-cancellation" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="rfe-addendum-s">
+<h3>RFE Addendum’s<a class="headerlink" href="#rfe-addendum-s" title="Link to this heading">#</a></h3>
+<p>For major RFE changes<a class="footnote-reference brackets" href="#id8" id="id4" role="doc-noteref"><span class="fn-bracket">[</span>4<span class="fn-bracket">]</span></a>, an addendum will be attached to the published RFE, ensuring shifts in the original RFE timelines and resources are recorded. These changes should come from science &amp; methods via PM based on initial delivery from DM and DE or changes from the customer issued to PM. DM may also ask DS to review shifts in the RFE with science &amp; methods to ensure the research model is valid.</p>
+</section>
+<section id="rfe-cancellation">
+<h3>RFE Cancellation<a class="headerlink" href="#rfe-cancellation" title="Link to this heading">#</a></h3>
 <p>Projects may encounter changes or terminations in the course of the requirements or RFE process. In that case, DM will coordinate on the context and timeline of the cancellation. This assessment will lead to updates for the RFE (official and addendum) and TMS.</p>
-</div>
-</div>
-<div class="section" id="references">
-<span id="requirements-references"></span><h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Number</p></th>
-<th class="head"><p>Reference</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). <em>DAMA-DMBOK: Data management body of knowledge (2nd Ed.).</em> Basking Ridge, NJ: Technics Publications.</p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>Atwal, H. (2020). <em>Practical dataops: Delivering agile data science at scale.</em> UK: Apress.</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>Berkun, S. (2008). <em>Making things happen: Mastering project management.</em> Sebastopol, CA: O’Reilly Media Inc.</p></td>
-</tr>
-<tr class="row-odd"><td><p>4</p></td>
-<td><p>Major and minor changes have yet to be defined: data management will be the authority for defining these terms based on inputs from knowledgeable data engineering personnel.</p></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
+</section>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id5" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). <em>DAMA-DMBOK: Data management body of knowledge (2nd Ed.).</em> Basking Ridge, NJ: Technics Publications.</p>
+</aside>
+<aside class="footnote brackets" id="id6" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">2</a><span class="fn-bracket">]</span></span>
+<p>Atwal, H. (2020). <em>Practical dataops: Delivering agile data science at scale.</em> UK: Apress.</p>
+</aside>
+<aside class="footnote brackets" id="id7" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">3</a><span class="fn-bracket">]</span></span>
+<p>Berkun, S. (2008). <em>Making things happen: Mastering project management.</em> Sebastopol, CA: O’Reilly Media Inc.</p>
+</aside>
+<aside class="footnote brackets" id="id8" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">4</a><span class="fn-bracket">]</span></span>
+<p>Major and minor changes have yet to be defined: data management will be the authority for defining these terms based on inputs from knowledgeable data engineering personnel.</p>
+</aside>
+</aside>
+</section>
+</section>
 
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="content_management.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Content Management</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="content_management.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Content Management</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="task_management.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="task_management.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Task Management</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
+                </footer>
+              
+            </div>
             
-        </div>
-    </div>
-    <footer class="footer">
-  <p>
-    
-      By <a href='https://www.certuscore.com' target='_blank'>Certus Core</a><br/>
-    
-        &copy; Copyright 2023 Certus Core. All rights reserved.<br/>
-  </p>
-</footer>
-</main>
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-      </div>
-    </div>
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#challenge">Challenge</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#goals">Goals</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#defining-requirements">Defining Requirements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#roles">Roles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conceptualization">Conceptualization</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#request-for-engineering">Request for Engineering</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#review-and-tasks">Review and Tasks</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#approval-and-execution">Approval and Execution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rfe-addendum-s">RFE Addendum’s</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rfe-cancellation">RFE Cancellation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <div class="footer-item">
+    
+<p class="component-author">
+By Certus Core Inc.
+</p>
 
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  Release v0.2.0
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
