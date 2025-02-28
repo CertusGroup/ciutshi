@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD024 -->
 # Appendix - Data Strategy
 
 ## Templates
