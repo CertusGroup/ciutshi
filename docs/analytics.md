@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD024 -->
 # Analytics
 
 There is a need in data management for effective and sufficiently comprehensive analytics. As part of data processing, analytics produces consistent profiles for data that acts as a series of benchmark tests for the data model prior to integration. Analytics provides consumers of integration endpoints essential information on the model features and structures. This analytic output, stored in the data catalog, allows an institution's internal customers to make rapid assessments for additional data management requirements while making code and tool reuse simpler to assess and implement throughout the data management system.
@@ -38,7 +37,7 @@ These are the roles currently associated with data analytics practices:
 
 Refer to the content management documents for analytics roles on different information systems, specific data architectures, and their associated policies and restrictions.
 
-### Analytics
+### Analytics Metrics and Dimensions
 
 Due to the diversity of data assets handled by institutions across numerous projects and information systems, analytics will vary in form and approach. However, there are essential elements that need to be captured about the quality and effectiveness of the data management system as it exists within its particular data architecture. Analytics should pursue metrics on these dimensions:
 

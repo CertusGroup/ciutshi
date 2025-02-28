@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD024 -->
-
 # Appendix - Templates and Rubrics
 
 ## Appendix A. Methodology
