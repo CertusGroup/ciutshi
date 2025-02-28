@@ -2,7 +2,7 @@
 
 Institutions and their projects will likely encounter a number of integration challenges: from delivery of requirement-specified data products to preservation of the data asset provenance including monitored changes over time. As a result, ciuTshi suggests a modular approach to data asset integration through a tool-agnostic guide to data delivery that facilitates both legacy and planned data endpoints. This approach intends to reduce the costs associated with maintaining data in lakes and other endpoints through tighter data governance practices and metrics. The governance practices do not compromise the speed and flexibility required for projects, ensuring resource utilization is optimized per requirements to maximize data asset value and reduce time on data task.
 
-This document will outline the baseline for data integration practices, directing data engineers to content management systems and catalogs for details on specific data architecture implementations. ciuTshi's data management system draws from DAMA[1](integration/references) and other resources. For additional context on this documents sections, refer to the references section.
+This document will outline the baseline for data integration practices, directing data engineers to content management systems and catalogs for details on specific data architecture implementations. ciuTshi's data management system draws from DAMA[^1] and other resources. For additional context on this documents sections, refer to the references section.
 
 ## Challenge
 
@@ -61,7 +61,7 @@ Databases are a common endpoint for data assets. Requirements may dictate a spec
 
 ##### Application Programming Interface (API)
 
-APIs are common endpoint solutions. With requirements, such as advanced data visualization and integration of numerous technologies, tools, and frameworks, data endpoints must support more API features each year. This support requires an expanded array of solutions to be available to the data management team which must then be implemented for delivery of the data product to the customer. However, security and policy issues must be addressed as many of these API endpoints can open the institution and the customer(s) to unknown risks associated with access compromises and data leakages. Data owners and stewards should be notified in case third-party API endpoints are not working as outlined in the requirements or if the requested endpoint presents a known risk within the selected data systems or architectures.
+APIs are common endpoint solutions. With requirements, such as advanced data visualization and integration of numerous technologies, tools, and standards, data endpoints must support more API features each year. This support requires an expanded array of solutions to be available to the data management team which must then be implemented for delivery of the data product to the customer. However, security and policy issues must be addressed as many of these API endpoints can open the institution and the customer(s) to unknown risks associated with access compromises and data leakages. Data owners and stewards should be notified in case third-party API endpoints are not working as outlined in the requirements or if the requested endpoint presents a known risk within the selected data systems or architectures.
 
 #### Develop
 
@@ -83,10 +83,6 @@ The data catalog is a persistent utility through which metadata captures lineage
 
 Within the data architecture for a deployed endpoint, the data management team must coordinate tasks and lifecycle benchmarks for monitoring alerts, logs, and other essential endpoint data artifacts. When issues in the integration solution arise, additional requirements must be defined, approved, and completed by the data management team. Once requirements are received, the team will be able to rapidly action the issue.
 
-(integration/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.

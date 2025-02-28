@@ -1,0 +1,31 @@
+format: jb-book
+root: index
+parts:
+  - caption: Getting Started
+    chapters:
+      - file: summary
+      - file: faq
+  - caption: Content Management
+    chapters:
+      - file: content_management
+  - caption: Data Governance
+    chapters:
+      - file: requirements
+      - file: task_management
+      - file: version_control
+      - file: quality_assurance
+      - file: security
+      - file: ethics
+  - caption: Data Management
+    chapters:
+      - file: storage
+      - file: modeling
+      - file: analytics
+      - file: integration
+      - file: metadata
+      - file: cataloging
+  - caption: Appendices
+    chapters:
+      - file: appendix_a
+      - file: appendix_b
+      - file: appendix_c

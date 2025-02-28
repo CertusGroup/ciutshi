@@ -2,9 +2,9 @@
 
 In modern data work, it is imperative that decisions about, and for, data solutions be clearly defined. This definition clarification ensures that a customer is optimizing their infrastructure and data worker resources for rapid results and maximized return on investment (ROI). In order to realize these results and ROIs, certain practices must be available to the data team to clearly guide the requisite processes towards desired outcomes.
 
-Data products are predicated upon a cycle of eliciting answers on the actual problematic and documenting this process to ensure precision[1](requirements/references) throughout a given project for process lineage. This cycle will lead to selection and development of the most appropriate data models and data processes: not those that are simply desired or initially proposed. This differentiation is critical for on-going data practice improvements. Since data practices must be persistently analyzed and adjusted for validity and applicability within a given combination of project scopes, models, and data, requirement refinement must be the first step in a data project. This initial step will ultimately lead to improved quality and efficiency for data products and services.
+Data products are predicated upon a cycle of eliciting answers on the actual problematic and documenting this process to ensure precision[^1] throughout a given project for process lineage. This cycle will lead to selection and development of the most appropriate data models and data processes: not those that are simply desired or initially proposed. This differentiation is critical for on-going data practice improvements. Since data practices must be persistently analyzed and adjusted for validity and applicability within a given combination of project scopes, models, and data, requirement refinement must be the first step in a data project. This initial step will ultimately lead to improved quality and efficiency for data products and services.
 
-This requirements guide is a simplified approach for requirements adapted from Agile developer operations (DevOps)[2](requirements/references) and data-focused program management (PM)[3](requirements/references). The rationale and objectives that follow are rooted in the practices of identifying errors in thought and processes while outlining risks associated with a given data-oriented approach. This supports parallel data operations efficiencies such as clear task management for personnel, accurate and precise documentation practices, and continuous version control of models, metadata, and data lineage.
+This requirements guide is a simplified approach for requirements adapted from Agile developer operations (DevOps)[^2] and data-focused program management (PM)[^3]. The rationale and objectives that follow are rooted in the practices of identifying errors in thought and processes while outlining risks associated with a given data-oriented approach. This supports parallel data operations efficiencies such as clear task management for personnel, accurate and precise documentation practices, and continuous version control of models, metadata, and data lineage.
 
 ## Challenge
 
@@ -28,10 +28,10 @@ The following practices are intended to be adaptable, iterative cycles for requi
 
 In the course of the requirements process, there are key roles that aid the facilitation of data resources from data operations to project management.
 
-* __Science & Methods__ 
-* __Analytics__ 
-* __Program Management (PM)__ 
-* __Data Management (DM)__ 
+* __Science & Methods__
+* __Analytics__
+* __Program Management (PM)__
+* __Data Management (DM)__
 * __Data Engineering (DE)__
 
 ### Conceptualization
@@ -69,21 +69,17 @@ With a completed and verified RFE, DE and DM can perform a final review. DE will
 
 Following publication of the official RFE and TMS assignments, DM will monitor progress. DM will coordinate updates as needed due to issues that may arise with deadlines or task complications. DM will monitor and plan for life cycle of data services as well as cataloging and archiving of data products, data models, and data mastering practices associate with the RFE.
 
-### RFE Addendums
+### RFE Addendum's
 
-For major RFE changes[4](requirements/references), an addendum will be attached to the published RFE, ensuring shifts in the original RFE timelines and resources are recorded. These changes should come from science & methods via PM based on initial delivery from DM and DE or changes from the customer issued to PM. DM may also ask DS to review shifts in the RFE with science & methods to ensure the research model is valid.
+For major RFE changes[^4], an addendum will be attached to the published RFE, ensuring shifts in the original RFE timelines and resources are recorded. These changes should come from science & methods via PM based on initial delivery from DM and DE or changes from the customer issued to PM. DM may also ask DS to review shifts in the RFE with science & methods to ensure the research model is valid.
 
 ### RFE Cancellation
 
 Projects may encounter changes or terminations in the course of the requirements or RFE process. In that case, DM will coordinate on the context and timeline of the cancellation. This assessment will lead to updates for the RFE (official and addendum) and TMS.
 
-(requirements/references)=
-
 ## References
 
-Number|Reference
---|--
-1|Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). *DAMA-DMBOK: Data management body of knowledge (2nd Ed.).* Basking Ridge, NJ: Technics Publications.
-2|Atwal, H. (2020). *Practical dataops: Delivering agile data science at scale.* UK: Apress.
-3|Berkun, S. (2008). *Making things happen: Mastering project management.* Sebastopol, CA: O'Reilly Media Inc.
-4|Major and minor changes have yet to be defined: data management will be the authority for defining these terms based on inputs from knowledgeable data engineering personnel.
+[^1]: Henderson. D., Earley, S., Sebastian-Coleman, L., Sykora, E., Smith, E. (Eds.). (2017). _DAMA-DMBOK: Data management body of knowledge (2nd Ed.)._ Basking Ridge, NJ: Technics Publications.
+[^2]: Atwal, H. (2020). _Practical dataops: Delivering agile data science at scale._ UK: Apress.
+[^3]: Berkun, S. (2008). _Making things happen: Mastering project management._ Sebastopol, CA: O'Reilly Media Inc.
+[^4]: Major and minor changes have yet to be defined: data management will be the authority for defining these terms based on inputs from knowledgeable data engineering personnel.
