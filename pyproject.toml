@@ -1,0 +1,10 @@
+[project]
+dependencies = ["jupyter-book>=1.0.4.post1"]
+description = "ciuTshi is an adaptable data operations standard designed to integrate data management, governance, and content management practices. It provides modular workflows to enhance metadata quality, streamline data processes, and support data-driven decision-making."
+name = "ciuTshi"
+readme = "README.md"
+requires-python = ">=3.11"
+version = "0.2.0"
+
+[dependency-groups]
+dev = ["pre-commit>=4.2.0"]

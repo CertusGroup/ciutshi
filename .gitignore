@@ -1,6 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,linux,jupyternotebooks,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,linux,jupyternotebooks,python
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,linux,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,python,macos,linux,jupyternotebooks
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
@@ -39,6 +39,7 @@ ipython_config.py
 
 # Icon must end with two \r
 Icon
+
 
 # Thumbnails
 ._*
@@ -251,6 +252,6 @@ pyrightconfig.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,linux,jupyternotebooks,python
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos,linux,jupyternotebooks
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
